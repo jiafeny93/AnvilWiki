@@ -23,7 +23,7 @@ import { siteUrl } from '~/config/site';
 import { type Locale } from '~/i18n/routing';
 import { getUi } from '~/i18n/ui';
 import { getRelatedEntries, parseEntryId, type WikiEntry, type ResolvedEntry } from '~/lib/content';
-import { articleJsonLd, breadcrumbJsonLd, pageTitle } from '~/lib/seo';
+import { articleJsonLd, breadcrumbJsonLd, faqPageJsonLd, pageTitle } from '~/lib/seo';
 import { listPath, detailPath } from '~/lib/url';
 
 interface Props {
@@ -72,6 +72,9 @@ const jsonLd = [
     locale,
   }),
 ];
+if (entry.data.faq && entry.data.faq.length > 0) {
+  jsonLd.push(faqPageJsonLd(entry.data.faq));
+}
 ---
 
 <LocaleLayout

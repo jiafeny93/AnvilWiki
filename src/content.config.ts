@@ -30,6 +30,7 @@ const wiki = defineCollection({
       image: image().optional(),
       tags: z.array(z.string()).default([]),
       noindex: z.boolean().default(false),
+      faq: z.array(z.object({ question: z.string(), answer: z.string() })).optional(),
     }),
 });
 
