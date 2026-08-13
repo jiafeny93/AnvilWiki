@@ -27,15 +27,15 @@
   "overview": {},
   "home": {
     "meta": {
-      "title": "Anvil Quest Wiki - Complete Boss Guides, Codes & Tier Lists",
-      "description": "The most complete Anvil Quest wiki. Boss strategies, active codes, item locations, tier lists, and beginner guides. Updated daily by the community."
+      "title": "Aniimo Wiki - Creature Guides, Tier Lists & Release Info",
+      "description": "The most complete Aniimo wiki. Creature guides, tier lists, Twine bonding mechanics, release and beta info, and beginner tips. Updated by the community."
     },
     "hero": {
       "badge": "Fan-Made Community Wiki",
-      "title": "Anvil Quest Wiki",
-      "description": "Your complete guide to Anvil Quest. Boss strategies, active codes, item locations, tier lists, and everything you need to master the forge.",
-      "ctaPrimary": "Play Anvil Quest",
-      "ctaSecondary": "Browse Guides",
+      "title": "Aniimo Wiki",
+      "description": "Your complete guide to Aniimo. Master the Twine bonding system, explore every creature, build the best teams, and track the latest release and beta news.",
+      "ctaPrimary": "Official Site",
+      "ctaSecondary": "Browse the Wiki",
       "videoId": ""
     },
     "updates": {
@@ -44,35 +44,35 @@
     },
     "start": {
       "badge": "Start Here",
-      "title": "Your Anvil Quest Journey",
+      "title": "Your Aniimo Journey",
       "cards": [
         {
           "number": "1",
           "title": "Beginner Guide",
-          "description": "New to Anvil Quest? Start here with the essential mechanics, controls, and your first hour walkthrough.",
+          "description": "New to Aniimo? Start here with the essential Twine mechanics, controls, and your first hours on the continent of Idyll.",
           "icon": "lucide:book-open",
-          "href": "/guides/beginner-guide"
+          "href": "/guides/aniimo-guide"
         },
         {
           "number": "2",
-          "title": "Active Codes",
-          "description": "Redeem the latest codes for free coins, gems, and exclusive cosmetic items.",
-          "icon": "lucide:gift",
-          "href": "/codes"
+          "title": "Creatures List",
+          "description": "Browse every confirmed Aniimo creature, their abilities, habitats, and Twine bonding details.",
+          "icon": "lucide:paw-print",
+          "href": "/creatures/aniimo-creatures-list"
         },
         {
           "number": "3",
-          "title": "Boss Strategies",
-          "description": "Complete guides for every boss with attack patterns, weaknesses, and recommended loadouts.",
-          "icon": "lucide:swords",
-          "href": "/bosses"
+          "title": "Tier List",
+          "description": "See which Aniimo creatures rank highest for combat, exploration, and co-op quests.",
+          "icon": "lucide:bar-chart-3",
+          "href": "/tier-list/aniimo-tier-list"
         },
         {
           "number": "4",
-          "title": "Weapon Tier List",
-          "description": "Ranking every weapon from S to C based on DPS, utility, and synergy.",
-          "icon": "lucide:list-ordered",
-          "href": "/guides/weapon-tier-list"
+          "title": "Release & Beta",
+          "description": "Track the Aniimo release date, closed beta sign-up, platforms, and pre-registration rewards.",
+          "icon": "lucide:rocket",
+          "href": "/release/aniimo-beta"
         }
       ]
     },
@@ -81,20 +81,20 @@
       "title": "Most Read This Week",
       "quickLinks": [
         {
-          "label": "Emberfang Boss Guide",
-          "href": "/bosses/emberfang"
+          "label": "Aniimo Creatures List",
+          "href": "/creatures/aniimo-creatures-list"
         },
         {
-          "label": "Best Weapons Tier List",
-          "href": "/guides/weapon-tier-list"
+          "label": "Best Aniimo Creatures",
+          "href": "/tier-list/aniimo-best-creatures"
         },
         {
-          "label": "Beginner Guide",
-          "href": "/guides/beginner-guide"
+          "label": "Aniimo Release Date",
+          "href": "/release/aniimo-release-date"
         },
         {
-          "label": "All Active Codes",
-          "href": "/codes"
+          "label": "Aniimo Beginner Guide",
+          "href": "/guides/aniimo-guide"
         }
       ]
     },
@@ -104,151 +104,102 @@
       "modules": [
         {
           "order": 1,
-          "name": "Anvil Quest Codes",
-          "description": "Active codes for free coins, gems, and exclusive items. Updated daily.",
-          "href": "/codes",
-          "displayType": "code-cards",
+          "name": "Aniimo Creatures",
+          "description": "Every confirmed creature, their abilities, habitats, and how to bond with them.",
+          "href": "/creatures",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "WELCOME2026",
-              "detail": "500 coins + starter sword",
-              "badge": "Active"
+              "label": "Eko",
+              "detail": "Versatile starter companion, strong all-rounder"
             },
             {
-              "label": "FORGE",
-              "detail": "1 rare gem",
-              "badge": "Active"
+              "label": "Helmut",
+              "detail": "Defensive creature with high survivability"
             },
             {
-              "label": "12MVISITS",
-              "detail": "Exclusive cosmetic",
-              "badge": "Expires soon"
+              "label": "Emberpup",
+              "detail": "Fire-type, aggressive early-game pick"
+            },
+            {
+              "label": "Darkler",
+              "detail": "Shadow creature, rare and hard to bond"
             }
           ]
         },
         {
           "order": 2,
-          "name": "Boss Strategies",
-          "description": "Complete guides for every boss with attack patterns and weaknesses.",
-          "href": "/bosses",
-          "displayType": "card-list",
-          "highlights": [
-            {
-              "label": "Emberfang",
-              "detail": "Frost warden, early-game gatekeeper"
-            },
-            {
-              "label": "Pyra",
-              "detail": "Fire titan, mid-game DPS check"
-            },
-            {
-              "label": "Voidking",
-              "detail": "Final boss, requires full prep"
-            }
-          ]
-        },
-        {
-          "order": 3,
-          "name": "Progression Guides",
-          "description": "Leveling routes, class builds, and endgame preparation.",
+          "name": "Aniimo Guides",
+          "description": "Progression routes, combat mechanics, and endgame preparation for Pathfinders.",
           "href": "/guides",
           "displayType": "step-by-step",
           "highlights": [
             {
               "label": "1",
-              "detail": "Pick a starting class"
+              "detail": "Learn the Twine bonding system"
             },
             {
               "label": "2",
-              "detail": "Clear the tutorial forge"
+              "detail": "Build your first creature roster"
             },
             {
               "label": "3",
-              "detail": "Unlock the Shattered Isles"
+              "detail": "Master real-time combat swapping"
             },
             {
               "label": "4",
-              "detail": "Defeat your first world boss"
+              "detail": "Explore the continent of Idyll"
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Aniimo Tier List",
+          "description": "Every Aniimo creature ranked from S to C for combat, exploration, and co-op.",
+          "href": "/tier-list",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "Eko, Helmut — top-tier all-rounders"
+            },
+            {
+              "label": "A",
+              "detail": "Emberpup, Eklue — strong specialists"
+            },
+            {
+              "label": "B",
+              "detail": "Solid mid-range companions"
+            },
+            {
+              "label": "C",
+              "detail": "Situational or early-game picks"
             }
           ]
         },
         {
           "order": 4,
-          "name": "Weapon Tier List",
-          "description": "Ranking every weapon from S to C based on DPS, utility, and synergy.",
-          "href": "/guides/weapon-tier-list",
-          "displayType": "tier-grid",
-          "highlights": [
-            {
-              "label": "S",
-              "detail": "Voidforge Blade, Stormcaller"
-            },
-            {
-              "label": "A",
-              "detail": "Emberclaw, Frostpike"
-            },
-            {
-              "label": "B",
-              "detail": "Ironwood Bow, Mace of Dawn"
-            },
-            {
-              "label": "C",
-              "detail": "Starter weapons"
-            }
-          ]
-        },
-        {
-          "order": 5,
-          "name": "Update History",
-          "description": "Major patches and events, newest first.",
-          "href": "/updates",
+          "name": "Aniimo Release Info",
+          "description": "Release date, closed beta, platforms, and pre-registration details.",
+          "href": "/release",
           "displayType": "timeline",
           "highlights": [
             {
-              "label": "v2.5",
-              "detail": "New raid: Shadowforge released",
-              "badge": "Latest"
+              "label": "2026",
+              "detail": "Full global release planned",
+              "badge": "TBA"
             },
             {
-              "label": "v2.4",
-              "detail": "Rebalanced all S-tier weapons"
+              "label": "Now",
+              "detail": "Global Closed Beta underway"
             },
             {
-              "label": "v2.3",
-              "detail": "Added 3 new bosses"
+              "label": "5M+",
+              "detail": "Pre-registrations reached"
             },
             {
-              "label": "v2.2",
-              "detail": "Launched season pass system"
-            }
-          ]
-        },
-        {
-          "order": 6,
-          "name": "Video Guides",
-          "description": "Watch the best Anvil Quest walkthroughs and boss fights.",
-          "href": "/guides/video-walkthroughs",
-          "displayType": "video-grid",
-          "highlights": [
-            {
-              "title": "Beginner Walkthrough",
-              "youtubeId": "dQw4w9WgXcQ",
-              "duration": "12:34"
-            },
-            {
-              "title": "All Bosses Ranked",
-              "youtubeId": "aaaaaaaaaaa",
-              "duration": "18:42"
-            },
-            {
-              "title": "Speedrun Guide",
-              "youtubeId": "bbbbbbbbbbb",
-              "duration": "25:10"
-            },
-            {
-              "title": "Hidden Secrets",
-              "youtubeId": "ccccccccccc",
-              "duration": "9:15"
+              "label": "August",
+              "detail": "Playable at Gamescom 2026 in Cologne"
             }
           ]
         }
@@ -256,64 +207,64 @@
     },
     "faq": {
       "title": "Frequently Asked Questions",
-      "description": "Quick answers to the most common questions about Anvil Quest.",
+      "description": "Quick answers to the most common questions about Aniimo.",
       "items": [
         {
-          "question": "What is Anvil Quest?",
-          "answer": "Anvil Quest is a fantasy RPG on Roblox where you play as a blacksmith apprentice forging weapons and battling bosses across the Shattered Isles. It launched in January 2026 and has over 12 million visits."
+          "question": "What is Aniimo?",
+          "answer": "Aniimo is a free-to-play, next-gen creature-catching open-world action RPG developed by Pawprint Studio and published by FunPlus. As a Pathfinder, you explore the continent of Idyll, bond with magical creatures via the Twine system, and wield their abilities in real-time combat and co-op quests."
         },
         {
-          "question": "Which class should beginners pick in Anvil Quest?",
-          "answer": "Warrior is the most beginner-friendly class thanks to high HP and simple mechanics. Once you understand the game, Rogue offers the highest damage output for experienced players."
+          "question": "What platforms is Aniimo on?",
+          "answer": "Aniimo is coming to PC (Steam and Epic Games Store), PlayStation 5, Xbox Series X|S, and mobile (iOS and Android). It is a multi-platform release, not a Roblox game."
         },
         {
-          "question": "How do I redeem codes in Anvil Quest?",
-          "answer": "Open the game, click the settings gear in the top-right, paste your code into the 'Redeem Code' field, and hit confirm. Codes are case-sensitive."
+          "question": "What is the Twine system in Aniimo?",
+          "answer": "Twine is Aniimo's core bonding mechanic. Instead of capturing creatures, you forge a bond that lets you sync with them, see through their eyes, and directly control their unique abilities in real-time combat and exploration."
         },
         {
-          "question": "Is Anvil Quest free to play?",
-          "answer": "Yes, Anvil Quest is completely free on Roblox. There are optional cosmetic microtransactions, but they do not affect gameplay balance."
+          "question": "Is Aniimo free to play?",
+          "answer": "Yes, Aniimo is officially confirmed as a free-to-play game across PC, console, and mobile, with optional in-game purchases. The full release is planned for 2026."
         },
         {
-          "question": "How often does Anvil Quest update?",
-          "answer": "Forge Studios releases major content updates roughly every two weeks, with smaller hotfixes in between. New bosses and codes are typically added with each major patch."
+          "question": "When does Aniimo release?",
+          "answer": "Aniimo is planned for a full global release in 2026 and is currently in Global Closed Beta with pre-registration open. An exact release date has not yet been announced."
         }
       ]
     },
     "closingCta": {
-      "title": "Ready to Master the Forge?",
-      "description": "Bookmark this wiki and check back daily for new codes, boss guides, and tier list updates.",
-      "primary": "Play Anvil Quest",
+      "title": "Start Your Aniimo Adventure",
+      "description": "Bookmark this wiki for creature guides, tier lists, and the latest Aniimo release and beta updates.",
+      "primary": "Official Site",
       "secondary": "Join Our Discord"
     },
     "_archived": {
       "_comment": "Sections removed from the homepage during the v0.2 layout refactor. Kept here so data is not lost; not rendered by HomePage.astro.",
       "gameInfo": {
-        "title": "What is Anvil Quest?",
+        "title": "What is Aniimo?",
         "paragraphs": [
-          "Anvil Quest is a fantasy RPG on Roblox developed by Forge Studios. Players take on the role of a blacksmith-apprentice-turned-hero, forging weapons, recruiting companions, and battling through progressively harder boss encounters across the Shattered Isles.",
-          "The game launched in January 2026 and quickly grew to over 12 million visits thanks to its deep crafting system, regular content updates, and a thriving competitive speedrun community."
+          "Aniimo is a free-to-play, next-gen creature-catching open-world action RPG developed by Pawprint Studio and published by FunPlus. As a Pathfinder, you explore the vibrant continent of Idyll, bond with magical creatures via the Twine system, see through their eyes, and wield their abilities in real-time combat and co-op fantasy quests.",
+          "The game was first revealed at the 2025 Xbox Games Showcase and is considered a major contender in the open-world creature-catching genre. A full global release is planned for 2026, with Global Closed Beta and pre-registration already underway and over 5 million pre-registrations."
         ],
         "stats": [
           {
             "label": "Developer",
-            "value": "Forge Studios"
+            "value": "Pawprint Studio"
+          },
+          {
+            "label": "Publisher",
+            "value": "FunPlus"
           },
           {
             "label": "Platform",
-            "value": "Roblox"
+            "value": "PC, PS5, Xbox, Mobile"
           },
           {
             "label": "Genre",
-            "value": "Fantasy RPG"
+            "value": "Action RPG / Creature Collection"
           },
           {
-            "label": "Visits",
-            "value": "12.6M+"
-          },
-          {
-            "label": "Active Players",
-            "value": "45K daily"
+            "label": "Release",
+            "value": "2026 (TBA)"
           }
         ],
         "cta": "Explore All Guides"
@@ -321,7 +272,7 @@
     }
   },
   "footer": {
-    "playGame": "Play Anvil Quest",
+    "playGame": "Official Site",
     "officialDiscord": "Official Discord",
     "officialYoutube": "Official YouTube",
     "officialTwitter": "Official Twitter",
