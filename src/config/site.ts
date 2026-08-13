@@ -64,6 +64,8 @@ export const site: SiteConfig = {
     genre: 'Action RPG / Open World / Creature Collection',
     releaseDate: '',
   },
+  ogImageWidth: 1200,
+  ogImageHeight: 630,
 };
 
 /** Absolute site URL (no trailing slash). Falls back to the Astro `site` config. */

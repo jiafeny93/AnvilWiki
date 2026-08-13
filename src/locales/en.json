@@ -6,7 +6,19 @@
     "tagline": "Your complete Aniimo guide — creatures, tier lists, Twine mechanics, and more",
     "legalNotice": "Aniimo Wiki is a fan-made community site. Not affiliated with or endorsed by Pawprint Studio or FunPlus."
   },
-  "nav": {},
+  "nav": {
+    "home": "Home",
+    "guides": "Guides",
+    "creatures": "Creatures",
+    "tier-list": "Tier List",
+    "release": "Release",
+    "news": "News",
+    "reviews": "Reviews",
+    "toggleTheme": "Toggle theme",
+    "menu": "Menu",
+    "close": "Close",
+    "search": "Search"
+  },
   "search": {
     "placeholder": "Search the wiki...",
     "noResults": "No matches found",
@@ -24,7 +36,32 @@
     "viewAll": "View all",
     "commentsHeading": "Comments"
   },
-  "overview": {},
+  "overview": {
+    "guides": {
+      "overviewTitle": "Aniimo Guides",
+      "overviewDescription": "In-depth Aniimo guides covering the Twine bonding system, real-time combat, exploration, progression, and endgame strategies."
+    },
+    "creatures": {
+      "overviewTitle": "Aniimo Creatures",
+      "overviewDescription": "Every confirmed Aniimo creature with details on abilities, elements, habitats, and how to bond with them via the Twine system."
+    },
+    "tier-list": {
+      "overviewTitle": "Aniimo Tier List",
+      "overviewDescription": "Aniimo creature rankings for combat, exploration, and co-op. Compare the best companions from S to C tier and build your team."
+    },
+    "release": {
+      "overviewTitle": "Aniimo Release Info",
+      "overviewDescription": "Aniimo release date, closed beta, platforms, pre-registration rewards, and every official launch announcement in one place."
+    },
+    "news": {
+      "overviewTitle": "Aniimo News",
+      "overviewDescription": "The latest Aniimo news, developer updates, beta announcements, event coverage, and patch notes from Pawprint Studio and FunPlus."
+    },
+    "reviews": {
+      "overviewTitle": "Aniimo Reviews",
+      "overviewDescription": "Aniimo reviews, early impressions, and community reactions to the beta, gameplay, graphics, and creature-collecting mechanics."
+    }
+  },
   "home": {
     "meta": {
       "title": "Aniimo Wiki - Creature Guides, Tier Lists & Release Info",
