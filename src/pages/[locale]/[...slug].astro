@@ -24,7 +24,7 @@ export async function getStaticPaths() {
   }> = [];
 
   // Only non-default locales here.
-  const nonDefaultLocales: Locale[] = ['ja'].filter((l) => l !== defaultLocale) as Locale[];
+  const nonDefaultLocales: Locale[] = locales.filter((l) => l !== defaultLocale) as Locale[];
 
   for (const locale of nonDefaultLocales) {
     // List page paths: one per category per locale.

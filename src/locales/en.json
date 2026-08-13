@@ -1,22 +1,12 @@
 {
   "site": {
-    "name": "Anvil Quest Wiki",
-    "shortName": "AQ Wiki",
-    "description": "Complete Anvil Quest wiki with boss guides, tier lists, codes, item locations, and beginner tips. Updated daily by the community.",
-    "tagline": "Your forge for everything Anvil Quest",
-    "legalNotice": "Anvil Quest Wiki is a fan-made community site. Not affiliated with or endorsed by the game developer."
+    "name": "Aniimo Wiki",
+    "shortName": "Aniimo Wiki",
+    "description": "Complete Aniimo wiki with creature guides, tier lists, Twine mechanics, and beta/release info. Community-driven and constantly updated.",
+    "tagline": "Your complete Aniimo guide — creatures, tier lists, Twine mechanics, and more",
+    "legalNotice": "Aniimo Wiki is a fan-made community site. Not affiliated with or endorsed by Pawprint Studio or FunPlus."
   },
-  "nav": {
-    "home": "Home",
-    "bosses": "Bosses",
-    "guides": "Guides",
-    "items": "Items",
-    "codes": "Codes",
-    "toggleTheme": "Toggle theme",
-    "menu": "Menu",
-    "close": "Close",
-    "search": "Search"
-  },
+  "nav": {},
   "search": {
     "placeholder": "Search the wiki...",
     "noResults": "No matches found",
@@ -34,24 +24,7 @@
     "viewAll": "View all",
     "commentsHeading": "Comments"
   },
-  "overview": {
-    "bosses": {
-      "overviewTitle": "All Bosses",
-      "overviewDescription": "Complete strategy guides for every boss in Anvil Quest, including attack patterns, weaknesses, and recommended loadouts."
-    },
-    "guides": {
-      "overviewTitle": "All Guides",
-      "overviewDescription": "In-depth tutorials covering progression, crafting, combat mechanics, and advanced strategies for Anvil Quest."
-    },
-    "items": {
-      "overviewTitle": "All Items",
-      "overviewDescription": "Comprehensive item database with locations, stats, rarity tiers, and crafting recipes."
-    },
-    "codes": {
-      "overviewTitle": "All Codes",
-      "overviewDescription": "Active Anvil Quest codes for free coins, gems, and exclusive items. Verified daily."
-    }
-  },
+  "overview": {},
   "home": {
     "meta": {
       "title": "Anvil Quest Wiki - Complete Boss Guides, Codes & Tier Lists",
@@ -322,11 +295,26 @@
           "The game launched in January 2026 and quickly grew to over 12 million visits thanks to its deep crafting system, regular content updates, and a thriving competitive speedrun community."
         ],
         "stats": [
-          { "label": "Developer", "value": "Forge Studios" },
-          { "label": "Platform", "value": "Roblox" },
-          { "label": "Genre", "value": "Fantasy RPG" },
-          { "label": "Visits", "value": "12.6M+" },
-          { "label": "Active Players", "value": "45K daily" }
+          {
+            "label": "Developer",
+            "value": "Forge Studios"
+          },
+          {
+            "label": "Platform",
+            "value": "Roblox"
+          },
+          {
+            "label": "Genre",
+            "value": "Fantasy RPG"
+          },
+          {
+            "label": "Visits",
+            "value": "12.6M+"
+          },
+          {
+            "label": "Active Players",
+            "value": "45K daily"
+          }
         ],
         "cta": "Explore All Guides"
       }
@@ -343,6 +331,6 @@
     "privacyPolicy": "Privacy Policy",
     "termsOfService": "Terms of Service",
     "copyright": "Copyright",
-    "copyrightText": "© 2026 Anvil Quest Wiki. Fan-made, not affiliated with Forge Studios."
+    "copyrightText": "© 2026 Aniimo Wiki. All rights reserved."
   }
 }

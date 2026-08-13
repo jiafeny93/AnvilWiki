@@ -5,13 +5,13 @@
  */
 import LegalPage from '~/components/layout/LegalPage.astro';
 import LegalContent from '~/components/layout/LegalContent.astro';
-import { isLocale, defaultLocale, type Locale } from '~/i18n/routing';
+import { isLocale, defaultLocale, locales, type Locale } from '~/i18n/routing';
 
 export function getStaticPaths() {
   // Astro compiles getStaticPaths into its own module scope — external
   // top-level consts are NOT visible here. Inline everything.
   const legalPages = ['about', 'privacy-policy', 'terms-of-service', 'copyright'];
-  const nonDefault = (['ja'] as Locale[]).filter((l) => l !== defaultLocale);
+  const nonDefault = locales.filter((l) => l !== defaultLocale) as Locale[];
   return nonDefault.flatMap((locale) =>
     legalPages.map((page) => ({
       params: { locale, legal: page },

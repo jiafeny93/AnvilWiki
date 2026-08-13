@@ -48,31 +48,22 @@ export interface SiteConfig {
 }
 
 export const site: SiteConfig = {
-  name: 'Anvil Quest Wiki',
-  shortName: 'AQ Wiki',
-  description:
-    'Complete Anvil Quest wiki with boss guides, tier lists, codes, item locations, and beginner tips. Updated daily by the community.',
-  domain: 'anvilwiki.pages.dev',
-  tagline: 'Your forge for everything Anvil Quest',
-  legalNotice:
-    'Anvil Quest Wiki is a fan-made community site. Not affiliated with or endorsed by the game developer.',
+  name: 'Aniimo Wiki',
+  shortName: 'Aniimo Wiki',
+  description: 'Complete Aniimo wiki with creature guides, tier lists, Twine mechanics, and beta/release info. Community-driven and constantly updated.',
+  domain: 'aniimo.chixu.buzz',
+  tagline: 'Your complete Aniimo guide — creatures, tier lists, Twine mechanics, and more',
+  legalNotice: 'Aniimo Wiki is a fan-made community site. Not affiliated with or endorsed by Pawprint Studio or FunPlus.',
   social: {
-    official: 'https://example.com/anvil-quest',
-    discord: 'https://discord.gg/example',
-    youtube: 'https://youtube.com/@example',
-    twitter: 'https://twitter.com/example',
-    reddit: 'https://reddit.com/r/anvilquest',
+    official: 'https://www.aniimo.com/',
   },
   game: {
-    name: 'Anvil Quest',
-    platform: 'Roblox',
-    developer: 'Forge Studios',
-    genre: 'Fantasy RPG',
-    releaseDate: '2026-01-15',
+    name: 'Aniimo',
+    platform: 'PC (Steam/Epic), PS5, Xbox Series X/S, Mobile (iOS/Android)',
+    developer: 'Pawprint Studio (Published by FunPlus)',
+    genre: 'Action RPG / Open World / Creature Collection',
+    releaseDate: '',
   },
-  // hero.webp is 1200×630 (the recommended OG share aspect ratio).
-  ogImageWidth: 1200,
-  ogImageHeight: 630,
 };
 
 /** Absolute site URL (no trailing slash). Falls back to the Astro `site` config. */
