@@ -51,7 +51,7 @@ export const site: SiteConfig = {
   name: 'Aniimo Wiki',
   shortName: 'Aniimo Wiki',
   description: 'Complete Aniimo wiki with creature guides, tier lists, Twine mechanics, and beta/release info. Community-driven and constantly updated.',
-  domain: 'aniimo.chixu.buzz',
+  domain: 'aniimo.wiki',
   tagline: 'Your complete Aniimo guide — creatures, tier lists, Twine mechanics, and more',
   legalNotice: 'Aniimo Wiki is a fan-made community site. Not affiliated with or endorsed by Pawprint Studio or FunPlus.',
   social: {

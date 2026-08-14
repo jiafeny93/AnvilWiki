@@ -5,10 +5,11 @@ import tailwind from '@astrojs/tailwind';
 import icon from 'astro-icon';
 
 import { locales, defaultLocale } from './src/i18n/routing';
+import { site } from './src/config/site';
 
 // https://astro.build/config
 export default defineConfig({
-  site: process.env.SITE_URL || 'https://anvilwiki.pages.dev',
+  site: process.env.SITE_URL || `https://${site.domain}`,
   output: 'static',
   trailingSlash: 'never',
   image: {
