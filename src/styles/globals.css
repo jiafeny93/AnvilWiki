@@ -14,12 +14,22 @@
     /* Light mode theme color. */
     --nav-theme: 142 69% 58%;
     --nav-theme-light: 142 69% 68%;
+    /* Brand tokens consumed by Tailwind (nav/primary/ring) and buttons.
+       Keep in sync with the --nav-theme lines above. */
+    --brand: 142 69% 58%;
+    --brand-light: 142 69% 68%;
+    --brand-h: 142;
+    --brand-s: 69%;
   }
 
   .dark {
     /* Dark mode theme color — slightly deeper. */
     --nav-theme: 142 64% 54%;
     --nav-theme-light: 142 64% 64%;
+    --brand: 142 64% 54%;
+    --brand-light: 142 64% 64%;
+    --brand-h: 142;
+    --brand-s: 64%;
   }
 }
 
@@ -87,12 +97,179 @@
   }
 
   .card {
-    @apply rounded-lg border bg-card text-card-foreground transition hover:border-nav/50 hover:shadow-md;
+    @apply rounded-lg border bg-card text-card-foreground transition duration-200 hover:-translate-y-0.5 hover:border-nav/50 hover:shadow-lg;
   }
 
   /* Unified section vertical rhythm — use on all homepage sections. */
   .section {
     @apply mx-auto max-w-7xl px-4 py-12 md:py-16;
+  }
+}
+
+/* ───────────────────── Premium polish layer ─────────────────────
+   Light-weight "high-end" effects: film grain, gradient shine text,
+   glass pills, mouse-tracking card spotlight, scroll-reveal, reading
+   progress bar, custom scrollbar. All respect prefers-reduced-motion. */
+
+/* Film-grain overlay — SVG feTurbulence as a data URI, tiled. */
+.grain::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.05;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size: 160px 160px;
+}
+
+/* Hero Ken Burns — an almost-imperceptible 24s slow zoom on the art. */
+@keyframes kenburns {
+  from {
+    transform: scale(1) translate(0, 0);
+  }
+  to {
+    transform: scale(1.08) translate(-1.2%, -1%);
+  }
+}
+.kenburns {
+  animation: kenburns 24s ease-in-out infinite alternate;
+  will-change: transform;
+}
+
+/* Gradient shine text — white base with a brand-tinted light sweep. */
+.text-shine {
+  background-image: linear-gradient(
+    110deg,
+    #fff 0%,
+    #fff 38%,
+    hsl(var(--brand-light)) 50%,
+    #fff 62%,
+    #fff 100%
+  );
+  background-size: 220% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: shine 7s ease-in-out infinite;
+  /* Shadow can't ride on transparent text — layer it via filter. */
+  filter: drop-shadow(0 2px 14px rgba(0, 0, 0, 0.55));
+}
+@keyframes shine {
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+/* Frosted-glass pill (hero badge). */
+.glass-pill {
+  @apply inline-flex items-center gap-1.5 rounded-full px-3 py-1 text-xs font-semibold uppercase tracking-wider;
+  background: hsl(var(--foreground) / 0.1);
+  border: 1px solid hsl(var(--foreground) / 0.18);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  color: hsl(var(--foreground));
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.5);
+}
+
+/* Primary button glow — layered shadow + lift on hover. */
+.btn-primary {
+  box-shadow:
+    0 0 0 1px hsl(var(--brand) / 0.35),
+    0 4px 18px hsl(var(--brand) / 0.35);
+}
+.btn-primary:hover {
+  transform: translateY(-1px);
+  box-shadow:
+    0 0 0 1px hsl(var(--brand) / 0.5),
+    0 8px 26px hsl(var(--brand) / 0.5);
+}
+
+/* Mouse-tracking card spotlight — the JS sets --mx/--my (percent). */
+.card {
+  position: relative;
+}
+.card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  background: radial-gradient(
+    360px circle at var(--mx, 50%) var(--my, 50%),
+    hsl(var(--brand) / 0.12),
+    transparent 65%
+  );
+  z-index: 1;
+}
+.card:hover::before {
+  opacity: 1;
+}
+
+/* Scroll-reveal — elements start hidden only when JS is active
+   (html.js is set by the pre-paint theme script), JS adds .revealed. */
+html.js .reveal {
+  opacity: 0;
+  transform: translateY(18px);
+  transition:
+    opacity 0.6s ease,
+    transform 0.6s ease;
+}
+html.js .reveal.revealed {
+  opacity: 1;
+  transform: none;
+}
+
+/* Reading progress bar — fixed at the very top, JS sets the width. */
+.reading-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 2px;
+  z-index: 60;
+  width: 0;
+  background: linear-gradient(90deg, hsl(var(--brand)), hsl(var(--brand-light)));
+  transition: width 0.1s linear;
+}
+
+/* Custom scrollbar (WebKit + Firefox). */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: hsl(var(--muted));
+}
+::-webkit-scrollbar-thumb {
+  background: hsl(var(--muted-foreground) / 0.4);
+  border-radius: 999px;
+  border: 2px solid hsl(var(--muted));
+}
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(var(--muted-foreground) / 0.6);
+}
+* {
+  scrollbar-width: thin;
+  scrollbar-color: hsl(var(--muted-foreground) / 0.4) hsl(var(--muted));
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .kenburns,
+  .text-shine {
+    animation: none;
+  }
+  html.js .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+  .btn-primary:hover {
+    transform: none;
   }
 }
 

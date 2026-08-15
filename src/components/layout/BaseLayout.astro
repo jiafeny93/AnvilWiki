@@ -11,6 +11,7 @@
  * Pages should wrap themselves in LocaleLayout (which wraps this), not call this directly.
  */
 import '~/styles/globals.css';
+import { ClientRouter } from 'astro:transitions';
 import { site, siteUrl } from '~/config/site';
 import { organizationJsonLd } from '~/lib/seo';
 import JsonLd from '~/components/seo/JsonLd.astro';
@@ -54,9 +55,14 @@ const adsenseClient = import.meta.env.PUBLIC_ADSENSE_CLIENT as string | undefine
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <link rel="manifest" href="/manifest.json" />
     <meta name="generator" content={Astro.generator} />
+
+    {/* SPA-style seamless page navigation. */}
+    <ClientRouter />
 
     <title>{fullTitle}</title>
     <meta name="description" content={description} />
@@ -67,7 +73,7 @@ const adsenseClient = import.meta.env.PUBLIC_ADSENSE_CLIENT as string | undefine
     <link
       rel="alternate"
       hreflang="x-default"
-      href={`${siteUrl}${Astro.url.pathname.replace(/^\/(en|ja)/, '')}`}
+      href={`${siteUrl}${Astro.url.pathname.replace(/^\/(en|zh)/, '')}`}
     />
 
     {/* Open Graph */}
@@ -125,6 +131,7 @@ const adsenseClient = import.meta.env.PUBLIC_ADSENSE_CLIENT as string | undefine
     {/* No-FOUC theme init — runs before first paint. */}
     <script is:inline>
       (() => {
+        document.documentElement.classList.add('js');
         const stored = localStorage.getItem('theme');
         const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
         if (stored === 'dark' || (!stored && prefersDark)) {
@@ -134,6 +141,58 @@ const adsenseClient = import.meta.env.PUBLIC_ADSENSE_CLIENT as string | undefine
     </script>
   </head>
   <body class="min-h-screen bg-background text-foreground antialiased">
+    {/* Reading progress bar (width driven by the effects script). */}
+    <div id="reading-progress" class="reading-progress" aria-hidden="true" transition:persist="reading-progress"></div>
     <slot />
+
+    {/* Premium effects: card mouse-spotlight, scroll-reveal, progress bar.
+        Event-delegated so it survives ClientRouter navigations. */}
+    <script>
+      // Card mouse-spotlight — delegation, no per-card binding needed.
+      document.addEventListener('pointermove', (e) => {
+        const target = e.target as Element | null;
+        const card = target?.closest?.('.card');
+        if (!(card instanceof HTMLElement)) return;
+        const r = card.getBoundingClientRect();
+        card.style.setProperty('--mx', `${((e.clientX - r.left) / r.width) * 100}%`);
+        card.style.setProperty('--my', `${((e.clientY - r.top) / r.height) * 100}%`);
+      });
+
+      // Reading progress bar.
+      const onScroll = () => {
+        const h = document.documentElement;
+        const bar = document.getElementById('reading-progress');
+        if (!bar) return;
+        const max = h.scrollHeight - h.clientHeight;
+        bar.style.width = `${max > 0 ? (h.scrollTop / max) * 100 : 0}%`;
+      };
+      document.addEventListener('scroll', onScroll, { passive: true });
+
+      // Scroll-reveal — observe .reveal elements, reveal once on enter.
+      let io: IntersectionObserver | undefined;
+      const setupReveal = () => {
+        io?.disconnect();
+        io = new IntersectionObserver(
+          (entries) => {
+            for (const en of entries) {
+              if (en.isIntersecting) {
+                en.target.classList.add('revealed');
+                io?.unobserve(en.target);
+              }
+            }
+          },
+          { threshold: 0.08 },
+        );
+        document.querySelectorAll('.reveal:not(.revealed)').forEach((el) => io?.observe(el));
+      };
+
+      const init = () => {
+        onScroll();
+        setupReveal();
+      };
+      init();
+      // Re-run after each ClientRouter navigation.
+      document.addEventListener('astro:page-load', init);
+    </script>
   </body>
 </html>
