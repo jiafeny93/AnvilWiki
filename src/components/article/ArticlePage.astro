@@ -152,8 +152,13 @@ if (entry.data.faq && entry.data.faq.length > 0) {
     {/* Comments — env empty = component renders nothing, no conditional needed */}
     <Comments locale={locale} />
 
-    {/* In-content ad before related articles */}
-    <InContentAd type="banner-728x90" />
+    {/* In-content ad before related articles — 300×250 on mobile, 728×90 on desktop. */}
+    <div class="hidden md:block">
+      <InContentAd type="banner-728x90" />
+    </div>
+    <div class="md:hidden">
+      <InContentAd type="banner-300x250" />
+    </div>
 
     {/* Related */}
     {
