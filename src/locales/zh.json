@@ -1,0 +1,324 @@
+{
+  "site": {
+    "name": "Aniimo Wiki",
+    "shortName": "Aniimo Wiki",
+    "description": "最全的 Aniimo 中文攻略 Wiki：生物图鉴、强度排行（Tier List）、Twine 联结机制、测试与发售情报，社区驱动持续更新。",
+    "tagline": "你的 Aniimo 中文攻略全书——生物图鉴、强度排行、Twine 机制与更多",
+    "legalNotice": "Aniimo Wiki 是粉丝制作的社区网站，与 Pawprint Studio 及 FunPlus 无任何关联。"
+  },
+  "nav": {
+    "home": "首页",
+    "guides": "攻略",
+    "creatures": "生物图鉴",
+    "tier-list": "强度排行",
+    "release": "发售情报",
+    "news": "新闻资讯",
+    "reviews": "评测",
+    "toggleTheme": "切换主题",
+    "menu": "菜单",
+    "close": "关闭",
+    "search": "搜索"
+  },
+  "search": {
+    "placeholder": "搜索 Wiki...",
+    "noResults": "未找到匹配结果",
+    "open": "打开搜索"
+  },
+  "shared": {
+    "readMore": "阅读全文",
+    "lastUpdated": "最后更新",
+    "publishedOn": "发布于",
+    "noArticles": "暂无文章，敬请期待！",
+    "relatedArticles": "相关文章",
+    "onThisPage": "本页目录",
+    "backToCategory": "返回",
+    "browseAll": "浏览全部",
+    "viewAll": "查看全部",
+    "commentsHeading": "评论"
+  },
+  "overview": {
+    "guides": {
+      "overviewTitle": "Aniimo 攻略",
+      "overviewDescription": "深度 Aniimo 攻略，涵盖 Twine 联结系统、实时战斗、开放世界探索、养成路线与终局玩法。"
+    },
+    "creatures": {
+      "overviewTitle": "Aniimo 生物图鉴",
+      "overviewDescription": "所有已确认的 Aniimo 生物，详细介绍能力、属性、栖息地，以及如何通过 Twine 系统与它们建立联结。"
+    },
+    "tier-list": {
+      "overviewTitle": "Aniimo 强度排行",
+      "overviewDescription": "Aniimo 生物战斗、探索与联机强度排名。对比 S 到 C 级的最佳伙伴，组建你的队伍。"
+    },
+    "release": {
+      "overviewTitle": "Aniimo 发售情报",
+      "overviewDescription": "Aniimo 发售日期、封闭测试、平台、预约奖励，以及所有官方上线公告，一站式汇总。"
+    },
+    "news": {
+      "overviewTitle": "Aniimo 新闻资讯",
+      "overviewDescription": "最新 Aniimo 新闻、开发者动态、测试公告、活动报道，以及 Pawprint Studio 与 FunPlus 的更新说明。"
+    },
+    "reviews": {
+      "overviewTitle": "Aniimo 评测",
+      "overviewDescription": "Aniimo 评测、抢先试玩 impressions，以及社区对测试版、玩法、画面与抓宠机制的反响。"
+    }
+  },
+  "home": {
+    "meta": {
+      "title": "Aniimo Wiki - 中文攻略_生物图鉴_强度排行_发售情报",
+      "description": "最全的 Aniimo 中文 Wiki：生物图鉴、强度排行、Twine 联结机制、发售与测试情报、新手入门攻略，社区持续更新。"
+    },
+    "hero": {
+      "badge": "粉丝社区 Wiki",
+      "title": "Aniimo Wiki",
+      "description": "你的 Aniimo 中文攻略全书：掌握 Twine 联结系统，探索每一种生物，组建最强队伍，追踪最新发售与测试消息。",
+      "ctaPrimary": "官方网站",
+      "ctaSecondary": "浏览 Wiki",
+      "videoId": ""
+    },
+    "updates": {
+      "title": "最新更新",
+      "browse": "浏览全部攻略"
+    },
+    "start": {
+      "badge": "从这里开始",
+      "title": "开启你的 Aniimo 之旅",
+      "cards": [
+        {
+          "number": "1",
+          "title": "新手入门",
+          "description": "刚接触 Aniimo？从这里开始：核心 Twine 机制、操作说明，以及伊笛尔大陆的开荒指南。",
+          "icon": "lucide:book-open",
+          "href": "/guides/aniimo-guide"
+        },
+        {
+          "number": "2",
+          "title": "生物图鉴",
+          "description": "浏览所有已确认的 Aniimo 生物，了解它们的能力、栖息地与 Twine 联结详情。",
+          "icon": "lucide:paw-print",
+          "href": "/creatures/aniimo-creatures-list"
+        },
+        {
+          "number": "3",
+          "title": "强度排行",
+          "description": "看看哪些 Aniimo 生物在战斗、探索和联机任务中排名最高。",
+          "icon": "lucide:bar-chart-3",
+          "href": "/tier-list/aniimo-tier-list"
+        },
+        {
+          "number": "4",
+          "title": "发售与测试",
+          "description": "追踪 Aniimo 发售日期、封闭测试报名、登陆平台与预约奖励。",
+          "icon": "lucide:rocket",
+          "href": "/release/aniimo-beta"
+        }
+      ]
+    },
+    "popular": {
+      "badge": "热门推荐",
+      "title": "本周最多人看",
+      "quickLinks": [
+        {
+          "label": "Aniimo 生物图鉴大全",
+          "href": "/creatures/aniimo-creatures-list"
+        },
+        {
+          "label": "Aniimo 最强生物排行",
+          "href": "/tier-list/aniimo-best-creatures"
+        },
+        {
+          "label": "Aniimo 发售日期",
+          "href": "/release/aniimo-release-date"
+        },
+        {
+          "label": "Aniimo 新手攻略",
+          "href": "/guides/aniimo-guide"
+        }
+      ]
+    },
+    "explore": {
+      "title": "探索 Wiki",
+      "description": "按分类整理的全部内容，选一个主题开始吧。",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Aniimo 生物图鉴",
+          "description": "所有已确认生物的能力、栖息地，以及与它们建立联结的方法。",
+          "href": "/creatures",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Eko",
+              "detail": "全能型入门伙伴，各方面表现均衡"
+            },
+            {
+              "label": "Helmut",
+              "detail": "防御型生物，生存能力出色"
+            },
+            {
+              "label": "Emberpup",
+              "detail": "火系生物，前期激进之选"
+            },
+            {
+              "label": "Darkler",
+              "detail": "暗影生物，稀有且难以联结"
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Aniimo 攻略",
+          "description": "为寻路者准备的养成路线、战斗机制与终局准备指南。",
+          "href": "/guides",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "学会 Twine 联结系统"
+            },
+            {
+              "label": "2",
+              "detail": "组建你的第一支生物队伍"
+            },
+            {
+              "label": "3",
+              "detail": "掌握实时战斗切换"
+            },
+            {
+              "label": "4",
+              "detail": "探索伊笛尔大陆"
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Aniimo 强度排行",
+          "description": "所有 Aniimo 生物按战斗、探索、联机从 S 到 C 级排名。",
+          "href": "/tier-list",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "Eko、Helmut——顶级全能选手"
+            },
+            {
+              "label": "A",
+              "detail": "Emberpup、Eklue——强力专精型"
+            },
+            {
+              "label": "B",
+              "detail": "扎实的中坚伙伴"
+            },
+            {
+              "label": "C",
+              "detail": "特定场景或前期过渡选择"
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Aniimo 发售情报",
+          "description": "发售日期、封闭测试、登陆平台与预约详情。",
+          "href": "/release",
+          "displayType": "timeline",
+          "highlights": [
+            {
+              "label": "2026",
+              "detail": "计划全球正式发售",
+              "badge": "待定"
+            },
+            {
+              "label": "进行中",
+              "detail": "全球封闭测试正在进行"
+            },
+            {
+              "label": "500万+",
+              "detail": "预约人数已突破"
+            },
+            {
+              "label": "8月",
+              "detail": "可在科隆 Gamescom 2026 现场试玩"
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "常见问题",
+      "description": "关于 Aniimo 最常见问题的快速解答。",
+      "items": [
+        {
+          "question": "Aniimo 是什么游戏？",
+          "answer": "Aniimo 是一款免费游玩的次世代抓宠开放世界动作 RPG，由 Pawprint Studio 开发、FunPlus（趣加）发行。你将扮演寻路者（Pathfinder），探索伊笛尔大陆，通过 Twine 系统与魔法生物建立联结，并在实时战斗与联机任务中运用它们的能力。"
+        },
+        {
+          "question": "Aniimo 登陆哪些平台？",
+          "answer": "Aniimo 将登陆 PC（Steam 和 Epic Games Store）、PlayStation 5、Xbox Series X|S 以及移动端（iOS 和 Android）。这是多平台发行，不是 Roblox 游戏。"
+        },
+        {
+          "question": "Aniimo 的 Twine 系统是什么？",
+          "answer": "Twine（联结）是 Aniimo 的核心机制。与传统「捕捉」不同，你需要与生物建立羁绊，与它同步、透过它的眼睛看世界，并在实时战斗和探索中直接操控它的独特能力。"
+        },
+        {
+          "question": "Aniimo 免费吗？",
+          "answer": "是的，Aniimo 已官方确认在 PC、主机和移动端均免费游玩，含可选内购。正式版计划于 2026 年推出。"
+        },
+        {
+          "question": "Aniimo 什么时候发售？",
+          "answer": "Aniimo 计划于 2026 年全球正式发售，目前正处于全球封闭测试阶段，预约通道已开启。具体发售日期尚未公布。"
+        }
+      ]
+    },
+    "closingCta": {
+      "title": "开启你的 Aniimo 冒险",
+      "description": "收藏本 Wiki，获取生物图鉴、强度排行，以及最新的 Aniimo 发售与测试动态。",
+      "primary": "官方网站",
+      "secondary": "加入官方 Discord"
+    },
+    "_archived": {
+      "_comment": "Sections removed from the homepage during the v0.2 layout refactor. Kept here so data is not lost; not rendered by HomePage.astro.",
+      "gameInfo": {
+        "title": "Aniimo 是什么游戏？",
+        "paragraphs": [
+          "Aniimo 是一款免费游玩的次世代抓宠开放世界动作 RPG，由 Pawprint Studio 开发、FunPlus（趣加）发行。你将扮演寻路者（Pathfinder），探索生机勃勃的伊笛尔大陆，通过 Twine 系统与魔法生物建立联结，透过它们的眼睛看世界，并在实时战斗与联机奇幻任务中运用它们的能力。",
+          "本作于 2025 年 Xbox Games Showcase 首次公开，被视为开放世界抓宠赛道的重磅竞品。正式版计划 2026 年全球发售，目前全球封闭测试与预约正在进行中，预约人数已突破 500 万。"
+        ],
+        "stats": [
+          {
+            "label": "开发商",
+            "value": "Pawprint Studio"
+          },
+          {
+            "label": "发行商",
+            "value": "FunPlus（趣加）"
+          },
+          {
+            "label": "平台",
+            "value": "PC、PS5、Xbox、移动端"
+          },
+          {
+            "label": "类型",
+            "value": "动作 RPG / 抓宠收集"
+          },
+          {
+            "label": "发售",
+            "value": "2026 年（待定）"
+          }
+        ],
+        "cta": "浏览全部攻略"
+      }
+    }
+  },
+  "footer": {
+    "playGame": "官方网站",
+    "officialDiscord": "官方 Discord",
+    "officialYoutube": "官方 YouTube",
+    "officialTwitter": "官方 Twitter",
+    "officialReddit": "官方 Reddit",
+    "about": "关于我们",
+    "faq": "常见问题",
+    "privacyPolicy": "隐私政策",
+    "termsOfService": "服务条款",
+    "copyright": "版权信息",
+    "copyrightText": "© 2026 Aniimo Wiki. 保留所有权利。"
+  }
+}

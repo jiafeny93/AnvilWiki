@@ -16,7 +16,7 @@
  */
 
 import { getCollection, getEntry, type CollectionEntry } from 'astro:content';
-import { defaultLocale, type Locale } from './routing';
+import { defaultLocale, isLocale, type Locale } from './routing';
 
 export type WikiEntry = CollectionEntry<'wiki'>;
 
@@ -45,7 +45,7 @@ export function parseEntryId(
 }
 
 function isLocaleSafe(value: string): value is Locale {
-  return value === 'en' || value === 'ja';
+  return isLocale(value);
 }
 
 /**
