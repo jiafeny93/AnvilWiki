@@ -54,7 +54,69 @@ faq:
 
 애니모는 포켓몬의 2x/0.5x 시스템을 쓰지 **않아요**. 효과가 굉장한 공격은 **1.6×** 피해를, 저항당하는 공격은 **0.625×** 피해를 주며, 이 둘은 정확히 서로 역수 관계예요. 여기에 규칙 두 가지가 더 중요해요:
 
-- **면역이 없어요.**
+- **면역이 없어요.** 모든 조합에는 값이 존재하고, 0×인 경우는 없어요.
+- **같은 속성 공격은 저항 취급이에요.** 불 vs 불은 1×가 아니라 0.625×예요.
+- **행렬은 대칭이 아니에요.** 얼음이 바람을 공격하면 저항(0.625×)인데, 바람이 얼음을 공격하면 중립이에요. 반드시 **공격 측 행**을 기준으로 읽으세요.
+
+## 애니모 전체 타입 상성표(공격 측 vs 방어 측)
+
+범례: 행은 공격 속성, 열은 방어 속성이에요. <strong style="color:#16a34a">1.6×</strong> = 상성 유리, <span style="color:#dc2626">0.625×</span> = 저항, – = 중립 1×.
+
+<div style="overflow-x:auto"><table style="border-collapse:collapse;font-size:14px;line-height:1.45;min-width:640px"><tr><th style="padding:6px 8px">방어 측 →</th><th style="text-align:center;padding:6px 8px;white-space:nowrap"><span style="color:#f97316">●</span> 불(Fire)</th><th style="text-align:center;padding:6px 8px;white-space:nowrap"><span style="color:#3b82f6">●</span> 물(Water)</th><th style="text-align:center;padding:6px 8px;white-space:nowrap"><span style="color:#22c55e">●</span> 풀(Grass)</th><th style="text-align:center;padding:6px 8px;white-space:nowrap"><span style="color:#eab308">●</span> 번개(Lightning)</th><th style="text-align:center;padding:6px 8px;white-space:nowrap"><span style="color:#38bdf8">●</span> 얼음(Ice)</th><th style="text-align:center;padding:6px 8px;white-space:nowrap"><span style="color:#b45309">●</span> 땅(Earth)</th><th style="text-align:center;padding:6px 8px;white-space:nowrap"><span style="color:#2dd4bf">●</span> 바람(Wind)</th><th style="text-align:center;padding:6px 8px;white-space:nowrap"><span style="color:#cbd5e1">●</span> 빛(Light)</th><th style="text-align:center;padding:6px 8px;white-space:nowrap"><span style="color:#71717a">●</span> 어둠(Dark)</th></tr><tr><th style="padding:6px 8px;white-space:nowrap"><span style="color:#f97316">●</span> 불(Fire)</th><td style="text-align:center;padding:6px 8px"><span style="color:#dc2626">0.625×</span></td><td style="text-align:center;padding:6px 8px"><span style="color:#dc2626">0.625×</span></td><td style="text-align:center;padding:6px 8px"><strong style="color:#16a34a">1.6×</strong></td><td style="text-align:center;padding:6px 8px;color:#94a3b8">–</td><td style="text-align:center;padding:6px 8px"><strong style="color:#16a34a">1.6×</strong></td><td style="text-align:center;padding:6px 8px"><span style="color:#dc2626">0.625×</span></td><td style="text-align:center;padding:6px 8px;color:#94a3b8">–</td><td style="text-align:center;padding:6px 8px"><span style="color:#dc2626">0.625×</span></td><td style="text-align:center;padding:6px 8px;color:#94a3b8">–</td></tr><tr><th style="padding:6px 8px;white-space:nowrap"><span style="color:#3b82f6">●</span> 물(Water)</th><td style="text-align:center;padding:6px 8px"><strong style="color:#16a34a">1.6×</strong></td><td style="text-align:center;padding:6px 8px"><span style="color:#dc2626">0.625×</span></td><td style="text-align:center;padding:6px 8px"><span style="color:#dc2626">0.625×</span></td><td style="text-align:center;padding:6px 8px;color:#94a3b8">–</td><td style="text-align:center;padding:6px 8px"><span style="color:#dc2626">0.625×</span></td><td style="text-align:center;padding:6px 8px"><strong style="color:#16a34a">1.6×</strong></td><td style="text-align:center;padding:6px 8px;color:#94a3b8">–</td><td style="text-align:center;padding:6px 8px"><span style="color:#dc2626">0.625×</span></td><td style="text-align:center;padding:6px 8px;color:#94a3b8">–</td></tr><tr><th style="padding:6px 8px;white-space:nowrap"><span style="color:#22c55e">●</span> 풀(Grass)</th><td style="text-align:center;padding:6px 8px"><span style="color:#dc2626">0.625×</span></td><td style="text-align:center;padding:6px 8px"><strong style="color:#16a34a">1.6×</strong></td><td style="text-align:center;padding:6px 8px"><span style="color:#dc2626">0.625×</span></td><td style="text-align:center;padding:6px 8px;color:#94a3b8">–</td><td style="text-align:center;padding:6px 8px;color:#94a3b8">–</td><td style="text-align:center;padding:6px 8px"><strong style="color:#16a34a">1.6×</strong></td><td style="text-align:center;padding:6px 8px;color:#94a3b8">–</td><td style="text-align:center;padding:6px 8px"><span style="color:#dc2626">0.625×</span></td><td style="text-align:center;padding:6px 8px;color:#94a3b8">–</td></tr><tr><th style="padding:6px 8px;white-space:nowrap"><span style="color:#eab308">●</span> 번개(Lightning)</th><td style="text-align:center;padding:6px 8px;color:#94a3b8">–</td><td style="text-align:center;padding:6px 8px"><strong style="color:#16a34a">1.6×</strong></td><td style="text-align:center;padding:6px 8px;color:#94a3b8">–</td><td style="text-align:center;padding:6px 8px"><span style="color:#dc2626">0.625×</span></td><td style="text-align:center;padding:6px 8px"><span style="color:#dc2626">0.625×</span></td><td style="text-align:center;padding:6px 8px"><span style="color:#dc2626">0.625×</span></td><td style="text-align:center;padding:6px 8px"><strong style="color:#16a34a">1.6×</strong></td><td style="text-align:center;padding:6px 8px;color:#94a3b8">–</td><td style="text-align:center;padding:6px 8px;color:#94a3b8">–</td></tr><tr><th style="padding:6px 8px;white-space:nowrap"><span style="color:#38bdf8">●</span> 얼음(Ice)</th><td style="text-align:center;padding:6px 8px"><span style="color:#dc2626">0.625×</span></td><td style="text-align:center;padding:6px 8px"><strong style="color:#16a34a">1.6×</strong></td><td style="text-align:center;padding:6px 8px;color:#94a3b8">–</td><td style="text-align:center;padding:6px 8px"><strong style="color:#16a34a">1.6×</strong></td><td style="text-align:center;padding:6px 8px"><span style="color:#dc2626">0.625×</span></td><td style="text-align:center;padding:6px 8px"><span style="color:#dc2626">0.625×</span></td><td style="text-align:center;padding:6px 8px"><span style="color:#dc2626">0.625×</span></td><td style="text-align:center;padding:6px 8px;color:#94a3b8">–</td><td style="text-align:center;padding:6px 8px;color:#94a3b8">–</td></tr><tr><th style="padding:6px 8px;white-space:nowrap"><span style="color:#b45309">●</span> 땅(Earth)</th><td style="text-align:center;padding:6px 8px;color:#94a3b8">–</td><td style="text-align:center;padding:6px 8px"><span style="color:#dc2626">0.625×</span></td><td style="text-align:center;padding:6px 8px"><span style="color:#dc2626">0.625×</span></td><td style="text-align:center;padding:6px 8px"><strong style="color:#16a34a">1.6×</strong></td><td style="text-align:center;padding:6px 8px"><strong style="color:#16a34a">1.6×</strong></td><td style="text-align:center;padding:6px 8px"><span style="color:#dc2626">0.625×</span></td><td style="text-align:center;padding:6px 8px;color:#94a3b8">–</td><td style="text-align:center;padding:6px 8px;color:#94a3b8">–</td><td style="text-align:center;padding:6px 8px"><span style="color:#dc2626">0.625×</span></td></tr><tr><th style="padding:6px 8px;white-space:nowrap"><span style="color:#2dd4bf">●</span> 바람(Wind)</th><td style="text-align:center;padding:6px 8px;color:#94a3b8">–</td><td style="text-align:center;padding:6px 8px;color:#94a3b8">–</td><td style="text-align:center;padding:6px 8px"><strong style="color:#16a34a">1.6×</strong></td><td style="text-align:center;padding:6px 8px"><span style="color:#dc2626">0.625×</span></td><td style="text-align:center;padding:6px 8px;color:#94a3b8">–</td><td style="text-align:center;padding:6px 8px;color:#94a3b8">–</td><td style="text-align:center;padding:6px 8px"><span style="color:#dc2626">0.625×</span></td><td style="text-align:center;padding:6px 8px;color:#94a3b8">–</td><td style="text-align:center;padding:6px 8px"><strong style="color:#16a34a">1.6×</strong></td></tr><tr><th style="padding:6px 8px;white-space:nowrap"><span style="color:#cbd5e1">●</span> 빛(Light)</th><td style="text-align:center;padding:6px 8px;color:#94a3b8">–</td><td style="text-align:center;padding:6px 8px;color:#94a3b8">–</td><td style="text-align:center;padding:6px 8px;color:#94a3b8">–</td><td style="text-align:center;padding:6px 8px"><span style="color:#dc2626">0.625×</span></td><td style="text-align:center;padding:6px 8px;color:#94a3b8">–</td><td style="text-align:center;padding:6px 8px;color:#94a3b8">–</td><td style="text-align:center;padding:6px 8px"><strong style="color:#16a34a">1.6×</strong></td><td style="text-align:center;padding:6px 8px"><span style="color:#dc2626">0.625×</span></td><td style="text-align:center;padding:6px 8px"><strong style="color:#16a34a">1.6×</strong></td></tr><tr><th style="padding:6px 8px;white-space:nowrap"><span style="color:#71717a">●</span> 어둠(Dark)</th><td style="text-align:center;padding:6px 8px"><strong style="color:#16a34a">1.6×</strong></td><td style="text-align:center;padding:6px 8px"><span style="color:#dc2626">0.625×</span></td><td style="text-align:center;padding:6px 8px"><strong style="color:#16a34a">1.6×</strong></td><td style="text-align:center;padding:6px 8px;color:#94a3b8">–</td><td style="text-align:center;padding:6px 8px;color:#94a3b8">–</td><td style="text-align:center;padding:6px 8px;color:#94a3b8">–</td><td style="text-align:center;padding:6px 8px"><span style="color:#dc2626">0.625×</span></td><td style="text-align:center;padding:6px 8px"><strong style="color:#16a34a">1.6×</strong></td><td style="text-align:center;padding:6px 8px;color:#94a3b8">–</td></tr></table></div>
+
+## 모든 속성 해설: 강점과 약점
+
+표보다 글이 편하신가요? 상성표의 각 속성 행을 하나씩 풀어서 설명해요 — 사람들이 가장 자주 헷갈리는 상성까지 포함해서요.
+
+### 불(Fire)
+
+불로 공격할 때: 상성 유리(1.6×)인 대상은 **풀, 얼음**이에요. 저항당하는(0.625×) 상대는 **불, 물, 땅, 빛**이에요. 방어할 때는 불, 풀, 얼음에게 0.625× 피해만 받아요. 풀과 얼음을 강하게 때리는 믿음직한 초반 공격수지만, 네 개 속성에게 저항당하니 커버리지 기술을 함께 챙기세요.
+
+### 물(Water)
+
+물로 공격할 때: 상성 유리(1.6×)인 대상은 **불, 땅**이에요. 저항당하는(0.625×) 상대는 **물, 풀, 얼음, 빛**이에요. 방어할 때는 불, 물, 땅, 어둠에게 0.625× 피해만 받아요. 불과 땅에 강하고 저항 프로필이 깔끔해서 거의 모든 파티 슬롯에 안심하고 넣을 수 있는 선택이에요.
+
+### 풀(Grass)
+
+풀로 공격할 때: 상성 유리(1.6×)인 대상은 **물, 땅**이에요. 저항당는(0.625×) 상대는 **불, 풀, 빛**이에요. 방어할 때는 물, 풀, 땅에게 0.625× 피해만 받아요. 물과 땅을 응징하지만 불과 빛이 벽처럼 막아서요. 바람이나 물 파트너와 짝을 맞추는 게 좋아요.
+
+### 번개(Lightning)
+
+번개로 공격할 때: 상성 유리(1.6×)인 대상은 **물, 바람**이에요. 저항당하는(0.625×) 상대는 **번개, 얼음, 땅**이에요. 방어할 때는 번개, 바람, 빛에게 0.625× 피해만 받아요. 물·바람 팀을 찢어놓지만, 땅 타입은 공수 양면에서 최악의 상대예요. 예전 공식 위키 스냅샷에서는 "Electric"으로 표기했어요.
+
+### 얼음(Ice)
+
+얼음으로 공격할 때: 상성 유리(1.6×)인 대상은 **물, 번개**이에요. 저항당하는(0.625×) 상대는 **불, 얼음, 땅, 바람**이에요. 방어할 때는 물, 번개, 얼음에게 0.625× 피해만 받아요. 물과 번개에 강하지만, 게임 전체에서 가장 많이 저항당하는 공격 속성(4개)이기도 해요. 핵심 멤버가 아니라 카운터 픽으로 쓰세요.
+
+### 땅(Earth)
+
+땅으로 공격할 때: 상성 유리(1.6×)인 대상은 **번개, 얼음**이에요. 저항당하는(0.625×) 상대는 **물, 풀, 땅, 어둠**이에요. 방어할 때는 불, 번개, 얼음, 땅에게 0.625× 피해만 받아요. 번개와 얼음을 틀어막고 네 개 속성을 저항하는, 상성표 최고의 방어 앵커예요. 예전 공식 위키 스냅샷에서는 "Rock"으로 표기했어요.
+
+### 바람(Wind)
+
+바람으로 공격할 때: 상성 유리(1.6×)인 대상은 **풀, 어둠**이에요. 저항당하는(0.625×) 상대는 **번개, 바람**이에요. 방어할 때는 얼음, 바람, 어둠에게 0.625× 피해만 받아요. 공수 양면 가치가 깔끔해요: 풀과 어둠에 1.6×를 때리고, 저항당하는 건 번개와 바람뿐이에요.
+
+### 빛(Light)
+
+빛으로 공격할 때: 상성 유리(1.6×)인 대상은 **바람, 어둠**이에요. 저항당하는(0.625×) 상대는 **번개, 빛**이에요. 방어할 때는 불, 물, 풀, 빛에게 0.625× 피해만 받아요. 바람과 어둠을 카운터하고 번개와 자기 자신을 저항하지만, 들고 나오는 애니모가 매우 적어 프리미엄 타입이에요. 예전 공식 위키 스냅샷에서는 "Holy"로 표기했어요.
+
+### 어둠(Dark)
+
+어둠으로 공격할 때: 상성 유리(1.6×)인 대상은 **불, 풀, 빛**이에요. 저항당하는(0.625×) 상대는 **물, 바람**이에요. 방어할 때는 땅에게만 0.625× 피해를 받아요. 상성 유리 대상이 세 종류(불, 풀, 빛)나 되는 유일한 속성 — 현재 상성표에서 가장 강력한 순수 공격 타입이에요.
+
+## 상성표 활용법: 팀 빌딩
+
+상성만으로는 싸움의 절반밖에 못 이겨요. 애니모는 실시간 액션 RPG라서 회피 조작과 내 크리처의 타입이 나머지를 결정하고, 트와인(Twine) 시스템이 동료의 속성을 플레이어와 공유해요. 상성표를 이렇게 활용해 보세요:
+
+1. **공격 각도를 두 개 확보하세요.** 어둠 공격수에 물이나 땅 코어를 조합하면 저항 벽에 막혀서 아무것도 못 하는 상황이 사라져요.
+2. **땅을 방어 앵커로 세우세요.** 네 개 속성 저항에 번개·얼음 상대 1.6×까지 더하면, 땅은 방어 슬롯의 가장 좋은 기본값이에요.
+3. **얼음이나 빛은 카운터 픽으로.** 기대 수익은 크지만 저항당하는 폭도 넓어요 — 고정 슬롯이 아니라 상대에 맞춰 교체하세요.
+
+다음 단계로 [타입 전략 심층 분석](/ko/tier-list/aniimo-type-chart), [애니모 티어 리스트](/ko/tier-list/aniimo-tier-list), [최고의 스타터 가이드](/ko/tier-list/aniimo-best-starter), [최고의 크리처 랭킹](/ko/tier-list/aniimo-best-creatures)을 읽어보세요. 아니면 [크리처 목록](/ko/creatures/aniimo-creatures-list)과 [포획 시스템 작동 원리](/ko/creatures/aniimo-catching)부터 시작해도 좋아요.
+
+## 출시 때 상성표가 바뀌나요?
+
+9속성 구성은 여기서 계획을 세우기에 충분할 만큼 확정적이에요 — 오늘 공식 위키와 일치하거든요. 배율은 게임 내 Counters Info 패널에서 읽은 베타 값이라, 운영 측이 리밸런스할 수 있어요. 이 페이지는 상단에 **최종 검증일(2026-08-16)**을 표시하고 패치가 있을 때마다 다시 감사하니, 여기 있는 정보는 믿어도 돼요. 잘못된 상성을 발견하면 빠르게 수정해요.
 
 {/* faq-visible */}
 
