@@ -56,6 +56,10 @@ export const site: SiteConfig = {
   legalNotice: 'Aniimo Wiki is a fan-made community site. Not affiliated with or endorsed by Pawprint Studio or FunPlus.',
   social: {
     official: 'https://www.aniimo.com/',
+    // Official game channels (not the wiki's own accounts).
+    discord: 'https://discord.gg/aniimo',
+    youtube: 'https://www.youtube.com/@Aniimo_EN',
+    twitter: 'https://x.com/Aniimo_EN',
   },
   game: {
     name: 'Aniimo',

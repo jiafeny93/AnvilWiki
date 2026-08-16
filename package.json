@@ -33,7 +33,7 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
-    "postbuild": "pagefind --site dist",
+    "postbuild": "pagefind --site dist && node scripts/sitemap-lastmod.mjs",
     "preview": "astro preview",
     "check": "astro check",
     "typecheck": "astro check",

@@ -167,3 +167,30 @@ export async function getRelatedEntries(
 
   return tiers.slice(0, limit);
 }
+
+/**
+ * Previous/next article within the same category and locale, by date.
+ * `prev` = older, `next` = newer. Null when there is no neighbor on that side
+ * (the template renders one-sided navigation rather than hiding the section).
+ */
+export async function getAdjacentEntries(
+  current: WikiEntry,
+  locale: Locale,
+): Promise<{ prev: WikiEntry | null; next: WikiEntry | null }> {
+  const all = await getCollection('wiki');
+  const parsed = parseEntryId(current.id);
+  if (!parsed) return { prev: null, next: null };
+
+  const siblings = all
+    .filter(
+      (e) => parseEntryId(e.id)?.locale === locale && parseEntryId(e.id)?.category === parsed.category,
+    )
+    .sort((a, b) => a.data.date.getTime() - b.data.date.getTime()); // oldest first
+
+  const index = siblings.findIndex((e) => e.id === current.id);
+  if (index === -1) return { prev: null, next: null };
+  return {
+    prev: index > 0 ? siblings[index - 1] : null,
+    next: index < siblings.length - 1 ? siblings[index + 1] : null,
+  };
+}

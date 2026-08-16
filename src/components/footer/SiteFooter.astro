@@ -22,7 +22,7 @@ const socials = [
   { key: 'officialYoutube', href: site.social.youtube, icon: 'lucide:youtube' },
   { key: 'officialTwitter', href: site.social.twitter, icon: 'lucide:twitter' },
   { key: 'officialReddit', href: site.social.reddit, icon: 'lucide:globe' },
-].filter((s) => s.href);
+].filter((s) => Boolean(s.href)).filter((s) => s.href);
 
 const legalLinks = ['about', 'faq', 'privacyPolicy', 'termsOfService', 'copyright'];
 ---

@@ -16,14 +16,16 @@ import { Icon } from 'astro-icon/components';
 import { render } from 'astro:content';
 import LocaleLayout from '~/components/layout/LocaleLayout.astro';
 import InContentAd from '~/components/ads/InContentAd.astro';
+import ArticleCtaCard from '~/components/article/ArticleCtaCard.astro';
 import Comments from '~/components/article/Comments.astro';
 import WikiSidebar from '~/components/sidebar/WikiSidebar.astro';
 import { NAVIGATION_CONFIG } from '~/config/navigation';
 import { siteUrl } from '~/config/site';
 import { type Locale } from '~/i18n/routing';
 import { getUi } from '~/i18n/ui';
-import { getRelatedEntries, parseEntryId, type WikiEntry, type ResolvedEntry } from '~/lib/content';
+import { getAdjacentEntries, getRelatedEntries, parseEntryId, type WikiEntry, type ResolvedEntry } from '~/lib/content';
 import { articleJsonLd, breadcrumbJsonLd, faqPageJsonLd, pageTitle } from '~/lib/seo';
+import { extractHeadings } from '~/lib/toc';
 import { listPath, detailPath } from '~/lib/url';
 
 interface Props {
@@ -50,6 +52,8 @@ const coverUrl = entry.data.image
   : `${siteUrl}/images/hero.webp`;
 
 const related = await getRelatedEntries(entry, locale, 6);
+const adjacent = await getAdjacentEntries(entry, locale);
+const headings = extractHeadings(entry.body);
 
 const { Content } = await render(entry);
 
@@ -130,6 +134,33 @@ if (entry.data.faq && entry.data.faq.length > 0) {
       </div>
     </header>
 
+    {/* Mobile TOC — collapsible, zero JS. Desktop TOC lives in the sidebar. */}
+    {
+      headings.length > 1 && (
+        <details class="mt-4 rounded-lg border bg-card md:hidden">
+          <summary class="flex cursor-pointer list-none items-center gap-2 px-4 py-3 text-sm font-medium text-muted-foreground">
+            <Icon name="lucide:list" class="h-4 w-4" />
+            {shared.toc}
+          </summary>
+          <ul class="space-y-1 border-t border-border px-4 py-3">
+            {headings.map((h) => (
+              <li>
+                <a
+                  href={`#${h.id}`}
+                  class:list={[
+                    'block text-sm text-muted-foreground transition hover:text-foreground',
+                    h.depth === 3 && 'pl-3',
+                  ]}
+                >
+                  {h.text}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </details>
+      )
+    }
+
     {/* Body */}
     <div
       class="prose prose-lg mt-8 max-w-none dark:prose-invert prose-headings:scroll-mt-20 prose-a:text-nav"
@@ -152,8 +183,49 @@ if (entry.data.faq && entry.data.faq.length > 0) {
       )
     }
 
+    {/* Interlink matrix — hub links (tier list / type chart / dex / codes) */}
+    <ArticleCtaCard locale={locale} category={category} slug={slug} />
+
     {/* Comments — env empty = component renders nothing, no conditional needed */}
     <Comments locale={locale} />
+
+    {/* Prev/next within the same category */}
+    {
+      (adjacent.prev || adjacent.next) && (
+        <nav class="mt-8 grid gap-3 border-t border-border pt-6 sm:grid-cols-2" aria-label="Article pagination">
+          {adjacent.prev
+            ? (() => {
+                const p = adjacent.prev!;
+                const pSlug = parseEntryId(p.id)?.slug ?? '';
+                return (
+                  <a
+                    href={detailPath(p.data.category, pSlug, locale)}
+                    class="rounded-lg border bg-card p-3 transition hover:border-nav"
+                  >
+                    <span class="text-xs text-muted-foreground">← {shared.prevArticle}</span>
+                    <span class="mt-1 block truncate text-sm font-medium">{p.data.title}</span>
+                  </a>
+                );
+              })()
+            : <span />}
+          {adjacent.next
+            ? (() => {
+                const n = adjacent.next!;
+                const nSlug = parseEntryId(n.id)?.slug ?? '';
+                return (
+                  <a
+                    href={detailPath(n.data.category, nSlug, locale)}
+                    class="rounded-lg border bg-card p-3 text-right transition hover:border-nav"
+                  >
+                    <span class="text-xs text-muted-foreground">{shared.nextArticle} →</span>
+                    <span class="mt-1 block truncate text-sm font-medium">{n.data.title}</span>
+                  </a>
+                );
+              })()
+            : <span />}
+        </nav>
+      )
+    }
 
     {/* Related */}
     {
@@ -184,6 +256,6 @@ if (entry.data.faq && entry.data.faq.length > 0) {
       <InContentAd type="banner-300x250" />
     </div>
   </article>
-    <WikiSidebar locale={locale} currentPath={Astro.url.pathname} />
+    <WikiSidebar locale={locale} currentPath={Astro.url.pathname} headings={headings} />
   </div>
 </LocaleLayout>

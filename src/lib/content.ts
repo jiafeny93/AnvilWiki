@@ -14,6 +14,7 @@ export {
   localesForEntry,
   getRecentEntries,
   getRelatedEntries,
+  getAdjacentEntries,
   parseEntryId,
   type WikiEntry,
   type ResolvedEntry,

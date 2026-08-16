@@ -1,3 +1,11 @@
-# ads.txt — authorized digital sellers.
-# Replace with your actual Adsterra / AdSense publisher ID when monetizing.
-# Learn more: https://iabtechlab.com/ads-txt/
+# ads.txt — authorized digital sellers for aniimo.wiki
+#
+# Adsterra publisher ID needed below (find it in Adsterra dashboard →
+# Account / Websites, the numeric ID in your zone keys is NOT the publisher ID).
+# Once you have it, uncomment the line and replace YOUR_PUBLISHER_ID:
+#
+# google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0   # (future AdSense)
+# adskeeper.com, YOUR_PUBLISHER_ID, DIRECT
+#
+# 管理后台: https://dash.adsterra.com → Account Settings 里找 Manager ID / Publisher ID
+# 参考: https://iabtechlab.com/ads-txt/

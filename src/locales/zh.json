@@ -35,7 +35,15 @@
     "backToCategory": "返回",
     "browseAll": "浏览全部",
     "viewAll": "查看全部",
-    "commentsHeading": "评论"
+    "commentsHeading": "评论",
+    "seeAlso": "热门指南",
+    "toc": "本页目录",
+    "prevArticle": "上一篇",
+    "nextArticle": "下一篇",
+    "ctaTierList": "强度排行榜",
+    "ctaTypeChart": "属性相克表",
+    "ctaDex": "生物图鉴",
+    "ctaCodes": "礼包码"
   },
   "overview": {
     "guides": {

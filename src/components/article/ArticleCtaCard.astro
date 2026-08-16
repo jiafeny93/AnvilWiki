@@ -1,0 +1,55 @@
+---
+/**
+ * ArticleCtaCard — interlink matrix hub card shown at the bottom of every article.
+ *
+ * Links the SEO hub pages (tier list, type chart, dex, codes) from every article
+ * so link equity flows from the long tail into the hubs, and hub readers fan
+ * back out into the long tail. The current page is excluded from the row.
+ *
+ * Slugs are locale-independent: detailPath() emits the current locale's prefix
+ * and the article loader falls back to English, so the card never dead-ends.
+ */
+import { Icon } from 'astro-icon/components';
+import { type Locale } from '~/i18n/routing';
+import { getUi } from '~/i18n/ui';
+import { detailPath } from '~/lib/url';
+
+interface Props {
+  locale: Locale;
+  /** Current article (category, slug) — that link is skipped. */
+  category: string;
+  slug: string;
+}
+
+const { locale, category, slug } = Astro.props;
+const shared = getUi(locale).shared as Record<string, string>;
+
+const hubs = [
+  { category: 'tier-list', slug: 'aniimo-tier-list', label: shared.ctaTierList, icon: 'lucide:trophy' },
+  { category: 'tier-list', slug: 'type-chart', label: shared.ctaTypeChart, icon: 'lucide:swords' },
+  { category: 'creatures', slug: 'aniimo-dex', label: shared.ctaDex, icon: 'lucide:paw-print' },
+  { category: 'news', slug: 'aniimo-codes', label: shared.ctaCodes, icon: 'lucide:ticket' },
+].filter((h) => !(h.category === category && h.slug === slug));
+---
+
+{
+  hubs.length > 0 && (
+    <nav class="mt-10 rounded-lg border bg-card p-4" aria-label={shared.seeAlso}>
+      <p class="text-xs font-semibold uppercase tracking-wider text-muted-foreground">
+        {shared.seeAlso}
+      </p>
+      <div class="mt-3 grid gap-2 sm:grid-cols-2">
+        {hubs.map((h) => (
+          <a
+            href={detailPath(h.category, h.slug, locale)}
+            class="flex items-center gap-3 rounded-md border border-border bg-background px-4 py-3 text-sm font-medium transition hover:border-nav hover:text-nav"
+          >
+            <Icon name={h.icon} class="h-4 w-4 shrink-0 text-nav" />
+            {h.label}
+            <Icon name="lucide:arrow-right" class="ml-auto h-3.5 w-3.5 shrink-0 text-muted-foreground" />
+          </a>
+        ))}
+      </div>
+    </nav>
+  )
+}

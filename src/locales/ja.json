@@ -35,7 +35,15 @@
     "backToCategory": "戻る",
     "browseAll": "すべて見る",
     "viewAll": "一覧を見る",
-    "commentsHeading": "コメント"
+    "commentsHeading": "コメント",
+    "seeAlso": "人気のガイド",
+    "toc": "このページの内容",
+    "prevArticle": "前の記事",
+    "nextArticle": "次の記事",
+    "ctaTierList": "ティアリスト",
+    "ctaTypeChart": "タイプ相性表",
+    "ctaDex": "生物図鑑",
+    "ctaCodes": "ギフトコード"
   },
   "overview": {
     "guides": {

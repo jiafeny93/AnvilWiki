@@ -35,7 +35,15 @@
     "backToCategory": "Back to",
     "browseAll": "Browse all",
     "viewAll": "View all",
-    "commentsHeading": "Comments"
+    "commentsHeading": "Comments",
+    "seeAlso": "Popular Guides",
+    "toc": "On this page",
+    "prevArticle": "Previous",
+    "nextArticle": "Next",
+    "ctaTierList": "Tier List",
+    "ctaTypeChart": "Type Chart",
+    "ctaDex": "Creature Dex",
+    "ctaCodes": "Redeem Codes"
   },
   "overview": {
     "guides": {

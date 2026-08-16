@@ -35,7 +35,15 @@
     "backToCategory": "돌아가기",
     "browseAll": "전체 보기",
     "viewAll": "모두 보기",
-    "commentsHeading": "댓글"
+    "commentsHeading": "댓글",
+    "seeAlso": "인기 가이드",
+    "toc": "이 페이지의 목차",
+    "prevArticle": "이전 글",
+    "nextArticle": "다음 글",
+    "ctaCodes": "쿠폰 코드",
+    "ctaTierList": "티어리스트",
+    "ctaTypeChart": "타입 상성표",
+    "ctaDex": "생물 도감"
   },
   "overview": {
     "guides": {
