@@ -29,6 +29,8 @@ export function websiteJsonLd(locale: Locale = defaultLocale) {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
     name: site.name,
+    // Covers stylized search variants of the brand (official logo writes it ANi!MO).
+    alternateName: ['ANi!MO Wiki', 'Aniimo Fan Wiki'],
     url: siteUrl,
     description: site.description,
     inLanguage: locale,
@@ -37,6 +39,29 @@ export function websiteJsonLd(locale: Locale = defaultLocale) {
       target: `${siteUrl}/search?q={search_term_string}`,
       'query-input': 'required name=search_term_string',
     },
+  };
+}
+
+/**
+ * VideoGame JSON-LD — the game entity this wiki covers (injected on the homepage).
+ * Consolidates the site onto the Aniimo knowledge-graph entity (brand SERP, "aniimo
+ * release date" queries). Names are hardcoded per game; site.ts holds prose variants.
+ */
+export function videoGameJsonLd() {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'VideoGame',
+    name: site.game.name,
+    alternateName: ['ANi!MO'],
+    url: site.social.official,
+    description: `${site.game.name} — ${site.game.genre}`,
+    image: `${siteUrl}/images/hero.webp`,
+    ...(site.game.releaseDate ? { datePublished: site.game.releaseDate } : {}),
+    developer: { '@type': 'Organization', name: 'Pawprint Studio' },
+    publisher: { '@type': 'Organization', name: 'FunPlus' },
+    genre: site.game.genre,
+    gamePlatform: ['PC', 'PlayStation 5', 'Xbox Series X/S', 'iOS', 'Android'],
+    sameAs: ['https://www.aniimo.com/', 'https://store.steampowered.com/app/4126040/Aniimo/'],
   };
 }
 

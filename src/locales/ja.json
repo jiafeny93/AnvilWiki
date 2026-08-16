@@ -25,6 +25,7 @@
     "open": "検索を開く"
   },
   "shared": {
+    "unofficialBadge": "非公式",
     "readMore": "続きを読む",
     "lastUpdated": "最終更新",
     "publishedOn": "公開日",
@@ -319,6 +320,7 @@
     "privacyPolicy": "プライバシーポリシー",
     "termsOfService": "利用規約",
     "copyright": "著作権表示",
-    "copyrightText": "© 2026 アニモ Wiki. All rights reserved."
+    "copyrightText": "© 2026 アニモ Wiki（ファンサイト）。ゲーム『Aniimo』© Pawprint Studio / FunPlus。",
+    "legalNotice": "アニモ Wiki はファンが運営するコミュニティサイトです。Pawprint Studio・FunPlus とは提携・公認関係はありません。"
   }
 }

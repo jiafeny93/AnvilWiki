@@ -62,7 +62,7 @@ export const site: SiteConfig = {
     platform: 'PC (Steam/Epic), PS5, Xbox Series X/S, Mobile (iOS/Android)',
     developer: 'Pawprint Studio (Published by FunPlus)',
     genre: 'Action RPG / Open World / Creature Collection',
-    releaseDate: '',
+    releaseDate: '2026-09-16',
   },
   ogImageWidth: 1200,
   ogImageHeight: 630,

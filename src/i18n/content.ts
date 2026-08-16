@@ -133,24 +133,37 @@ export async function getRecentEntries(locale: Locale, limit = 6): Promise<WikiE
 }
 
 /**
- * Related articles (by shared tags). Excludes the current article.
+ * Related articles for an article page. Excludes the current article.
+ *
+ * Fills the slot in tiers so the section is never thin (single-word tags often
+ * have no overlap): shared tags first (most overlap), then same category, then
+ * recent entries from the whole locale — newest last in each fallback tier,
+ * which keeps freshly updated hub pages (e.g. the type chart) recurring here.
  */
 export async function getRelatedEntries(
   current: WikiEntry,
   locale: Locale,
   limit = 3,
 ): Promise<WikiEntry[]> {
-  if (current.data.tags.length === 0) return [];
   const all = await getCollection('wiki');
   const parsed = parseEntryId(current.id);
   if (!parsed) return [];
 
-  return all
-    .filter((e) => {
-      if (e.id === current.id) return false;
-      const p = parseEntryId(e.id);
-      if (p?.locale !== locale) return false;
-      return e.data.tags.some((t: string) => current.data.tags.includes(t));
-    })
-    .slice(0, limit);
+  const candidates = all.filter((e) => {
+    if (e.id === current.id) return false;
+    return parseEntryId(e.id)?.locale === locale;
+  });
+  if (candidates.length === 0) return [];
+
+  const byDate = (a: WikiEntry, b: WikiEntry) => b.data.date.getTime() - a.data.date.getTime();
+  const sharedTagCount = (e: WikiEntry) =>
+    e.data.tags.filter((t: string) => current.data.tags.includes(t)).length;
+
+  const tiers: WikiEntry[] = [
+    ...candidates.filter((e) => sharedTagCount(e) > 0).sort((a, b) => sharedTagCount(b) - sharedTagCount(a) || byDate(a, b)),
+    ...candidates.filter((e) => sharedTagCount(e) === 0 && e.data.category === current.data.category).sort(byDate),
+    ...candidates.filter((e) => sharedTagCount(e) === 0 && e.data.category !== current.data.category).sort(byDate),
+  ];
+
+  return tiers.slice(0, limit);
 }

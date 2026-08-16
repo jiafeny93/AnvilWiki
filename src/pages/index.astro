@@ -10,11 +10,11 @@
  */
 import HomePage from '~/components/home/HomePage.astro';
 import { defaultLocale, locales } from '~/i18n/routing';
-import { websiteJsonLd } from '~/lib/seo';
+import { videoGameJsonLd, websiteJsonLd } from '~/lib/seo';
 import { homeUrl, languageAlternates } from '~/lib/url';
 
 const locale = defaultLocale;
-const jsonLd = [websiteJsonLd(locale)];
+const jsonLd = [websiteJsonLd(locale), videoGameJsonLd()];
 // hreflang alternates: Home → / (en) or /<locale> for each locale.
 const alternates = languageAlternates((loc) => homeUrl(loc), locales);
 ---

@@ -25,6 +25,7 @@
     "open": "Open search"
   },
   "shared": {
+    "unofficialBadge": "Unofficial",
     "readMore": "Read more",
     "lastUpdated": "Last updated",
     "publishedOn": "Published",
@@ -319,6 +320,7 @@
     "privacyPolicy": "Privacy Policy",
     "termsOfService": "Terms of Service",
     "copyright": "Copyright",
-    "copyrightText": "© 2026 Aniimo Wiki. All rights reserved."
+    "copyrightText": "© 2026 Aniimo Wiki (fan project). Game Aniimo © Pawprint Studio / FunPlus.",
+    "legalNotice": "Aniimo Wiki is a fan-made community site. Not affiliated with or endorsed by Pawprint Studio or FunPlus."
   }
 }

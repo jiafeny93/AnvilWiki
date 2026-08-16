@@ -86,8 +86,9 @@ const legalLinks = ['about', 'faq', 'privacyPolicy', 'termsOfService', 'copyrigh
       </div>
     </div>
 
-    <div class="mt-8 border-t border-border pt-6">
-      <p class="text-xs text-muted-foreground">{footer.copyrightText ?? site.legalNotice}</p>
+    <div class="mt-8 space-y-1 border-t border-border pt-6">
+      <p class="text-xs text-muted-foreground">{footer.copyrightText}</p>
+      <p class="text-xs text-muted-foreground">{footer.legalNotice ?? site.legalNotice}</p>
     </div>
   </div>
 </footer>

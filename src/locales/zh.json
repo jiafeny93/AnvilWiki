@@ -25,6 +25,7 @@
     "open": "打开搜索"
   },
   "shared": {
+    "unofficialBadge": "非官方",
     "readMore": "阅读全文",
     "lastUpdated": "最后更新",
     "publishedOn": "发布于",
@@ -319,6 +320,7 @@
     "privacyPolicy": "隐私政策",
     "termsOfService": "服务条款",
     "copyright": "版权信息",
-    "copyrightText": "© 2026 Aniimo Wiki. 保留所有权利。"
+    "copyrightText": "© 2026 Aniimo Wiki（粉丝项目）。游戏《Aniimo》© Pawprint Studio / FunPlus。",
+    "legalNotice": "Aniimo Wiki 是粉丝制作的社区网站，与 Pawprint Studio、FunPlus 无关联，亦未获其认可。"
   }
 }
