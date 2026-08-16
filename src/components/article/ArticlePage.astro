@@ -53,7 +53,10 @@ const related = await getRelatedEntries(entry, locale, 3);
 
 const { Content } = await render(entry);
 
-const jsonLd = [
+// Typed as Record<string, unknown>[] (matching the layouts' jsonLd prop) so the
+// array can hold article, breadcrumb AND FAQPage objects — TS would otherwise
+// infer the element type from just the first two entries.
+const jsonLd: Record<string, unknown>[] = [
   articleJsonLd({
     title: entry.data.title,
     description: entry.data.description,

@@ -1,0 +1,324 @@
+{
+  "site": {
+    "name": "애니모 Wiki",
+    "shortName": "애니모 Wiki",
+    "description": "애니모(Aniimo) 완전 공략 Wiki. 크리처 도감, 티어리스트, 트와인(Twine) 결속 시스템, 베타 테스트 및 출시 정보까지 한 번에. 커뮤니티 기반으로 상시 업데이트.",
+    "tagline": "애니모 완전 공략 가이드 — 크리처 도감, 티어리스트, 트와인 시스템 등",
+    "legalNotice": "애니모 Wiki는 팬이 만든 커뮤니티 사이트입니다. Pawprint Studio 및 FunPlus와는 어떠한 관련도 없습니다."
+  },
+  "nav": {
+    "home": "홈",
+    "guides": "공략",
+    "creatures": "크리처 도감",
+    "tier-list": "티어리스트",
+    "release": "출시 정보",
+    "news": "뉴스",
+    "reviews": "리뷰",
+    "toggleTheme": "테마 전환",
+    "menu": "메뉴",
+    "close": "닫기",
+    "search": "검색"
+  },
+  "search": {
+    "placeholder": "Wiki 검색...",
+    "noResults": "일치하는 결과가 없습니다",
+    "open": "검색 열기"
+  },
+  "shared": {
+    "readMore": "더 읽기",
+    "lastUpdated": "마지막 업데이트",
+    "publishedOn": "게시일",
+    "noArticles": "아직 글이 없습니다. 곧 만나요!",
+    "relatedArticles": "관련 글",
+    "onThisPage": "이 페이지 목차",
+    "backToCategory": "돌아가기",
+    "browseAll": "전체 보기",
+    "viewAll": "모두 보기",
+    "commentsHeading": "댓글"
+  },
+  "overview": {
+    "guides": {
+      "overviewTitle": "애니모 공략",
+      "overviewDescription": "트와인(Twine) 결속 시스템, 실시간 전투, 필드 탐험, 육성 로드맵, 엔드게임 준비까지 깊이 있게 다루는 애니모 공략."
+    },
+    "creatures": {
+      "overviewTitle": "애니모 크리처 도감",
+      "overviewDescription": "공개된 모든 애니모 크리처를 능력, 속성, 서식지와 함께, 트와인(Twine) 시스템으로 결속하는 방법까지 상세히 소개."
+    },
+    "tier-list": {
+      "overviewTitle": "애니모 티어리스트",
+      "overviewDescription": "전투·탐험·협동 플레이별 애니모 크리처 순위. S부터 C티어까지 최고의 동료를 비교하고 최강 팀을 꾸려보세요."
+    },
+    "release": {
+      "overviewTitle": "애니모 출시 정보",
+      "overviewDescription": "애니모 출시일, 클로즈드 베타, 플랫폼, 사전예약 보상, 공식 발표를 한곳에서 확인하세요."
+    },
+    "news": {
+      "overviewTitle": "애니모 뉴스",
+      "overviewDescription": "최신 애니모 뉴스, 개발자 업데이트, 베타 발표, 이벤트 소식, Pawprint Studio와 FunPlus의 패치 노트."
+    },
+    "reviews": {
+      "overviewTitle": "애니모 리뷰",
+      "overviewDescription": "애니모 리뷰와 첫인상, 베타·게임플레이·그래픽·크리처 수집 시스템에 대한 커뮤니티 반응 정리."
+    }
+  },
+  "home": {
+    "meta": {
+      "title": "애니모 Wiki - 크리처 도감·티어리스트·출시 정보",
+      "description": "가장 완벽한 애니모(Aniimo) Wiki. 크리처 도감, 티어리스트, 트와인(Twine) 결속 메커니즘, 출시·베타 정보, 초보 가이드까지. 커뮤니티가 상시 업데이트합니다."
+    },
+    "hero": {
+      "badge": "팬 제작 커뮤니티 Wiki",
+      "title": "애니모 Wiki",
+      "description": "애니모(Aniimo) 완전 공략. 트와인(Twine) 결속 시스템을 마스터하고, 모든 크리처를 탐험하고, 최강 팀을 꾸리고, 최신 출시·베타 소식을 확인하세요.",
+      "ctaPrimary": "공식 사이트",
+      "ctaSecondary": "Wiki 둘러보기",
+      "videoId": ""
+    },
+    "updates": {
+      "title": "최근 업데이트",
+      "browse": "모든 공략 보기"
+    },
+    "start": {
+      "badge": "여기서 시작",
+      "title": "당신의 애니모 여정",
+      "cards": [
+        {
+          "number": "1",
+          "title": "초보 가이드",
+          "description": "애니모가 처음이라면? 트와인(Twine) 핵심 메커니즘, 조작법, 에이델(Idyll) 대륙 초반 진행 가이드부터 시작하세요.",
+          "icon": "lucide:book-open",
+          "href": "/guides/aniimo-guide"
+        },
+        {
+          "number": "2",
+          "title": "크리처 도감",
+          "description": "공개된 모든 애니모 크리처의 능력, 서식지, 트와인 결속 정보를 한 번에.",
+          "icon": "lucide:paw-print",
+          "href": "/creatures/aniimo-creatures-list"
+        },
+        {
+          "number": "3",
+          "title": "티어리스트",
+          "description": "전투, 탐험, 협동 퀘스트에서 가장 높게 평가받는 애니모 크리처를 확인하세요.",
+          "icon": "lucide:bar-chart-3",
+          "href": "/tier-list/aniimo-tier-list"
+        },
+        {
+          "number": "4",
+          "title": "출시 & 베타",
+          "description": "애니모 출시일, 클로즈드 베타 신청, 플랫폼, 사전예약 보상을 추적하세요.",
+          "icon": "lucide:rocket",
+          "href": "/release/aniimo-beta"
+        }
+      ]
+    },
+    "popular": {
+      "badge": "지금 인기",
+      "title": "이번 주 최다 조회",
+      "quickLinks": [
+        {
+          "label": "애니모 크리처 목록",
+          "href": "/creatures/aniimo-creatures-list"
+        },
+        {
+          "label": "애니모 최강 크리처",
+          "href": "/tier-list/aniimo-best-creatures"
+        },
+        {
+          "label": "애니모 출시일",
+          "href": "/release/aniimo-release-date"
+        },
+        {
+          "label": "애니모 초보 가이드",
+          "href": "/guides/aniimo-guide"
+        }
+      ]
+    },
+    "explore": {
+      "title": "Wiki 탐험",
+      "description": "필요한 모든 것을 카테고리별로 정리했습니다. 주제를 골라 바로 시작하세요.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "애니모 크리처 도감",
+          "description": "공개된 모든 크리처의 능력과 서식지, 결속하는 방법까지.",
+          "href": "/creatures",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Eko",
+              "detail": "만능 스타터 동료, 밸런스 좋은 올라운더"
+            },
+            {
+              "label": "Helmut",
+              "detail": "생존력 높은 방어형 크리처"
+            },
+            {
+              "label": "Emberpup",
+              "detail": "불 타입, 초반 공격형 픽"
+            },
+            {
+              "label": "Darkler",
+              "detail": "그림자 크리처, 희귀하며 결속 난이도가 높음"
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "애니모 공략",
+          "description": "패스파인더(Pathfinder)를 위한 육성 로드맵, 전투 메커니즘, 엔드게임 준비 가이드.",
+          "href": "/guides",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "트와인(Twine) 결속 시스템 익히기"
+            },
+            {
+              "label": "2",
+              "detail": "첫 크리처 로스터 꾸리기"
+            },
+            {
+              "label": "3",
+              "detail": "실시간 전투 스왑 마스터하기"
+            },
+            {
+              "label": "4",
+              "detail": "에이델(Idyll) 대륙 탐험하기"
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "애니모 티어리스트",
+          "description": "모든 애니모 크리처를 전투·탐험·협동 기준 S~C티어로 평가.",
+          "href": "/tier-list",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "Eko, Helmut — 최상위권 올라운더"
+            },
+            {
+              "label": "A",
+              "detail": "Emberpup, Eklue — 강력한 특화형"
+            },
+            {
+              "label": "B",
+              "detail": "든든한 중위권 동료"
+            },
+            {
+              "label": "C",
+              "detail": "상황 한정 또는 초반용 픽"
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "애니모 출시 정보",
+          "description": "출시일, 클로즈드 베타, 플랫폼, 사전예약 정보.",
+          "href": "/release",
+          "displayType": "timeline",
+          "highlights": [
+            {
+              "label": "2026",
+              "detail": "글로벌 정식 출시 예정",
+              "badge": "미정"
+            },
+            {
+              "label": "현재",
+              "detail": "글로벌 클로즈드 베타 진행 중"
+            },
+            {
+              "label": "500만+",
+              "detail": "사전예약 돌파"
+            },
+            {
+              "label": "8월",
+              "detail": "쾰른 gamescom 2026에서 체험 가능"
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "자주 묻는 질문",
+      "description": "애니모에 대해 가장 많이 묻는 질문에 대한 빠른 답변.",
+      "items": [
+        {
+          "question": "애니모는 어떤 게임인가요?",
+          "answer": "애니모(Aniimo)는 Pawprint Studio가 개발하고 FunPlus가 퍼블리싱하는 기본 무료(플레이 무료) 차세대 크리처 수집 오픈월드 액션 RPG입니다. 패스파인더(Pathfinder)로서 에이델(Idyll) 대륙을 모험하고, 트와인(Twine) 시스템으로 신비한 크리처와 결속하며, 실시간 전투와 협동 퀘스트에서 그 능력을 사용합니다."
+        },
+        {
+          "question": "애니모는 어떤 플랫폼에서 나오나요?",
+          "answer": "애니모는 PC(Steam, Epic Games Store), PlayStation 5, Xbox Series X|S, 모바일(iOS, Android)로 출시될 예정입니다. 멀티 플랫폼 작품이며 Roblox 게임이 아닙니다."
+        },
+        {
+          "question": "애니모의 트와인(Twine) 시스템이 뭔가요?",
+          "answer": "트와인(Twine)은 애니모의 핵심 결속 메커니즘입니다. 크리처를 '포획'하는 대신 결속을 맺어 동조하고, 그들의 눈으로 세상을 보며, 실시간 전투와 탐험에서 고유 능력을 직접 조작할 수 있습니다."
+        },
+        {
+          "question": "애니모는 무료인가요?",
+          "answer": "네. 애니모는 PC·콘솔·모바일 모두 기본 플레이 무료(선택적 인앱 구매 포함)라고 공식 발표되었습니다. 정식 출시는 2026년 예정입니다."
+        },
+        {
+          "question": "애니모 출시일은 언제인가요?",
+          "answer": "애니모는 2026년 글로벌 정식 출시를 목표로 하고 있으며, 현재 글로벌 클로즈드 베타가 진행 중이고 사전예약도 받고 있습니다. 정확한 출시일은 아직 발표되지 않았습니다."
+        }
+      ]
+    },
+    "closingCta": {
+      "title": "애니모 모험을 시작하세요",
+      "description": "이 Wiki를 즐겨찾기하고 크리처 가이드, 티어리스트, 최신 출시·베타 소식을 받아보세요.",
+      "primary": "공식 사이트",
+      "secondary": "공식 Discord 참여"
+    },
+    "_archived": {
+      "_comment": "Sections removed from the homepage during the v0.2 layout refactor. Kept here so data is not lost; not rendered by HomePage.astro.",
+      "gameInfo": {
+        "title": "애니모는 어떤 게임인가요?",
+        "paragraphs": [
+          "애니모(Aniimo)는 Pawprint Studio가 개발하고 FunPlus가 퍼블리싱하는 기본 무료 차세대 크리처 수집 오픈월드 액션 RPG입니다. 패스파인더(Pathfinder)로서 활기찬 에이델(Idyll) 대륙을 모험하고, 트와인(Twine) 시스템으로 신비한 크리처와 결속하며, 그들의 눈으로 세상을 보고 실시간 전투와 협동 판타지 퀘스트에서 그 능력을 휘두릅니다.",
+          "이 게임은 2025년 Xbox Games Showcase에서 처음 공개되었으며, 오픈월드 크리처 수집 장르의 유력 후보로 꼽힙니다. 2026년 글로벌 정식 출시를 예정하고 있으며, 글로벌 클로즈드 베타와 사전예약은 이미 진행 중이고 사전예약자는 500만 명을 넘었습니다."
+        ],
+        "stats": [
+          {
+            "label": "개발사",
+            "value": "Pawprint Studio"
+          },
+          {
+            "label": "퍼블리셔",
+            "value": "FunPlus"
+          },
+          {
+            "label": "플랫폼",
+            "value": "PC, PS5, Xbox, 모바일"
+          },
+          {
+            "label": "장르",
+            "value": "액션 RPG / 크리처 수집"
+          },
+          {
+            "label": "출시",
+            "value": "2026년(미정)"
+          }
+        ],
+        "cta": "모든 공략 보기"
+      }
+    }
+  },
+  "footer": {
+    "playGame": "공식 사이트",
+    "officialDiscord": "공식 Discord",
+    "officialYoutube": "공식 YouTube",
+    "officialTwitter": "공식 Twitter",
+    "officialReddit": "공식 Reddit",
+    "about": "소개",
+    "faq": "자주 묻는 질문",
+    "privacyPolicy": "개인정보 처리방침",
+    "termsOfService": "서비스 이용약관",
+    "copyright": "저작권",
+    "copyrightText": "© 2026 애니모 Wiki. All rights reserved."
+  }
+}
