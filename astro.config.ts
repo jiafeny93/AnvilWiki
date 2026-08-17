@@ -11,7 +11,11 @@ import { site } from './src/config/site';
 export default defineConfig({
   site: process.env.SITE_URL || `https://${site.domain}`,
   output: 'static',
-  trailingSlash: 'never',
+  // 'always' matches the directory-style build output served by Cloudflare
+  // Pages (which 308s /path → /path/). With 'never', canonical/sitemap/internal
+  // links pointed at slash-less URLs that always redirected — every page paid
+  // one hop and canonical pointed at a redirecting URL.
+  trailingSlash: 'always',
   image: {
     // Emit explicit width/height on responsive <Image> output to prevent CLS.
     responsiveStyles: true,

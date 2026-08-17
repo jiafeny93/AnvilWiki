@@ -10,12 +10,14 @@ import { siteUrl } from '~/config/site';
 
 /** Build a path with the locale prefix applied (or none for default locale). */
 export function localizePath(path: string, locale: Locale): string {
-  const cleanPath = path.startsWith('/') ? path : `/${path}`;
-  if (locale === defaultLocale) return cleanPath;
-  // For the root path "/", avoid producing "/<locale>/" (trailing slash).
-  // The site uses trailingSlash: 'never', so "/ja/" would 404.
-  if (cleanPath === '/') return `/${locale}`;
-  return `/${locale}${cleanPath}`;
+  let cleanPath = path.startsWith('/') ? path : `/${path}`;
+  if (locale !== defaultLocale) {
+    cleanPath = cleanPath === '/' ? `/${locale}` : `/${locale}${cleanPath}`;
+  }
+  // The site serves directory URLs (trailingSlash: 'always'); only the
+  // domain root stays bare. Slash-less paths would 308 on every click.
+  if (cleanPath !== '/' && !cleanPath.endsWith('/')) cleanPath += '/';
+  return cleanPath;
 }
 
 /** Build an absolute URL (with domain) for a path + locale. */
