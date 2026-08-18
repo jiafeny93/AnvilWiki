@@ -273,5 +273,13 @@ html.js .reveal.revealed {
   }
 }
 
+/* Article tables — scroll horizontally on narrow screens instead of
+   squeezing columns to unreadable widths (7-column type charts at 375px). */
+.prose table {
+  display: block;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
 /* Theme initialization script — runs before paint to avoid FOUC. */
 /* The actual <script> is injected in BaseLayout.astro. */

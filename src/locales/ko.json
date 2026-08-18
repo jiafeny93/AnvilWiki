@@ -26,6 +26,7 @@
   },
   "shared": {
     "unofficialBadge": "비공식",
+    "adLabel": "광고",
     "readMore": "더 읽기",
     "lastUpdated": "마지막 업데이트",
     "publishedOn": "게시일",

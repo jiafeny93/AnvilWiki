@@ -26,6 +26,7 @@
   },
   "shared": {
     "unofficialBadge": "Unofficial",
+    "adLabel": "Advertisement",
     "readMore": "Read more",
     "lastUpdated": "Last updated",
     "publishedOn": "Published",

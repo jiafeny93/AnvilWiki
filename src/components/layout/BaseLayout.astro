@@ -13,6 +13,7 @@
 import '~/styles/globals.css';
 import { ClientRouter } from 'astro:transitions';
 import { site, siteUrl } from '~/config/site';
+import { locales } from '~/i18n/routing';
 import { organizationJsonLd } from '~/lib/seo';
 import JsonLd from '~/components/seo/JsonLd.astro';
 
@@ -42,6 +43,11 @@ const {
 
 const fullTitle = title.includes(site.name) ? title : `${title} — ${site.name}`;
 const orgJsonLd = organizationJsonLd();
+
+// x-default must always point at the English (unprefixed) URL — strip ANY
+// locale prefix (previously only en|zh, so ja/ko pages pointed at themselves).
+const localePrefix = new RegExp(`^/(?:${locales.join('|')})(?=/|$)`);
+const defaultPath = Astro.url.pathname.replace(localePrefix, '');
 
 // Optional analytics / verification / ads (env-var gated — empty = not injected).
 const gaId = import.meta.env.PUBLIC_GA_ID as string | undefined;
@@ -73,7 +79,7 @@ const adsenseClient = import.meta.env.PUBLIC_ADSENSE_CLIENT as string | undefine
     <link
       rel="alternate"
       hreflang="x-default"
-      href={`${siteUrl}${Astro.url.pathname.replace(/^\/(en|zh)/, '')}`}
+      href={`${siteUrl}${defaultPath === '/' ? '' : defaultPath}`}
     />
 
     {/* Open Graph */}
@@ -93,8 +99,10 @@ const adsenseClient = import.meta.env.PUBLIC_ADSENSE_CLIENT as string | undefine
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={image} />
 
-    {/* Theme color (browser chrome) */}
-    <meta name="theme-color" content="hsl(var(--brand))" />
+    {/* Theme color (browser chrome) — hex values resolved at author time;
+        browsers do not evaluate CSS variables inside meta content. */}
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#4ADE80" />
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#3FD576" />
 
     {/* Google Search Console verification (optional) */}
     {gscVerification && <meta name="google-site-verification" content={gscVerification} />}

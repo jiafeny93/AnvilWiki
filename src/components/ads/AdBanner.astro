@@ -33,14 +33,14 @@ const width = match ? parseInt(match[1], 10) : 300;
 const height = match ? parseInt(match[2], 10) : 50;
 ---
 
-<div class:list={['flex items-center justify-center', className]}>
+<div class:list={['flex max-w-full items-center justify-center', className]}>
   <iframe
-    src={`/ads/${type}.html`}
+    src={`/ads/${type}`}
     width={width}
     height={height}
     scrolling="no"
     loading={eager ? 'eager' : 'lazy'}
-    style="border:none; margin:0; padding:0;"
+    style="border:none; margin:0; padding:0; max-width:100%; height:auto;"
     title={`advertisement ${type}`}
     aria-hidden="true"
     sandbox="allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-forms"></iframe>

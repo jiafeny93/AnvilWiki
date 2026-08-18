@@ -20,7 +20,7 @@ const adKey = import.meta.env.PUBLIC_AD_MOBILE_320X50;
       class="sticky top-14 z-30 border-b border-border bg-background/95 py-2 backdrop-blur md:hidden"
     >
       <div class="relative mx-auto max-w-4xl px-4">
-        <AdBanner type="banner-320x50" eager class="mx-auto" />
+        <AdBanner type="banner-320x50" class="mx-auto" />
         <button
           id="dismiss-sticky"
           type="button"
@@ -38,12 +38,17 @@ const adKey = import.meta.env.PUBLIC_AD_MOBILE_320X50;
     const banner = document.getElementById('sticky-banner');
     const btn = document.getElementById('dismiss-sticky');
     if (!banner || !btn) return;
-    if (localStorage.getItem('sticky-dismissed') === '1') {
+    // Dismiss lasts 24h, then the slot returns (it is the most viewable
+    // mobile position — a permanent dismiss silently burns it forever).
+    const TTL = 24 * 60 * 60 * 1000;
+    const dismissedAt = Number(localStorage.getItem('sticky-dismissed-at') || '0');
+    localStorage.removeItem('sticky-dismissed'); // legacy permanent flag
+    if (dismissedAt && Date.now() - dismissedAt < TTL) {
       banner.remove();
       return;
     }
     btn.addEventListener('click', () => {
-      localStorage.setItem('sticky-dismissed', '1');
+      localStorage.setItem('sticky-dismissed-at', String(Date.now()));
       banner.remove();
     });
   })();

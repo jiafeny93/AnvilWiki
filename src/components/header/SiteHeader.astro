@@ -6,7 +6,7 @@
 import { Icon } from 'astro-icon/components';
 import { NAVIGATION_CONFIG } from '~/config/navigation';
 import { site } from '~/config/site';
-import { type Locale, defaultLocale } from '~/i18n/routing';
+import { locales, type Locale } from '~/i18n/routing';
 import { getUi } from '~/i18n/ui';
 import { localizePath } from '~/lib/url';
 import ThemeToggle from './ThemeToggle.astro';
@@ -22,9 +22,12 @@ const ui = getUi(locale);
 const nav: Record<string, string> = ui.nav as Record<string, string>;
 const shared = ui.shared as Record<string, string>;
 
+// Strip ANY locale prefix (en|zh|ja|ko) — not just the one this regex was tested with.
+const localePrefix = new RegExp(`^/(?:${locales.join('|')})(?=/|$)`);
+
 const samePagePathFor = (loc: Locale) => {
   // Strip existing locale prefix, then prepend the new one.
-  const stripped = currentPath.replace(/^\/(ja)(\/|$)/, '/') || '/';
+  const stripped = currentPath.replace(localePrefix, '') || '/';
   return localizePath(stripped, loc);
 };
 ---

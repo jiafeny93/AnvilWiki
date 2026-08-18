@@ -1,6 +1,16 @@
 # Cloudflare Pages headers — https://developers.cloudflare.com/pages/configuration/headers/
 #
-# Security + Lighthouse Best Practices headers applied to all responses.
+# Security + Lighthouse Best Practices headers applied to all responses,
+# plus long-lived caching for fingerprinted assets (placed before the catch-all
+# /* block so specific paths match first).
+
+# Astro build output — filenames carry a content hash, safe to cache forever.
+/_astro/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Site images under public/images — stable paths, revalidated weekly.
+/images/*
+  Cache-Control: public, max-age=604800
 
 /*
   Cross-Origin-Opener-Policy: same-origin

@@ -63,6 +63,11 @@ const groups = await getDynamicNavigation(locale, nav);
       )
     }
 
+    {/* Sidebar ads — kept ABOVE the (very long) wiki navigation so they sit
+        inside the first screen of the scrollable sidebar; below the nav they
+        were effectively never seen (and lazy iframes never loaded). */}
+    <SidebarAd />
+
     {/* Wiki navigation */}
     <nav aria-label="Wiki navigation">
       <h2 class="mb-2 text-xs font-semibold uppercase tracking-wider text-muted-foreground">
@@ -109,8 +114,5 @@ const groups = await getDynamicNavigation(locale, nav);
         </div>
       ))}
     </nav>
-
-    {/* Sidebar ads */}
-    <SidebarAd />
   </div>
 </aside>

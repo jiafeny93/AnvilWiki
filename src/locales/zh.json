@@ -26,6 +26,7 @@
   },
   "shared": {
     "unofficialBadge": "非官方",
+    "adLabel": "广告",
     "readMore": "阅读全文",
     "lastUpdated": "最后更新",
     "publishedOn": "发布于",

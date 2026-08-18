@@ -26,6 +26,7 @@
   },
   "shared": {
     "unofficialBadge": "非公式",
+    "adLabel": "広告",
     "readMore": "続きを読む",
     "lastUpdated": "最終更新",
     "publishedOn": "公開日",

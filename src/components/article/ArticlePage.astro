@@ -186,6 +186,17 @@ if (entry.data.faq && entry.data.faq.length > 0) {
     {/* Interlink matrix — hub links (tier list / type chart / dex / codes) */}
     <ArticleCtaCard locale={locale} category={category} slug={slug} />
 
+    {/* In-content ad right after the article body + CTA (before comments and
+        related articles) — placed at the very bottom almost nobody reached it.
+        728×90 only from lg: between 768–1207px the content column is narrower
+        than the banner, so the 300×250 serves that range instead. */}
+    <div class="hidden lg:block">
+      <InContentAd type="banner-728x90" label={shared.adLabel} />
+    </div>
+    <div class="lg:hidden">
+      <InContentAd type="banner-300x250" label={shared.adLabel} />
+    </div>
+
     {/* Comments — env empty = component renders nothing, no conditional needed */}
     <Comments locale={locale} />
 
@@ -248,13 +259,6 @@ if (entry.data.faq && entry.data.faq.length > 0) {
       )
     }
 
-    {/* In-content ad after related articles — 300×250 on mobile, 728×90 on desktop. */}
-    <div class="hidden md:block">
-      <InContentAd type="banner-728x90" />
-    </div>
-    <div class="md:hidden">
-      <InContentAd type="banner-300x250" />
-    </div>
   </article>
     <WikiSidebar locale={locale} currentPath={Astro.url.pathname} headings={headings} />
   </div>
