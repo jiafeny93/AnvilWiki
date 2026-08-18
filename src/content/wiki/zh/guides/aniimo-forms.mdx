@@ -1,0 +1,116 @@
+---
+title: Aniimo 形态与变体详解：Cloudmist、Plateau 与 Prismana 一文看懂
+description: 详解 Aniimo 形态机制——Cloudmist Form、Plateau Form、共享数值、第二属性与 Morph Orb 切换——以及形态与进化、Prismana 的区别。
+category: guides
+date: '2026-08-18'
+lastModified: '2026-08-16'
+image: '../../../../assets/og/zh-aniimo-forms.jpg'
+tags:
+- forms
+- variants
+- nimbi
+faq:
+- question: Aniimo 中的形态是什么？
+  answer: 形态是 Aniimo 物种已公布的变体。每种生物都有 Basic Form，部分还有额外形态——外观针对特定生态群系调整，有时附带第二属性，偶尔还会改变栖息地。官方 Aniimo Index 将每个形态作为独立条目单独收录并拥有独立页面。
+- question: Aniimo 中的 Cloudmist Form 是什么？
+  answer: Cloudmist Form 是 Nimbi 已公布的三个变体之一。它保持纯风属性和 Nimbus Fields 栖息地，社区描述提到，由于更偏爱 Sunny Daisy 而非普通草料，它的羊毛泛着淡金色。Cloudmist Form 的获取方式目前尚未公布。
+- question: Aniimo 中形态和进化是一回事吗？
+  answer: 不是。进化是让生物沿家族血脉向上提升，并提高数值上限——Nimbi 会进化成 Dreaple 或 Turbo。而形态是同一阶段的平行变体，共享同一套基础数值。Rainstorm Form 的 Nimbi 和 Basic Form 的 Nimbi 数值完全相同。
+- question: 形态和 Prismana 变体一样吗？
+  answer: 不一样。Prismana 闪光变体是一套独立的外观稀有度系统，详见我们的 Prismana 指南。形态改变外观、有时改变属性；Prismana 改变的是颜色稀有度。一个形态变体本身也可能出现 Prismana 稀有度。
+- question: 如何让 Aniimo 在不同形态之间切换？
+  answer: 社区测试数据显示，存在一种名为 Morph Orb 的道具，可以让生物在已解锁的形态之间切换。该道具的官方获取方式尚未公布——一旦有消息，本页面会第一时间更新。
+- question: 形态会影响 Aniimo 的数值吗？
+  answer: 不会。官方图鉴数据证实，同一物种的所有形态共享相同的基础数值、定位、体重范围和特性。形态可能改变的是属性——Nimbi 的 Rainstorm Form 附加雷属性，Plateau Form 附加冰属性——有时也会改变栖息地。
+---
+有些 Aniimo 不止一张面孔。在已公开的 94 个图鉴条目之外，官方 Aniimo Index 还悄悄藏着第二层页面：**形态（forms）**——针对生态区域调整的变体，比如 [Nimbi](/zh/creatures/aniimo-nimbi/) 的 Cloudmist Form，它们会改变生物的外观、战斗方式以及出没地点。本指南基于官方公开数据讲解这套系统，并将其与 [Prismana](/zh/guides/aniimo-prismana/) 闪光变体及进化区分开，同时汇总目前已知的各种形态。
+
+由于 Aniimo 尚未上线（已确认于 2026 年 9 月 16 日全球发售），官方图鉴数据之外的机制——获取途径、Morph Orb——均来自测试和社区数据，后续可能变动。
+
+*Aniimo Wiki 是粉丝自建的社区站点，与 Pawprint Studio 无隶属关系。所有测试细节在正式上线前均可能调整。*
+
+> **最后更新：2026 年 8 月 18 日**
+
+## 形态是什么，为何存在
+
+Aniimo 的生物会适应世界各地的生态区域——这一社区数据库式的定位也得到了官方 Index 自身数据的印证。每个种族都有一个 **Basic Form**，部分种族还会公布额外形态，每个形态都是独立的 Index 条目，拥有自己的属性列表、栖息地和页面。已公开数据揭示的规律如下：
+
+- **共享一套数值。** 同一种族的每个形态拥有完全相同的基础数值、定位、体重区间和特性。形态是横向的，不是纵向的——你不需要在外观和强度之间做取舍。
+- **有时会附加第二属性。** 形态可以拥有 Basic Form 所没有的属性——正是这一手"第二属性"让形态具备战略价值，而非纯粹的装饰。
+- **各自的出没逻辑。** 形态可以沿用该种族的栖息地，也可以完全迁移。
+
+## 完整范例：Nimbi 的全部四种形态（官方数据）
+
+[Nimbi](/zh/creatures/aniimo-nimbi/) 是公布最完整的展示案例。官方 Index 列出了四个条目，编号均为 No.018，均为风属性/Support，基础数值总和均为 442，特性均为 [Shrouded in Mist]：
+
+| 形态 | 属性 | 栖息地 | 备注 |
+| :--- | :--- | :--- | :--- |
+| **Basic Form** | 风 | Nimbus Fields, The Argent Strait | 常见的云绵羊造型 |
+| **Cloudmist Form** | 风 | Nimbus Fields | 羊毛泛金色；偏爱 Sunny Daisy |
+| **Rainstorm Form** | 风 + 雷 | Nimbus Fields | 浸水导电的羊毛 |
+| **Plateau Form** | 风 + 冰 | Driftwise Meadow | 迁徙型形态——完全不同的生态区域 |
+
+这张表值得多读两遍——一个种族就概括了整个系统。数值全部相同；雷和冰属性随形态出现或消失；Plateau 甚至更换了出没区域。关于基础配置的实战讨论，请参阅 [Nimbi 生物页面](/zh/creatures/aniimo-nimbi/)。
+
+## 关于不同来源的形态命名
+
+形态名称在社区内尚未统一，搜索结果之间也会互相矛盾：
+
+- 官方 Index 公布的是 **Rainstorm** 和 **Plateau**——官方页面数据中还残留一个旧版 "Thunderstorm" 标签，部分粉丝 Wiki 至今仍用 Thunderstorm 指代 Rainstorm。
+- 一些数据库将 Plateau 称为 **High Altitude Form**。
+
+本站以官方 Index 的命名为准，同时标注各种别称，方便大家无论用哪种拼写都能找到。
+
+## 形态如何获取与切换
+
+已确认的和未确认的：
+
+- **已确认（官方数据）：** 形态以独立 Index 条目的形式公布，拥有各自的属性/栖息地。在 Anilog 条目中，形态收集按种族计数，并设有收集奖励——Nimbi 集齐全部四种形态可获得 **+3 体质**，另有一个"收集 4 种形态"的研究任务。图鉴侧的相关内容请看我们的 [Anilog 指南](/zh/creatures/aniimo-dex/)。
+- **社区测试数据：** 存在一件 **Morph Orb** 道具，可让生物在已解锁的形态之间切换。
+- **尚未公布：** Cloudmist Form 的具体获取方式、Morph Orb 的入手途径，以及部分形态是否受活动或天气限制。这些空白将在 2026 年 9 月 16 日上线后补齐——届时本页顶部的更新时间也会同步刷新。
+
+## 形态 vs 进化 vs Prismana：三方对照表
+
+这三套与"变体"相关的系统经常被混为一谈。清晰的区分如下：
+
+| | 形态 | [进化](/zh/creatures/aniimo-evolution/) | [Prismana](/zh/guides/aniimo-prismana/) |
+| :--- | :--- | :--- | :--- |
+| 改变什么？ | 外观，有时还有属性 + 栖息地 | 阶段、数值、技能 | 颜色稀有度等级 |
+| 数值 | 各形态共享 | 随阶段提升 | 不变 |
+| 方向 | 横向（平行） | 纵向（成长） | 横向（装饰性） |
+| 例子 | Nimbi 的 Cloudmist Form | Nimbi → Dreaple/Turbo | 彩虹 Nimbi |
+| 能否共存？ | 可以——Prismana 稀有度可出现在任何形态上 | 可以——已公布的部分进化后阶段有各自的形态 | 可以 |
+
+社区方面还有一点补充：目前没有任何已公布内容表明形态之间互斥——收集奖励的存在，恰恰说明游戏鼓励你全部集齐。
+
+## 哪些生物有形态？（追踪列表）
+
+官方站点地图列出了 94 个 Basic Form 条目；形态页面只能通过各生物自己的图鉴标签页发现，因此这份目录会随着页面验证而不断扩大。**目前已通过官方 Index 数据验证的：[Nimbi](/zh/creatures/aniimo-nimbi/)（4 种形态）。** 社区数据库报告了更多拥有形态的种族，我们会在逐一对照官方 Index 后才将其加入此表——仅有社区来源的条目不会被列为已确认。
+
+上线后，本节将扩展为完整的交叉索引：种族 × 形态 × 属性 × 栖息地 × 获取方式。
+
+## 常见问题
+
+### Aniimo 中的形态是什么？
+
+形态是 Aniimo 种族的一种已公布的变体。每个生物都有 Basic Form，部分生物还有额外形态——外观针对某个生态区域调整，有时附带第二属性，偶尔栖息地也不同。官方 Aniimo Index 将每个形态作为独立条目和页面公布。
+
+### Aniimo 中的 Cloudmist Form 是什么？
+
+Cloudmist Form 是 Nimbi 已公布的三种变体之一。它保留纯风属性和 Nimbus Fields 栖息地，社区描述提到它的羊毛因偏爱 Sunny Daisy 而非普通草料而泛出金色。Cloudmist Form 的获取方式尚未公布。
+
+### Aniimo 中的形态和进化是一回事吗？
+
+不是。进化让生物沿家族谱系向上成长并提升数值上限——Nimbi 进化为 Dreaple 或 Turbo。而形态是同一阶段的平行变体，全部共享同一套基础数值。Rainstorm Form 的 Nimbi 和 Basic Form 的 Nimbi 数值完全相同。
+
+### 形态和 Prismana 变体是一回事吗？
+
+不是。Prismana 彩虹变体是独立的装饰性稀有度系统，详见我们的 Prismana 指南。形态改变外观，有时还改变属性；Prismana 改变颜色稀有度。形态变体本身也可以拥有 Prismana 稀有度。
+
+### 如何切换 Aniimo 的形态？
+
+社区测试数据描述了一件名为 Morph Orb 的道具，可让生物在已解锁的形态之间切换。该道具的官方获取细节尚未公布——一旦有消息，本页会第一时间更新。
+
+### 形态会改变 Aniimo 的数值吗？
+
+不会。官方 Index 数据确认，同一种族的所有形态共享相同的基础数值、定位、体重区间和特性。形态能改变的只有属性——Nimbi 的 Rainstorm Form 附加雷属性，Plateau Form 附加冰属性——以及有时会改变栖息地。
