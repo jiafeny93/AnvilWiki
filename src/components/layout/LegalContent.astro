@@ -33,15 +33,14 @@ const year = new Date().getFullYear();
       <h2>Community-Driven</h2>
       <p>
         This wiki is maintained by volunteers. If you spot an error or have content to contribute,
-        join our Discord and let us know. All content is freely accessible — no account required.
+        email us and let us know. All content is freely accessible — no account required.
       </p>
       <h2>Contact</h2>
       <p>
-        Reach us via our{' '}
-        <a href={site.social.discord} target="_blank" rel="noopener noreferrer">
-          Discord server
-        </a>{' '}
-        or{' '}
+        Reach us by email at{' '}
+        <a href={`mailto:${site.social.contactEmail}`}>{site.social.contactEmail}</a>{' '}
+        for corrections, contributions, or business inquiries. For official game news and
+        announcements, see{' '}
         <a href={site.social.official} target="_blank" rel="noopener noreferrer">
           the game's official channels
         </a>
@@ -157,10 +156,8 @@ const year = new Date().getFullYear();
       </p>
       <h2>DMCA / Takedown</h2>
       <p>
-        If you believe any content on this site infringes your copyright, please contact us via our{' '}
-        <a href={site.social.discord} target="_blank" rel="noopener noreferrer">
-          Discord server
-        </a>{' '}
+        If you believe any content on this site infringes your copyright, please email{' '}
+        <a href={`mailto:${site.social.contactEmail}`}>{site.social.contactEmail}</a>{' '}
         with a detailed description of the allegedly infringing material. We will review and respond
         to valid requests promptly.
       </p>

@@ -21,6 +21,8 @@ export interface SiteConfig {
   social: {
     /** Official game website URL (the game itself, not the wiki). */
     official: string;
+    /** This wiki's own contact email (DMCA, corrections, business). */
+    contactEmail: string;
     discord?: string;
     youtube?: string;
     twitter?: string;
@@ -56,6 +58,8 @@ export const site: SiteConfig = {
   legalNotice: 'Aniimo Wiki is a fan-made community site. Not affiliated with or endorsed by Pawprint Studio or FunPlus.',
   social: {
     official: 'https://www.aniimo.com/',
+    // This wiki's own contact inbox (not an official game channel).
+    contactEmail: '1191321697@qq.com',
     // Official game channels (not the wiki's own accounts).
     discord: 'https://discord.gg/aniimo',
     youtube: 'https://www.youtube.com/@Aniimo_EN',

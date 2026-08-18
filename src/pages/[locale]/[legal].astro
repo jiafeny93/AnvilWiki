@@ -27,7 +27,7 @@ const LEGAL_TITLES: Record<string, string> = {
   copyright: 'Copyright',
 };
 
-const { locale: localeParam, legal } = Astro.props as { locale: string; legal: string };
+const { locale: localeParam, legal } = Astro.params as { locale?: string; legal?: string };
 if (!isLocale(localeParam) || localeParam === defaultLocale) {
   return new Response('Not Found', { status: 404 });
 }
