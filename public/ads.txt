@@ -1,11 +1,9 @@
 # ads.txt — authorized digital sellers for aniimo.wiki
 #
-# STATUS: intentionally EMPTY. Confirmed 2026-08-16 that Adsterra does not
-# use ads.txt (their support: "We don't use ads.txt any more"), so there is
-# nothing to declare for the current ad setup. An empty/comment-only ads.txt
-# is harmless.
+# Google AdSense (added 2026-08-19, ca-pub-9847804043360472)
+google.com, pub-9847804043360472, DIRECT, f08c47fec0942fa0
 #
-# ONLY needed if AdSense is added later — then uncomment and fill:
-# google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
+# Adsterra does not use ads.txt (their support, 2026-08-16: "We don't use
+# ads.txt any more"), so nothing to declare for those placements.
 #
 # 参考: https://iabtechlab.com/ads-txt/
