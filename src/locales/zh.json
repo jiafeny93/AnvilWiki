@@ -14,6 +14,7 @@
     "release": "发售情报",
     "news": "新闻资讯",
     "reviews": "评测",
+    "gallery": "图集",
     "toggleTheme": "切换主题",
     "menu": "菜单",
     "close": "关闭",
@@ -70,6 +71,10 @@
     "reviews": {
       "overviewTitle": "Aniimo 评测",
       "overviewDescription": "Aniimo 评测、抢先试玩 impressions，以及社区对测试版、玩法、画面与抓宠机制的反响。"
+    },
+    "gallery": {
+      "overviewTitle": "Aniimo 图集",
+      "overviewDescription": "所有 Aniimo 官方生物立绘的可视化图鉴，附上线实拍截图与键视觉，每张图直达对应生物的完整数据页。"
     }
   },
   "home": {

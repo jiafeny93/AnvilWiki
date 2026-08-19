@@ -28,6 +28,10 @@ const wiki = defineCollection({
       date: z.coerce.date(),
       lastModified: z.coerce.date().optional(),
       image: image().optional(),
+      /** In-page hero image (public dir path, e.g. /images/creatures/x.webp).
+       *  Distinct from `image`, which is the processed OG/cover asset. */
+      heroImage: z.string().optional(),
+      heroImageAlt: z.string().optional(),
       tags: z.array(z.string()).default([]),
       noindex: z.boolean().default(false),
       faq: z.array(z.object({ question: z.string(), answer: z.string() })).optional(),

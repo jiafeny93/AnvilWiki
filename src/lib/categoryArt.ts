@@ -15,6 +15,7 @@ const CATEGORY_ART: Record<string, string> = {
   release: '/images/cat-release.webp',
   news: '/images/cat-news.webp',
   reviews: '/images/cat-reviews.webp',
+  gallery: '/images/cat-gallery.webp',
 };
 
 const FALLBACK_ART = '/images/cat-reviews.webp';

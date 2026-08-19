@@ -14,6 +14,7 @@
     "release": "출시 정보",
     "news": "뉴스",
     "reviews": "리뷰",
+    "gallery": "갤러리",
     "toggleTheme": "테마 전환",
     "menu": "메뉴",
     "close": "닫기",
@@ -70,6 +71,10 @@
     "reviews": {
       "overviewTitle": "애니모 리뷰",
       "overviewDescription": "애니모 리뷰와 첫인상, 베타·게임플레이·그래픽·크리처 수집 시스템에 대한 커뮤니티 반응 정리."
+    },
+    "gallery": {
+      "overviewTitle": "애니모 갤러리",
+      "overviewDescription": "애니모 전 크리처 공식 아트워크를 한눈에 보는 비주얼 도감. 스크린샷과 키아트까지, 각 크리처 상세 페이지로 바로 연결됩니다."
     }
   },
   "home": {

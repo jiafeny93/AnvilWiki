@@ -134,6 +134,28 @@ if (entry.data.faq && entry.data.faq.length > 0) {
       </div>
     </header>
 
+    {/* Hero image (frontmatter heroImage — used by creature pages for the
+        official artwork). Eager: it sits above the fold and is usually the
+        LCP element; explicit width/height prevents CLS. */}
+    {
+      entry.data.heroImage && (
+        <figure class="mt-6 flex flex-col items-center rounded-xl border bg-card p-4">
+          <img
+            src={entry.data.heroImage}
+            alt={entry.data.heroImageAlt ?? entry.data.title}
+            width="512"
+            height="840"
+            loading="eager"
+            decoding="async"
+            class="h-auto max-h-[440px] w-auto max-w-full"
+          />
+          <figcaption class="mt-2 text-center text-xs text-muted-foreground">
+            Artwork © Pawprint Studio, via the official Aniimo wiki — fan wiki fair use.
+          </figcaption>
+        </figure>
+      )
+    }
+
     {/* Mobile TOC — collapsible, zero JS. Desktop TOC lives in the sidebar. */}
     {
       headings.length > 1 && (

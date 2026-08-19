@@ -1,0 +1,767 @@
+[
+  {
+    "slug": "emberpup",
+    "name": "Emberpup",
+    "no": "001",
+    "elements": [
+      "Fire"
+    ]
+  },
+  {
+    "slug": "flameruff",
+    "name": "Flameruff",
+    "no": "002",
+    "elements": [
+      "Fire"
+    ]
+  },
+  {
+    "slug": "scorchhowl",
+    "name": "Scorchhowl",
+    "no": "003",
+    "elements": [
+      "Fire"
+    ]
+  },
+  {
+    "slug": "inferlupa",
+    "name": "Inferlupa",
+    "no": "004",
+    "elements": [
+      "Fire",
+      "Dark"
+    ]
+  },
+  {
+    "slug": "celestis",
+    "name": "Celestis",
+    "no": "005",
+    "elements": [
+      "Dark"
+    ]
+  },
+  {
+    "slug": "stellarys",
+    "name": "Stellarys",
+    "no": "006",
+    "elements": [
+      "Dark"
+    ]
+  },
+  {
+    "slug": "chirpi",
+    "name": "Chirpi",
+    "no": "007",
+    "elements": [
+      "Wind"
+    ]
+  },
+  {
+    "slug": "tromber",
+    "name": "Tromber",
+    "no": "008",
+    "elements": [
+      "Wind"
+    ]
+  },
+  {
+    "slug": "cornet",
+    "name": "Cornet",
+    "no": "009",
+    "elements": [
+      "Wind"
+    ]
+  },
+  {
+    "slug": "tubster",
+    "name": "Tubster",
+    "no": "010",
+    "elements": [
+      "Wind"
+    ]
+  },
+  {
+    "slug": "iris",
+    "name": "Iris",
+    "no": "011",
+    "elements": [
+      "Grass"
+    ]
+  },
+  {
+    "slug": "irisal",
+    "name": "Irisal",
+    "no": "012",
+    "elements": [
+      "Grass"
+    ]
+  },
+  {
+    "slug": "skippy",
+    "name": "Skippy",
+    "no": "014",
+    "elements": [
+      "Water"
+    ]
+  },
+  {
+    "slug": "pranky",
+    "name": "Pranky",
+    "no": "015",
+    "elements": [
+      "Water"
+    ]
+  },
+  {
+    "slug": "glacy",
+    "name": "Glacy",
+    "no": "016",
+    "elements": [
+      "Water",
+      "Ice"
+    ]
+  },
+  {
+    "slug": "leafy",
+    "name": "Leafy",
+    "no": "017",
+    "elements": [
+      "Grass",
+      "Water"
+    ]
+  },
+  {
+    "slug": "nimbi",
+    "name": "Nimbi",
+    "no": "018",
+    "elements": [
+      "Wind"
+    ]
+  },
+  {
+    "slug": "turbo",
+    "name": "Turbo",
+    "no": "019",
+    "elements": [
+      "Wind"
+    ]
+  },
+  {
+    "slug": "dreaple",
+    "name": "Dreaple",
+    "no": "020",
+    "elements": [
+      "Dark"
+    ]
+  },
+  {
+    "slug": "hummin",
+    "name": "Hummin",
+    "no": "021",
+    "elements": [
+      "Grass"
+    ]
+  },
+  {
+    "slug": "witchin",
+    "name": "Witchin",
+    "no": "022",
+    "elements": [
+      "Dark",
+      "Grass"
+    ]
+  },
+  {
+    "slug": "tuckin",
+    "name": "Tuckin",
+    "no": "023",
+    "elements": [
+      "Grass"
+    ]
+  },
+  {
+    "slug": "budclaw",
+    "name": "Budclaw.",
+    "no": "024",
+    "elements": [
+      "Earth",
+      "Grass"
+    ]
+  },
+  {
+    "slug": "shrubclaw",
+    "name": "Shrubclaw",
+    "no": "025",
+    "elements": [
+      "Earth",
+      "Grass"
+    ]
+  },
+  {
+    "slug": "geoclaw",
+    "name": "Geoclaw",
+    "no": "026",
+    "elements": [
+      "Ice"
+    ]
+  },
+  {
+    "slug": "sparki",
+    "name": "Sparki",
+    "no": "027",
+    "elements": [
+      "Fire"
+    ]
+  },
+  {
+    "slug": "flamerion",
+    "name": "Flamerion",
+    "no": "028",
+    "elements": [
+      "Fire"
+    ]
+  },
+  {
+    "slug": "flutternym",
+    "name": "Flutternym",
+    "no": "029",
+    "elements": [
+      "Wind"
+    ]
+  },
+  {
+    "slug": "gracewing",
+    "name": "Gracewing",
+    "no": "030",
+    "elements": [
+      "Wind"
+    ]
+  },
+  {
+    "slug": "somniwing",
+    "name": "Somniwing",
+    "no": "031",
+    "elements": [
+      "Wind",
+      "Grass"
+    ]
+  },
+  {
+    "slug": "eko",
+    "name": "Eko",
+    "no": "032",
+    "elements": [
+      "Wind"
+    ]
+  },
+  {
+    "slug": "eklue",
+    "name": "Eklue",
+    "no": "033",
+    "elements": [
+      "Wind"
+    ]
+  },
+  {
+    "slug": "budsquire",
+    "name": "Budsquire",
+    "no": "034",
+    "elements": [
+      "Grass"
+    ]
+  },
+  {
+    "slug": "thornblade",
+    "name": "Thornblade",
+    "no": "035",
+    "elements": [
+      "Grass"
+    ]
+  },
+  {
+    "slug": "melloblum",
+    "name": "Melloblum",
+    "no": "036",
+    "elements": [
+      "Grass"
+    ]
+  },
+  {
+    "slug": "pomegg",
+    "name": "Pomegg",
+    "no": "037",
+    "elements": [
+      "Grass"
+    ]
+  },
+  {
+    "slug": "dazmand",
+    "name": "Dazmand",
+    "no": "038",
+    "elements": [
+      "Lightning"
+    ]
+  },
+  {
+    "slug": "pomawk",
+    "name": "Pomawk",
+    "no": "039",
+    "elements": [
+      "Grass"
+    ]
+  },
+  {
+    "slug": "dewy",
+    "name": "Dewy",
+    "no": "040",
+    "elements": [
+      "Dark"
+    ]
+  },
+  {
+    "slug": "fragrancier",
+    "name": "Fragrancier",
+    "no": "041",
+    "elements": [
+      "Dark"
+    ]
+  },
+  {
+    "slug": "wisptis",
+    "name": "Wisptis",
+    "no": "042",
+    "elements": [
+      "Dark"
+    ]
+  },
+  {
+    "slug": "ignitis",
+    "name": "Ignitis",
+    "no": "043",
+    "elements": [
+      "Dark"
+    ]
+  },
+  {
+    "slug": "fulmintis",
+    "name": "Fulmintis",
+    "no": "044",
+    "elements": [
+      "Lightning"
+    ]
+  },
+  {
+    "slug": "bonesky",
+    "name": "Bonesky",
+    "no": "045",
+    "elements": [
+      "Ice"
+    ]
+  },
+  {
+    "slug": "fenrier",
+    "name": "Fenrier",
+    "no": "046",
+    "elements": [
+      "Ice"
+    ]
+  },
+  {
+    "slug": "glynsera",
+    "name": "Glynsera",
+    "no": "047",
+    "elements": [
+      "Ice"
+    ]
+  },
+  {
+    "slug": "bolty",
+    "name": "Bolty",
+    "no": "048",
+    "elements": [
+      "Lightning"
+    ]
+  },
+  {
+    "slug": "blazen",
+    "name": "Blazen",
+    "no": "049",
+    "elements": [
+      "Lightning"
+    ]
+  },
+  {
+    "slug": "susuta",
+    "name": "Susuta",
+    "no": "050",
+    "elements": [
+      "Water"
+    ]
+  },
+  {
+    "slug": "popota",
+    "name": "Popota",
+    "no": "051",
+    "elements": [
+      "Water"
+    ]
+  },
+  {
+    "slug": "piopiota",
+    "name": "Piopiota",
+    "no": "052",
+    "elements": [
+      "Water"
+    ]
+  },
+  {
+    "slug": "panpanta",
+    "name": "Panpanta",
+    "no": "053",
+    "elements": [
+      "Water"
+    ]
+  },
+  {
+    "slug": "shelly",
+    "name": "Shelly",
+    "no": "054",
+    "elements": [
+      "Water"
+    ]
+  },
+  {
+    "slug": "sheldon",
+    "name": "Sheldon",
+    "no": "055",
+    "elements": [
+      "Water"
+    ]
+  },
+  {
+    "slug": "sherro",
+    "name": "Sherro",
+    "no": "056",
+    "elements": [
+      "Water"
+    ]
+  },
+  {
+    "slug": "baleetle",
+    "name": "Baleetle",
+    "no": "057",
+    "elements": [
+      "Earth"
+    ]
+  },
+  {
+    "slug": "waleetle",
+    "name": "Waleetle",
+    "no": "058",
+    "elements": [
+      "Earth"
+    ]
+  },
+  {
+    "slug": "bouldus",
+    "name": "Bouldus",
+    "no": "059",
+    "elements": [
+      "Earth"
+    ]
+  },
+  {
+    "slug": "fentuft",
+    "name": "Fentuft",
+    "no": "060",
+    "elements": [
+      "Lightning"
+    ]
+  },
+  {
+    "slug": "fenmane",
+    "name": "Fenmane",
+    "no": "061",
+    "elements": [
+      "Lightning"
+    ]
+  },
+  {
+    "slug": "helmut",
+    "name": "Helmut",
+    "no": "062",
+    "elements": [
+      "Dark"
+    ]
+  },
+  {
+    "slug": "pawney",
+    "name": "Pawney",
+    "no": "063",
+    "elements": [
+      "Dark"
+    ]
+  },
+  {
+    "slug": "rookey",
+    "name": "Rookey",
+    "no": "064",
+    "elements": [
+      "Dark"
+    ]
+  },
+  {
+    "slug": "jawling",
+    "name": "Jawling",
+    "no": "065",
+    "elements": [
+      "Wind"
+    ]
+  },
+  {
+    "slug": "helmwhelp",
+    "name": "Helmwhelp",
+    "no": "066",
+    "elements": [
+      "Wind"
+    ]
+  },
+  {
+    "slug": "helgon",
+    "name": "Helgon",
+    "no": "067",
+    "elements": [
+      "Wind"
+    ]
+  },
+  {
+    "slug": "infergon",
+    "name": "Infergon",
+    "no": "068",
+    "elements": [
+      "Fire"
+    ]
+  },
+  {
+    "slug": "cubbo",
+    "name": "Cubbo",
+    "no": "069",
+    "elements": [
+      "Earth"
+    ]
+  },
+  {
+    "slug": "grizbo",
+    "name": "Grizbo",
+    "no": "070",
+    "elements": [
+      "Earth"
+    ]
+  },
+  {
+    "slug": "pebbling",
+    "name": "Pebbling",
+    "no": "071",
+    "elements": [
+      "Earth"
+    ]
+  },
+  {
+    "slug": "lavazar",
+    "name": "Lavazar",
+    "no": "072",
+    "elements": [
+      "Fire",
+      "Earth"
+    ]
+  },
+  {
+    "slug": "magmarex",
+    "name": "Magmarex",
+    "no": "073",
+    "elements": [
+      "Fire",
+      "Earth"
+    ]
+  },
+  {
+    "slug": "geodeback",
+    "name": "Geodeback",
+    "no": "074",
+    "elements": [
+      "Earth"
+    ]
+  },
+  {
+    "slug": "minespine",
+    "name": "Minespine",
+    "no": "075",
+    "elements": [
+      "Earth"
+    ]
+  },
+  {
+    "slug": "cozite",
+    "name": "Cozite",
+    "no": "076",
+    "elements": [
+      "Earth"
+    ]
+  },
+  {
+    "slug": "bailite",
+    "name": "Bailite",
+    "no": "077",
+    "elements": [
+      "Earth"
+    ]
+  },
+  {
+    "slug": "bulbly",
+    "name": "Bulbly",
+    "no": "078",
+    "elements": [
+      "Lightning"
+    ]
+  },
+  {
+    "slug": "veilfloat",
+    "name": "Veilfloat",
+    "no": "079",
+    "elements": [
+      "Lightning"
+    ]
+  },
+  {
+    "slug": "luminelle",
+    "name": "Luminelle",
+    "no": "080",
+    "elements": [
+      "Lightning"
+    ]
+  },
+  {
+    "slug": "fahloo",
+    "name": "Fahloo",
+    "no": "081",
+    "elements": [
+      "Water"
+    ]
+  },
+  {
+    "slug": "erlath",
+    "name": "Erlath",
+    "no": "082",
+    "elements": [
+      "Water"
+    ]
+  },
+  {
+    "slug": "besauce",
+    "name": "Besauce",
+    "no": "083",
+    "elements": [
+      "Lightning"
+    ]
+  },
+  {
+    "slug": "reefish",
+    "name": "Reefish",
+    "no": "084",
+    "elements": [
+      "Earth",
+      "Water"
+    ]
+  },
+  {
+    "slug": "coraliz",
+    "name": "Coraliz",
+    "no": "085",
+    "elements": [
+      "Earth",
+      "Water"
+    ]
+  },
+  {
+    "slug": "cheekie",
+    "name": "Cheekie",
+    "no": "086",
+    "elements": [
+      "Ice"
+    ]
+  },
+  {
+    "slug": "wavwal",
+    "name": "Wavwal",
+    "no": "087",
+    "elements": [
+      "Ice"
+    ]
+  },
+  {
+    "slug": "bubbeep",
+    "name": "Bubbeep",
+    "no": "088",
+    "elements": [
+      "Grass",
+      "Water"
+    ]
+  },
+  {
+    "slug": "glameep",
+    "name": "Glameep",
+    "no": "089",
+    "elements": [
+      "Grass",
+      "Water"
+    ]
+  },
+  {
+    "slug": "popapus",
+    "name": "Popapus",
+    "no": "090",
+    "elements": [
+      "Water"
+    ]
+  },
+  {
+    "slug": "gachapus",
+    "name": "Gachapus",
+    "no": "091",
+    "elements": [
+      "Water"
+    ]
+  },
+  {
+    "slug": "malangel",
+    "name": "Malangel",
+    "no": "092",
+    "elements": [
+      "Ice"
+    ]
+  },
+  {
+    "slug": "malevsera",
+    "name": "Malevsera",
+    "no": "093",
+    "elements": [
+      "Ice"
+    ]
+  },
+  {
+    "slug": "fennelun",
+    "name": "Fennelun",
+    "no": "9997",
+    "elements": [
+      "Light"
+    ]
+  },
+  {
+    "slug": "helion",
+    "name": "Helion",
+    "no": "9998",
+    "elements": [
+      "Light"
+    ]
+  }
+]

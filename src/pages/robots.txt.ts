@@ -6,6 +6,7 @@ User-agent: *
 Allow: /
 
 Sitemap: ${siteUrl}/sitemap-index.xml
+Sitemap: ${siteUrl}/sitemap-images.xml
 `.trim();
 
 export const GET: APIRoute = () =>

@@ -35,6 +35,7 @@ export const NAVIGATION_CONFIG: NavigationItem[] = [
   { key: 'release', path: '/release', icon: 'lucide:rocket', isContentType: true, order: 4 },
   { key: 'news', path: '/news', icon: 'lucide:newspaper', isContentType: true, order: 5 },
   { key: 'reviews', path: '/reviews', icon: 'lucide:star', isContentType: true, order: 6 },
+  { key: 'gallery', path: '/gallery', icon: 'lucide:image', isContentType: true, order: 7 },
 ];
 
 /** Derived list of content type slugs (e.g. ['bosses', 'guides', 'items', 'codes']). */

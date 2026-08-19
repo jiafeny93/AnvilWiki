@@ -14,6 +14,7 @@
     "release": "Release",
     "news": "News",
     "reviews": "Reviews",
+    "gallery": "Gallery",
     "toggleTheme": "Toggle theme",
     "menu": "Menu",
     "close": "Close",
@@ -70,6 +71,10 @@
     "reviews": {
       "overviewTitle": "Aniimo Reviews",
       "overviewDescription": "Aniimo reviews, early impressions, and community reactions to the beta, gameplay, graphics, and creature-collecting mechanics."
+    },
+    "gallery": {
+      "overviewTitle": "Aniimo Gallery",
+      "overviewDescription": "Every official Aniimo creature artwork in one visual index — plus launch screenshots and key art, each linked to the creature's full data page."
     }
   },
   "home": {
