@@ -1,6 +1,6 @@
 ---
-title: Aniimo 生物图鉴大全：已公布生物、联结（Twine）系统与栖息地一览
-description: 最全的 Aniimo 生物图鉴。了解 Eko、Helmut 等已确认的魔法伙伴，以及 Twine 联结机制、栖息地和进化相关情报。
+title: 'Aniimo 生物图鉴大全：94 只种族值总表（可排序）'
+description: 'Aniimo 全 94 只生物可排序种族值总表：生命、攻击、双防、破击、回复与总和一览，附属性、定位与栖息地，数据来自官方图鉴。'
 category: creatures
 date: '2026-08-13'
 lastModified: '2026-08-19'
@@ -20,6 +20,8 @@ faq:
 - question: Aniimo 是免费游玩的游戏吗？
   answer: 是的，Aniimo 已官方确认为一款免费游玩游戏。该作由 Pawprint Studio 开发、FunPlus（趣加）发行，计划于 2026 年在 PC、主机和移动平台全球上线。
 ---
+import StatTable from '~/components/creatures/StatTable.astro';
+
 随着 Pawprint Studio 这款备受期待的开放世界 RPG 逐渐临近 2026 年上线，玩家们已经开始寻找一份完整的 Aniimo 生物列表，想提前了解自己将邂逅哪些魔法伙伴。自 Xbox Games Showcase 上首次亮相以来，Aniimo 凭借广阔的世界和即时战斗吸引了大量关注。游戏摒弃了传统的捕捉玩法，转而围绕独特的“联结（Twine）”羁绊系统展开——你可以与生物同步，甚至透过它们的眼睛看世界。虽然游戏仍在开发中，具体数值尚未公布，但已有不少 Aniimo 闪亮登场。本指南涵盖所有已确认及预期中的 Aniimo，包括它们的元素属性、栖息地，以及联结系统的实际运作方式。
 
 > **最后更新：2026 年 8 月 18 日**
@@ -32,102 +34,9 @@ faq:
 
 > **图鉴之外：** 部分 Aniimo 还拥有其他形态——仅 [Nimbi](/zh/creatures/aniimo-nimbi/) 一只，就在 Basic Form 之外拥有 Cloudmist、Rainstorm 和 Plateau 形态。形态机制的详解请看 [Aniimo 形态指南](/zh/guides/aniimo-forms/)；至于社区认为对应隐藏的 No.013 槽位的活动传说生物，请见 [Irisalis 页面](/zh/creatures/aniimo-irisalis/)。
 
-| 编号 | 生物 | 属性 | 定位 | 阶段 | 栖息地 |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| 001 | ![Emberpup](/images/creatures/emberpup-mini.webp) [Emberpup](/zh/creatures/aniimo-emberpup/) | 火 | DPS | Lumin | Nimbus Fields, Mistwoods |
-| 002 | ![Flameruff](/images/creatures/flameruff-mini.webp) [Flameruff](/zh/creatures/aniimo-flameruff/) | 火 | DPS | Gamma | Nimbus Fields, The Argent Strait |
-| 003 | ![Scorchhowl](/images/creatures/scorchhowl-mini.webp) [Scorchhowl](/zh/creatures/aniimo-scorchhowl/) | 火 | DPS | Nova | Beast Fang Ridge |
-| 004 | ![Inferlupa](/images/creatures/inferlupa-mini.webp) [Inferlupa](/zh/creatures/aniimo-inferlupa/) | 火/暗 | Breaker | Nova | — |
-| 005 | ![Celestis](/images/creatures/celestis-mini.webp) [Celestis](/zh/creatures/aniimo-celestis/) | 暗 | DPS | Lumin | Nimbus Fields, The Argent Strait |
-| 006 | ![Stellarys](/images/creatures/stellarys-mini.webp) [Stellarys](/zh/creatures/aniimo-stellarys/) | 暗 | DPS | Nova | Forest of Falling Stars |
-| 007 | ![Chirpi](/images/creatures/chirpi-mini.webp) [Chirpi](/zh/creatures/aniimo-chirpi/) | 风 | Support | Lumin | Nimbus Fields, The Argent Strait |
-| 008 | ![Tromber](/images/creatures/tromber-mini.webp) [Tromber](/zh/creatures/aniimo-tromber/) | 风 | Support | Nova | The Argent Strait |
-| 009 | ![Cornet](/images/creatures/cornet-mini.webp) [Cornet](/zh/creatures/aniimo-cornet/) | 风 | DPS | Nova | The Argent Strait |
-| 010 | ![Tubster](/images/creatures/tubster-mini.webp) [Tubster](/zh/creatures/aniimo-tubster/) | 风 | Breaker | Nova | The Argent Strait |
-| 011 | ![Iris](/images/creatures/iris-mini.webp) [Iris](/zh/creatures/aniimo-iris/) | 草 | DPS | Lumin | Sea of Flowers |
-| 012 | ![Irisal](/images/creatures/irisal-mini.webp) [Irisal](/zh/creatures/aniimo-irisal/) | 草 | DPS | Nova | Sea of Flowers |
-| 014 | ![Skippy](/images/creatures/skippy-mini.webp) [Skippy](/zh/creatures/aniimo-skippy/) | 水 | Healer | Lumin | Nimbus Fields, Mistwoods |
-| 015 | ![Pranky](/images/creatures/pranky-mini.webp) [Pranky](/zh/creatures/aniimo-pranky/) | 水 | Healer | Gamma | Nimbus Fields, Mistwoods |
-| 016 | ![Glacy](/images/creatures/glacy-mini.webp) [Glacy](/zh/creatures/aniimo-glacy/) | 水/冰 | Healer | Nova | — |
-| 017 | ![Leafy](/images/creatures/leafy-mini.webp) [Leafy](/zh/creatures/aniimo-leafy/) | 草/水 | Regen | Nova | Mistwoods |
-| 018 | ![Nimbi](/images/creatures/nimbi-mini.webp) [Nimbi](/zh/creatures/aniimo-nimbi/) | 风 | Support | Lumin | Nimbus Fields, The Argent Strait |
-| 019 | ![Turbo](/images/creatures/turbo-mini.webp) [Turbo](/zh/creatures/aniimo-turbo/) | 风 | Support | Nova | Nimbus Fields |
-| 020 | ![Dreaple](/images/creatures/dreaple-mini.webp) [Dreaple](/zh/creatures/aniimo-dreaple/) | 暗 | Support | Nova | — |
-| 021 | ![Hummin](/images/creatures/hummin-mini.webp) [Hummin](/zh/creatures/aniimo-hummin/) | 草 | Breaker | Lumin | Nimbus Fields, Mistwoods |
-| 022 | ![Witchin](/images/creatures/witchin-mini.webp) [Witchin](/zh/creatures/aniimo-witchin/) | 暗/草 | Regen | Nova | Mistwoods |
-| 023 | ![Tuckin](/images/creatures/tuckin-mini.webp) [Tuckin](/zh/creatures/aniimo-tuckin/) | 草 | Breaker | Nova | — |
-| 024 | ![Budclaw](/images/creatures/budclaw-mini.webp) [Budclaw](/zh/creatures/aniimo-budclaw/) | 土/草 | Breaker | Lumin | Zephyrus Landbridge, Nimbus Fields |
-| 025 | ![Shrubclaw](/images/creatures/shrubclaw-mini.webp) [Shrubclaw](/zh/creatures/aniimo-shrubclaw/) | 土/草 | Breaker | Nova | Berylline Causeway |
-| 026 | ![Geoclaw](/images/creatures/geoclaw-mini.webp) [Geoclaw](/zh/creatures/aniimo-geoclaw/) | 冰 | Breaker | Nova | — |
-| 027 | ![Sparki](/images/creatures/sparki-mini.webp) [Sparki](/zh/creatures/aniimo-sparki/) | 火 | Regen | Lumin | Nimbus Fields, Beast Fang Ridge |
-| 028 | ![Flamerion](/images/creatures/flamerion-mini.webp) [Flamerion](/zh/creatures/aniimo-flamerion/) | 火 | Regen | Nova | Beast Fang Ridge |
-| 029 | ![Flutternym](/images/creatures/flutternym-mini.webp) [Flutternym](/zh/creatures/aniimo-flutternym/) | 风 | Healer | Lumin | Sea of Flowers, Nimbus Fields |
-| 030 | ![Gracewing](/images/creatures/gracewing-mini.webp) [Gracewing](/zh/creatures/aniimo-gracewing/) | 风 | Healer | Nova | — |
-| 031 | ![Somniwing](/images/creatures/somniwing-mini.webp) [Somniwing](/zh/creatures/aniimo-somniwing/) | 风/草 | Regen | TBA | — |
-| 032 | ![Eko](/images/creatures/eko-mini.webp) [Eko](/zh/creatures/aniimo-eko/) | 风 | Support | Lumin | Forest of Falling Stars |
-| 033 | ![Eklue](/images/creatures/eklue-mini.webp) [Eklue](/zh/creatures/aniimo-eklue/) | 风 | Support | Nova | Forest of Falling Stars |
-| 034 | ![Budsquire](/images/creatures/budsquire-mini.webp) [Budsquire](/zh/creatures/aniimo-budsquire/) | 草 | DPS | Lumin | Sea of Flowers, Rosetower Woods |
-| 035 | ![Thornblade](/images/creatures/thornblade-mini.webp) [Thornblade](/zh/creatures/aniimo-thornblade/) | 草 | DPS | Nova | Sea of Flowers |
-| 036 | ![Melloblum](/images/creatures/melloblum-mini.webp) [Melloblum](/zh/creatures/aniimo-melloblum/) | 草 | Support | Nova | Rosetower Woods |
-| 037 | ![Pomegg](/images/creatures/pomegg-mini.webp) [Pomegg](/zh/creatures/aniimo-pomegg/) | 草 | Breaker | Lumin | Rosetower Woods |
-| 038 | ![Dazmand](/images/creatures/dazmand-mini.webp) [Dazmand](/zh/creatures/aniimo-dazmand/) | 雷 | Support | Nova | — |
-| 039 | ![Pomawk](/images/creatures/pomawk-mini.webp) [Pomawk](/zh/creatures/aniimo-pomawk/) | 草 | Breaker | Nova | Rosetower Woods |
-| 040 | ![Dewy](/images/creatures/dewy-mini.webp) [Dewy](/zh/creatures/aniimo-dewy/) | 暗 | Support | Lumin | Sea of Flowers, Rosetower Woods |
-| 041 | ![Fragrancier](/images/creatures/fragrancier-mini.webp) [Fragrancier](/zh/creatures/aniimo-fragrancier/) | 暗 | Support | Nova | Sea of Flowers |
-| 042 | ![Wisptis](/images/creatures/wisptis-mini.webp) [Wisptis](/zh/creatures/aniimo-wisptis/) | 暗 | DPS | Lumin | Berylline Causeway |
-| 043 | ![Ignitis](/images/creatures/ignitis-mini.webp) [Ignitis](/zh/creatures/aniimo-ignitis/) | 暗 | DPS | Nova | Berylline Causeway |
-| 044 | ![Fulmintis](/images/creatures/fulmintis-mini.webp) [Fulmintis](/zh/creatures/aniimo-fulmintis/) | 雷 | DPS | Nova | — |
-| 045 | ![Bonesky](/images/creatures/bonesky-mini.webp) [Bonesky](/zh/creatures/aniimo-bonesky/) | 冰 | DPS | Lumin | Beast Fang Ridge, Driftwise Meadow |
-| 046 | ![Fenrier](/images/creatures/fenrier-mini.webp) [Fenrier](/zh/creatures/aniimo-fenrier/) | 冰 | DPS | Gamma | Beast Fang Ridge, Driftwise Meadow |
-| 047 | ![Glynsera](/images/creatures/glynsera-mini.webp) [Glynsera](/zh/creatures/aniimo-glynsera/) | 冰 | DPS | Nova | Beast Fang Ridge |
-| 048 | ![Bolty](/images/creatures/bolty-mini.webp) [Bolty](/zh/creatures/aniimo-bolty/) | 雷 | Breaker | Lumin | Blitzwood |
-| 049 | ![Blazen](/images/creatures/blazen-mini.webp) [Blazen](/zh/creatures/aniimo-blazen/) | 雷 | Breaker | Nova | Blitzwood |
-| 050 | ![Susuta](/images/creatures/susuta-mini.webp) [Susuta](/zh/creatures/aniimo-susuta/) | 水 | Breaker | Lumin | Echoback Landing |
-| 051 | ![Popota](/images/creatures/popota-mini.webp) [Popota](/zh/creatures/aniimo-popota/) | 水 | Breaker | Gamma | Echoback Landing |
-| 052 | ![Piopiota](/images/creatures/piopiota-mini.webp) [Piopiota](/zh/creatures/aniimo-piopiota/) | 水 | Support | Nova | — |
-| 053 | ![Panpanta](/images/creatures/panpanta-mini.webp) [Panpanta](/zh/creatures/aniimo-panpanta/) | 水 | Breaker | Nova | Echoback Landing |
-| 054 | ![Shelly](/images/creatures/shelly-mini.webp) [Shelly](/zh/creatures/aniimo-shelly/) | 水 | DPS | Lumin | Crescent Bay, Echoback Landing |
-| 055 | ![Sheldon](/images/creatures/sheldon-mini.webp) [Sheldon](/zh/creatures/aniimo-sheldon/) | 水 | DPS | Gamma | Echoback Landing |
-| 056 | ![Sherro](/images/creatures/sherro-mini.webp) [Sherro](/zh/creatures/aniimo-sherro/) | 水 | DPS | Nova | — |
-| 057 | ![Baleetle](/images/creatures/baleetle-mini.webp) [Baleetle](/zh/creatures/aniimo-baleetle/) | 土 | DPS | Lumin | Berylline Causeway |
-| 058 | ![Waleetle](/images/creatures/waleetle-mini.webp) [Waleetle](/zh/creatures/aniimo-waleetle/) | 土 | DPS | Nova | Berylline Causeway |
-| 059 | ![Bouldus](/images/creatures/bouldus-mini.webp) [Bouldus](/zh/creatures/aniimo-bouldus/) | 土 | Support | Nova | Berylline Causeway |
-| 060 | ![Fentuft](/images/creatures/fentuft-mini.webp) [Fentuft](/zh/creatures/aniimo-fentuft/) | 雷 | DPS | Lumin | Driftwise Meadow |
-| 061 | ![Fenmane](/images/creatures/fenmane-mini.webp) [Fenmane](/zh/creatures/aniimo-fenmane/) | 雷 | DPS | Nova | Driftwise Meadow |
-| 062 | ![Helmut](/images/creatures/helmut-mini.webp) [Helmut](/zh/creatures/aniimo-helmut/) | 暗 | Breaker | Lumin | Russet Highlands |
-| 063 | ![Pawney](/images/creatures/pawney-mini.webp) [Pawney](/zh/creatures/aniimo-pawney/) | 暗 | DPS | Nova | — |
-| 064 | ![Rookey](/images/creatures/rookey-mini.webp) [Rookey](/zh/creatures/aniimo-rookey/) | 暗 | Breaker | Nova | Russet Highlands |
-| 065 | ![Jawling](/images/creatures/jawling-mini.webp) [Jawling](/zh/creatures/aniimo-jawling/) | 风 | Breaker | Lumin | Russet Highlands |
-| 066 | ![Helmwhelp](/images/creatures/helmwhelp-mini.webp) [Helmwhelp](/zh/creatures/aniimo-helmwhelp/) | 风 | Breaker | Gamma | Russet Highlands |
-| 067 | ![Helgon](/images/creatures/helgon-mini.webp) [Helgon](/zh/creatures/aniimo-helgon/) | 风 | Breaker | Nova | Russet Highlands |
-| 068 | ![Infergon](/images/creatures/infergon-mini.webp) [Infergon](/zh/creatures/aniimo-infergon/) | 火 | DPS | Nova | — |
-| 069 | ![Cubbo](/images/creatures/cubbo-mini.webp) [Cubbo](/zh/creatures/aniimo-cubbo/) | 土 | DPS | Lumin | Rosetower Woods |
-| 070 | ![Grizbo](/images/creatures/grizbo-mini.webp) [Grizbo](/zh/creatures/aniimo-grizbo/) | 土 | DPS | Nova | Rosetower Woods |
-| 071 | ![Pebbling](/images/creatures/pebbling-mini.webp) [Pebbling](/zh/creatures/aniimo-pebbling/) | 土 | Breaker | Lumin | Zephyrus Landbridge |
-| 072 | ![Lavazar](/images/creatures/lavazar-mini.webp) [Lavazar](/zh/creatures/aniimo-lavazar/) | 火/土 | Breaker | Gamma | Zephyrus Landbridge |
-| 073 | ![Magmarex](/images/creatures/magmarex-mini.webp) [Magmarex](/zh/creatures/aniimo-magmarex/) | 火/土 | Breaker | Nova | Zephyrus Landbridge |
-| 074 | ![Geodeback](/images/creatures/geodeback-mini.webp) [Geodeback](/zh/creatures/aniimo-geodeback/) | 土 | Breaker | Gamma | — |
-| 075 | ![Minespine](/images/creatures/minespine-mini.webp) [Minespine](/zh/creatures/aniimo-minespine/) | 土 | Breaker | Nova | — |
-| 076 | ![Cozite](/images/creatures/cozite-mini.webp) [Cozite](/zh/creatures/aniimo-cozite/) | 土 | Support | Lumin | Zephyrus Landbridge |
-| 077 | ![Bailite](/images/creatures/bailite-mini.webp) [Bailite](/zh/creatures/aniimo-bailite/) | 土 | Support | Nova | Zephyrus Landbridge |
-| 078 | ![Bulbly](/images/creatures/bulbly-mini.webp) [Bulbly](/zh/creatures/aniimo-bulbly/) | 雷 | Support | Lumin | Tideblossom Coast |
-| 079 | ![Veilfloat](/images/creatures/veilfloat-mini.webp) [Veilfloat](/zh/creatures/aniimo-veilfloat/) | 雷 | Support | Gamma | Tideblossom Coast |
-| 080 | ![Luminelle](/images/creatures/luminelle-mini.webp) [Luminelle](/zh/creatures/aniimo-luminelle/) | 雷 | Support | Nova | Tideblossom Coast |
-| 081 | ![Fahloo](/images/creatures/fahloo-mini.webp) [Fahloo](/zh/creatures/aniimo-fahloo/) | 水 | Regen | Lumin | Tideblossom Coast |
-| 082 | ![Erlath](/images/creatures/erlath-mini.webp) [Erlath](/zh/creatures/aniimo-erlath/) | 水 | Regen | Nova | Tideblossom Coast |
-| 083 | ![Besauce](/images/creatures/besauce-mini.webp) [Besauce](/zh/creatures/aniimo-besauce/) | 雷 | Regen | TBA | — |
-| 084 | ![Reefish](/images/creatures/reefish-mini.webp) [Reefish](/zh/creatures/aniimo-reefish/) | 土/水 | Regen | Lumin | Crescent Bay |
-| 085 | ![Coraliz](/images/creatures/coraliz-mini.webp) [Coraliz](/zh/creatures/aniimo-coraliz/) | 土/水 | Regen | Nova | Crescent Bay |
-| 086 | ![Cheekie](/images/creatures/cheekie-mini.webp) [Cheekie](/zh/creatures/aniimo-cheekie/) | 冰 | Breaker | Lumin | Crescent Bay |
-| 087 | ![Wavwal](/images/creatures/wavwal-mini.webp) [Wavwal](/zh/creatures/aniimo-wavwal/) | 冰 | Breaker | Nova | Crescent Bay |
-| 088 | ![Bubbeep](/images/creatures/bubbeep-mini.webp) [Bubbeep](/zh/creatures/aniimo-bubbeep/) | 草/水 | Healer | Lumin | Crescent Bay |
-| 089 | ![Glameep](/images/creatures/glameep-mini.webp) [Glameep](/zh/creatures/aniimo-glameep/) | 草/水 | Healer | Nova | — |
-| 090 | ![Popapus](/images/creatures/popapus-mini.webp) [Popapus](/zh/creatures/aniimo-popapus/) | 水 | DPS | Lumin | Crescent Bay |
-| 091 | ![Gachapus](/images/creatures/gachapus-mini.webp) [Gachapus](/zh/creatures/aniimo-gachapus/) | 水 | DPS | Nova | Crescent Bay |
-| 092 | ![Malangel](/images/creatures/malangel-mini.webp) [Malangel](/zh/creatures/aniimo-malangel/) | 冰 | DPS | Lumin | — |
-| 093 | ![Malevsera](/images/creatures/malevsera-mini.webp) [Malevsera](/zh/creatures/aniimo-malevsera/) | 冰 | DPS | Nova | — |
-| 9997 | ![Fennelun](/images/creatures/fennelun-mini.webp) [Fennelun](/zh/creatures/aniimo-fennelun/) | 光 | DPS | TBA | — |
-| 9998 | ![Helion](/images/creatures/helion-mini.webp) [Helion](/zh/creatures/aniimo-helion/) | 光 | DPS | TBA | — |
+下表数值直接来自 Aniimo 官方图鉴——点击任意列头即可对全部生物排序。
+
+<StatTable locale="zh" />
 
 *编号已于 2026 年 8 月 18 日与官方 Aniimo Index 核对。名称、数值和阶段在 2026 年 9 月 16 日上线前均可能变动；官方图鉴一有更新，本表格也会随之更新。*
 

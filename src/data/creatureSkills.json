@@ -1,0 +1,2588 @@
+[
+{
+"name": "Ant Nest Sentinel",
+"tab": "Combat",
+"cost": "10",
+"power": "10",
+"owners": [
+"Bailite"
+]
+},
+{
+"name": "Aqua Defense",
+"tab": "Combat",
+"cost": "20",
+"power": "75",
+"owners": [
+"Thornblade"
+]
+},
+{
+"name": "Aquatic Glide",
+"tab": "Combat",
+"cost": "20",
+"power": "74",
+"owners": [
+"Stellarys"
+]
+},
+{
+"name": "Arc Strike",
+"tab": "Combat",
+"cost": "10",
+"power": "20",
+"owners": [
+"Eklue",
+"Eko"
+]
+},
+{
+"name": "Baa-Baa Darkbubb",
+"tab": "Combat",
+"cost": "20",
+"power": "50",
+"owners": [
+"Glameep"
+]
+},
+{
+"name": "Baa-Baa Healbubb",
+"tab": "Combat",
+"cost": "15",
+"power": "0",
+"owners": [
+"Bubbeep",
+"Glameep"
+]
+},
+{
+"name": "Baa-Baa Leaf Shot",
+"tab": "Combat",
+"cost": "20",
+"power": "20",
+"owners": [
+"Glameep"
+]
+},
+{
+"name": "Baa-Baa Sweetbubb",
+"tab": "Combat",
+"cost": "20",
+"power": "50",
+"owners": [
+"Bubbeep",
+"Glameep"
+]
+},
+{
+"name": "Ballistic Guard",
+"tab": "Combat",
+"cost": "20",
+"power": "52",
+"owners": [
+"Rookey"
+]
+},
+{
+"name": "Beat of Passion",
+"tab": "Combat",
+"cost": "20",
+"power": "52",
+"owners": [
+"Besauce"
+]
+},
+{
+"name": "Black Hole Domain",
+"tab": "Combat",
+"cost": "20",
+"power": "54",
+"owners": [
+"Witchin"
+]
+},
+{
+"name": "Blasting Roses",
+"tab": "Combat",
+"cost": "20",
+"power": "40",
+"owners": [
+"Melloblum"
+]
+},
+{
+"name": "Blooms of Vigor",
+"tab": "Combat",
+"cost": "10",
+"power": "0",
+"owners": [
+"Leafy"
+]
+},
+{
+"name": "Blossoming Moment",
+"tab": "Combat",
+"cost": "10",
+"power": "38",
+"owners": [
+"Dewy",
+"Fragrancier"
+]
+},
+{
+"name": "Boomerang Blade",
+"tab": "Combat",
+"cost": "20",
+"power": "39",
+"owners": [
+"Bonesky",
+"Fenrier",
+"Glynsera"
+]
+},
+{
+"name": "Bouncy Sling",
+"tab": "Combat",
+"cost": "20",
+"power": "55",
+"owners": [
+"Rookey"
+]
+},
+{
+"name": "Bubble Blast",
+"tab": "Combat",
+"cost": "10",
+"power": "30",
+"owners": [
+"Erlath",
+"Fahloo"
+]
+},
+{
+"name": "Bubble Rush",
+"tab": "Combat",
+"cost": "10",
+"power": "32",
+"owners": [
+"Glacy"
+]
+},
+{
+"name": "Bubbles",
+"tab": "Combat",
+"cost": "0",
+"power": "0",
+"owners": [
+"Erlath"
+]
+},
+{
+"name": "Burn Breaker",
+"tab": "Combat",
+"cost": "30",
+"power": "88",
+"owners": [
+"Scorchhowl"
+]
+},
+{
+"name": "Charged Geyser",
+"tab": "Combat",
+"cost": "0",
+"power": "0",
+"owners": [
+"Besauce"
+]
+},
+{
+"name": "Charged Strike",
+"tab": "Combat",
+"cost": "30",
+"power": "75",
+"owners": [
+"Shrubclaw"
+]
+},
+{
+"name": "Chill Glide",
+"tab": "Combat",
+"cost": "20",
+"power": "74",
+"owners": [
+"Stellarys"
+]
+},
+{
+"name": "Claw of Madness",
+"tab": "Combat",
+"cost": "10",
+"power": "40",
+"owners": [
+"Grizbo"
+]
+},
+{
+"name": "Clay Ball",
+"tab": "Combat",
+"cost": "10",
+"power": "40",
+"owners": [
+"Bouldus"
+]
+},
+{
+"name": "Clearance Sale",
+"tab": "Combat",
+"cost": "40",
+"power": "124",
+"owners": [
+"Gachapus",
+"Popapus"
+]
+},
+{
+"name": "Cloud Orb",
+"tab": "Combat",
+"cost": "10",
+"power": "30",
+"owners": [
+"Nimbi",
+"Turbo"
+]
+},
+{
+"name": "Cloud Shield",
+"tab": "Combat",
+"cost": "20",
+"power": "0",
+"owners": [
+"Nimbi",
+"Turbo"
+]
+},
+{
+"name": "Coral Impact",
+"tab": "Combat",
+"cost": "0",
+"power": "10",
+"owners": [
+"Coraliz"
+]
+},
+{
+"name": "Coral Trap",
+"tab": "Combat",
+"cost": "20",
+"power": "67",
+"owners": [
+"Coraliz",
+"Reefish"
+]
+},
+{
+"name": "Critical Hit",
+"tab": "Combat",
+"cost": "30",
+"power": "76",
+"owners": [
+"Grizbo"
+]
+},
+{
+"name": "Crossfire",
+"tab": "Combat",
+"cost": "20",
+"power": "65",
+"owners": [
+"Inferlupa"
+]
+},
+{
+"name": "Cyclone of Leaves",
+"tab": "Combat",
+"cost": "10",
+"power": "33",
+"owners": [
+"Leafy"
+]
+},
+{
+"name": "Dark Claw",
+"tab": "Combat",
+"cost": "20",
+"power": "52",
+"owners": [
+"Blazen"
+]
+},
+{
+"name": "Dark Dash",
+"tab": "Combat",
+"cost": "10",
+"power": "25",
+"owners": [
+"Ignitis",
+"Wisptis"
+]
+},
+{
+"name": "Dark Energy Surge",
+"tab": "Combat",
+"cost": "20",
+"power": "53",
+"owners": [
+"Magmarex"
+]
+},
+{
+"name": "Dark Soul",
+"tab": "Combat",
+"cost": "20",
+"power": "50",
+"owners": [
+"Ignitis"
+]
+},
+{
+"name": "Dark Tide",
+"tab": "Combat",
+"cost": "20",
+"power": "76",
+"owners": [
+"Piopiota"
+]
+},
+{
+"name": "Defense Mode",
+"tab": "Combat",
+"cost": "20",
+"power": "36",
+"owners": [
+"Helmut"
+]
+},
+{
+"name": "Demon Steps",
+"tab": "Combat",
+"cost": "10",
+"power": "13",
+"owners": [
+"Malangel",
+"Malevsera"
+]
+},
+{
+"name": "Demonic State",
+"tab": "Combat",
+"cost": "0",
+"power": "65",
+"owners": [
+"Malevsera"
+]
+},
+{
+"name": "Detect Weakness",
+"tab": "Combat",
+"cost": "0",
+"power": "0",
+"owners": [
+"Eklue"
+]
+},
+{
+"name": "Disruptive Current",
+"tab": "Combat",
+"cost": "10",
+"power": "34",
+"owners": [
+"Besauce"
+]
+},
+{
+"name": "Earth Spikes",
+"tab": "Combat",
+"cost": "20",
+"power": "68",
+"owners": [
+"Geodeback",
+"Minespine",
+"Pebbling"
+]
+},
+{
+"name": "Earthquake",
+"tab": "Combat",
+"cost": "20",
+"power": "53",
+"owners": [
+"Cubbo",
+"Grizbo"
+]
+},
+{
+"name": "Elastic Sword",
+"tab": "Combat",
+"cost": "20",
+"power": "62",
+"owners": [
+"Pawney"
+]
+},
+{
+"name": "Electricity Shock",
+"tab": "Combat",
+"cost": "20",
+"power": "40",
+"owners": [
+"Dazmand"
+]
+},
+{
+"name": "Electrified Impact",
+"tab": "Combat",
+"cost": "20",
+"power": "33",
+"owners": [
+"Blazen"
+]
+},
+{
+"name": "Energy Orb",
+"tab": "Combat",
+"cost": "10",
+"power": "30",
+"owners": [
+"Somniwing"
+]
+},
+{
+"name": "Enhanced Bubble",
+"tab": "Combat",
+"cost": "20",
+"power": "43",
+"owners": [
+"Gachapus"
+]
+},
+{
+"name": "Enhanced Light Blade",
+"tab": "Combat",
+"cost": "0",
+"power": "0",
+"owners": [
+"Fulmintis"
+]
+},
+{
+"name": "Enhanced Lightning Blade",
+"tab": "Combat",
+"cost": "0",
+"power": "0",
+"owners": [
+"Fulmintis"
+]
+},
+{
+"name": "Ethereal Light Wave",
+"tab": "Combat",
+"cost": "0",
+"power": "0",
+"owners": [
+"Somniwing"
+]
+},
+{
+"name": "Euphoric Sonic Blast",
+"tab": "Combat",
+"cost": "0",
+"power": "30",
+"owners": [
+"Hummin",
+"Witchin"
+]
+},
+{
+"name": "Fanatic Clawing",
+"tab": "Combat",
+"cost": "10",
+"power": "40",
+"owners": [
+"Cubbo",
+"Grizbo"
+]
+},
+{
+"name": "Fiery Charge",
+"tab": "Combat",
+"cost": "20",
+"power": "60",
+"owners": [
+"Infergon"
+]
+},
+{
+"name": "Fiery Punch",
+"tab": "Combat",
+"cost": "10",
+"power": "67",
+"owners": [
+"Lavazar"
+]
+},
+{
+"name": "Fire Bolt",
+"tab": "Combat",
+"cost": "10",
+"power": "30",
+"owners": [
+"Emberpup",
+"Flameruff",
+"Scorchhowl"
+]
+},
+{
+"name": "Fire Dash",
+"tab": "Combat",
+"cost": "10",
+"power": "25",
+"owners": [
+"Ignitis"
+]
+},
+{
+"name": "Fire Kick",
+"tab": "Combat",
+"cost": "0",
+"power": "72",
+"owners": [
+"Emberpup",
+"Flameruff",
+"Scorchhowl"
+]
+},
+{
+"name": "Fire Orb",
+"tab": "Combat",
+"cost": "20",
+"power": "50",
+"owners": [
+"Flamerion",
+"Sparki"
+]
+},
+{
+"name": "Flaming Claws",
+"tab": "Combat",
+"cost": "15",
+"power": "50",
+"owners": [
+"Infergon"
+]
+},
+{
+"name": "Floral Storm",
+"tab": "Combat",
+"cost": "13",
+"power": "26",
+"owners": [
+"Iris",
+"Irisal"
+]
+},
+{
+"name": "Flowing Water Slash",
+"tab": "Combat",
+"cost": "20",
+"power": "61",
+"owners": [
+"Sherro"
+]
+},
+{
+"name": "Focused Beam",
+"tab": "Combat",
+"cost": "50",
+"power": "120",
+"owners": [
+"Irisal"
+]
+},
+{
+"name": "Forest Whirl",
+"tab": "Combat",
+"cost": "20",
+"power": "60",
+"owners": [
+"Ignitis",
+"Wisptis"
+]
+},
+{
+"name": "Fragrance Marking",
+"tab": "Combat",
+"cost": "0",
+"power": "30",
+"owners": [
+"Fragrancier"
+]
+},
+{
+"name": "Frost Slam",
+"tab": "Combat",
+"cost": "15",
+"power": "40",
+"owners": [
+"Geoclaw"
+]
+},
+{
+"name": "Frost Strike",
+"tab": "Combat",
+"cost": "20",
+"power": "45",
+"owners": [
+"Pomawk",
+"Pomegg"
+]
+},
+{
+"name": "Frost Tail Strike",
+"tab": "Combat",
+"cost": "15",
+"power": "60",
+"owners": [
+"Glynsera"
+]
+},
+{
+"name": "Gale Guard",
+"tab": "Combat",
+"cost": "20",
+"power": "54",
+"owners": [
+"Tubster"
+]
+},
+{
+"name": "Glimmer Shot",
+"tab": "Combat",
+"cost": "10",
+"power": "20",
+"owners": [
+"Glacy"
+]
+},
+{
+"name": "Gravel Strike",
+"tab": "Combat",
+"cost": "10",
+"power": "39",
+"owners": [
+"Tuckin"
+]
+},
+{
+"name": "Gravel Tackle",
+"tab": "Combat",
+"cost": "10",
+"power": "39",
+"owners": [
+"Hummin"
+]
+},
+{
+"name": "Ground Slam",
+"tab": "Combat",
+"cost": "20",
+"power": "45",
+"owners": [
+"Cheekie",
+"Wavwal"
+]
+},
+{
+"name": "Guardbreak Slam",
+"tab": "Combat",
+"cost": "15",
+"power": "45",
+"owners": [
+"Helmut",
+"Rookey"
+]
+},
+{
+"name": "Guardbreak Smash",
+"tab": "Combat",
+"cost": "15",
+"power": "45",
+"owners": [
+"Helmut",
+"Rookey"
+]
+},
+{
+"name": "Haunting Choir",
+"tab": "Combat",
+"cost": "20",
+"power": "47",
+"owners": [
+"Tuckin"
+]
+},
+{
+"name": "Healing Dance",
+"tab": "Combat",
+"cost": "20",
+"power": "0",
+"owners": [
+"Flutternym",
+"Gracewing"
+]
+},
+{
+"name": "Healing Impact",
+"tab": "Combat",
+"cost": "10",
+"power": "20",
+"owners": [
+"Luminelle"
+]
+},
+{
+"name": "Healing Rose",
+"tab": "Combat",
+"cost": "20",
+"power": "40",
+"owners": [
+"Melloblum"
+]
+},
+{
+"name": "Healing Water",
+"tab": "Combat",
+"cost": "20",
+"power": "0",
+"owners": [
+"Glacy",
+"Pranky",
+"Skippy"
+]
+},
+{
+"name": "Here Comes the Bubble",
+"tab": "Combat",
+"cost": "20",
+"power": "0",
+"owners": [
+"Erlath",
+"Fahloo"
+]
+},
+{
+"name": "High-Voltage Dash",
+"tab": "Combat",
+"cost": "20",
+"power": "48",
+"owners": [
+"Bolty"
+]
+},
+{
+"name": "Holy Roar",
+"tab": "Combat",
+"cost": "10",
+"power": "30",
+"owners": [
+"Helion"
+]
+},
+{
+"name": "Holy Storm",
+"tab": "Combat",
+"cost": "20",
+"power": "60",
+"owners": [
+"Helion"
+]
+},
+{
+"name": "Hunting Pack",
+"tab": "Combat",
+"cost": "20",
+"power": "60",
+"owners": [
+"Inferlupa"
+]
+},
+{
+"name": "Hydro Roll",
+"tab": "Combat",
+"cost": "30",
+"power": "19",
+"owners": [
+"Panpanta"
+]
+},
+{
+"name": "Hydro Roll",
+"tab": "Combat",
+"cost": "20",
+"power": "83",
+"owners": [
+"Sheldon",
+"Shelly",
+"Sherro"
+]
+},
+{
+"name": "Hypnotic Cloud Shot",
+"tab": "Combat",
+"cost": "20",
+"power": "30",
+"owners": [
+"Dreaple"
+]
+},
+{
+"name": "Hypnotic Spores",
+"tab": "Combat",
+"cost": "20",
+"power": "28",
+"owners": [
+"Somniwing"
+]
+},
+{
+"name": "Ice Arc Strike",
+"tab": "Combat",
+"cost": "10",
+"power": "20",
+"owners": [
+"Eklue",
+"Eko"
+]
+},
+{
+"name": "Ice Ball Cutting",
+"tab": "Combat",
+"cost": "20",
+"power": "67",
+"owners": [
+"Baleetle",
+"Waleetle"
+]
+},
+{
+"name": "Ice Orb",
+"tab": "Combat",
+"cost": "10",
+"power": "30",
+"owners": [
+"Glacy",
+"Pranky",
+"Skippy"
+]
+},
+{
+"name": "Ice Sphere",
+"tab": "Combat",
+"cost": "40",
+"power": "10",
+"owners": [
+"Bouldus"
+]
+},
+{
+"name": "Ice Spikes",
+"tab": "Combat",
+"cost": "20",
+"power": "60",
+"owners": [
+"Geoclaw"
+]
+},
+{
+"name": "Ice Strikes",
+"tab": "Combat",
+"cost": "20",
+"power": "55",
+"owners": [
+"Bonesky",
+"Fenrier",
+"Glynsera"
+]
+},
+{
+"name": "Icebreaker",
+"tab": "Combat",
+"cost": "10",
+"power": "45",
+"owners": [
+"Cheekie",
+"Wavwal"
+]
+},
+{
+"name": "Icy Gravel Dance",
+"tab": "Combat",
+"cost": "20",
+"power": "67",
+"owners": [
+"Geoclaw"
+]
+},
+{
+"name": "Jittering Beats",
+"tab": "Combat",
+"cost": "20",
+"power": "45",
+"owners": [
+"Pomawk",
+"Pomegg"
+]
+},
+{
+"name": "Lava Breath",
+"tab": "Combat",
+"cost": "20",
+"power": "62",
+"owners": [
+"Infergon"
+]
+},
+{
+"name": "Lava Breath",
+"tab": "Combat",
+"cost": "0",
+"power": "40",
+"owners": [
+"Lavazar",
+"Magmarex"
+]
+},
+{
+"name": "Lava Punch",
+"tab": "Combat",
+"cost": "20",
+"power": "67",
+"owners": [
+"Magmarex"
+]
+},
+{
+"name": "Leaf Slash",
+"tab": "Combat",
+"cost": "10",
+"power": "40",
+"owners": [
+"Budclaw.",
+"Shrubclaw"
+]
+},
+{
+"name": "Leaf Tornado",
+"tab": "Combat",
+"cost": "20",
+"power": "59",
+"owners": [
+"Chirpi",
+"Cornet",
+"Tromber",
+"Tubster"
+]
+},
+{
+"name": "Light Bombardment",
+"tab": "Combat",
+"cost": "20",
+"power": "62",
+"owners": [
+"Helion"
+]
+},
+{
+"name": "Lightning Blade Impact",
+"tab": "Combat",
+"cost": "20",
+"power": "52",
+"owners": [
+"Fulmintis"
+]
+},
+{
+"name": "Lightning Blade Storm",
+"tab": "Combat",
+"cost": "10",
+"power": "35",
+"owners": [
+"Fulmintis"
+]
+},
+{
+"name": "Lightning Break",
+"tab": "Combat",
+"cost": "20",
+"power": "54",
+"owners": [
+"Dazmand"
+]
+},
+{
+"name": "Lightning Claw",
+"tab": "Combat",
+"cost": "20",
+"power": "20",
+"owners": [
+"Blazen"
+]
+},
+{
+"name": "Lightning Cross",
+"tab": "Combat",
+"cost": "20",
+"power": "45",
+"owners": [
+"Blazen"
+]
+},
+{
+"name": "Lightning Dart",
+"tab": "Combat",
+"cost": "20",
+"power": "50",
+"owners": [
+"Fenmane",
+"Fentuft"
+]
+},
+{
+"name": "Lightning Discharge",
+"tab": "Combat",
+"cost": "10",
+"power": "20",
+"owners": [
+"Bulbly",
+"Luminelle",
+"Veilfloat"
+]
+},
+{
+"name": "Lightning Impact",
+"tab": "Combat",
+"cost": "20",
+"power": "57",
+"owners": [
+"Thornblade"
+]
+},
+{
+"name": "Lightning Kick",
+"tab": "Combat",
+"cost": "0",
+"power": "72",
+"owners": [
+"Scorchhowl"
+]
+},
+{
+"name": "Lightning Splitter",
+"tab": "Combat",
+"cost": "10",
+"power": "30",
+"owners": [
+"Cornet"
+]
+},
+{
+"name": "Lumin Bolts",
+"tab": "Combat",
+"cost": "20",
+"power": "55",
+"owners": [
+"Fennelun"
+]
+},
+{
+"name": "Lunar Eclipse",
+"tab": "Combat",
+"cost": "20",
+"power": "60",
+"owners": [
+"Fennelun"
+]
+},
+{
+"name": "Magma Surge",
+"tab": "Combat",
+"cost": "20",
+"power": "53",
+"owners": [
+"Magmarex"
+]
+},
+{
+"name": "Malice Burst",
+"tab": "Combat",
+"cost": "20",
+"power": "68",
+"owners": [
+"Witchin"
+]
+},
+{
+"name": "March",
+"tab": "Combat",
+"cost": "20",
+"power": "0",
+"owners": [
+"Chirpi"
+]
+},
+{
+"name": "Moon Impact",
+"tab": "Combat",
+"cost": "15",
+"power": "45",
+"owners": [
+"Fennelun"
+]
+},
+{
+"name": "Moon-Washed",
+"tab": "Combat",
+"cost": "0",
+"power": "0",
+"owners": [
+"Fennelun"
+]
+},
+{
+"name": "Nebula Burst",
+"tab": "Combat",
+"cost": "10",
+"power": "30",
+"owners": [
+"Turbo"
+]
+},
+{
+"name": "Night Slash",
+"tab": "Combat",
+"cost": "20",
+"power": "55",
+"owners": [
+"Bonesky",
+"Fenrier",
+"Glynsera"
+]
+},
+{
+"name": "Nightmare Devourer",
+"tab": "Combat",
+"cost": "20",
+"power": "0",
+"owners": [
+"Dreaple"
+]
+},
+{
+"name": "Nimbi Attack",
+"tab": "Combat",
+"cost": "10",
+"power": "30",
+"owners": [
+"Dreaple"
+]
+},
+{
+"name": "Nimbi Burst",
+"tab": "Combat",
+"cost": "10",
+"power": "30",
+"owners": [
+"Turbo"
+]
+},
+{
+"name": "Nutrient Absorption",
+"tab": "Combat",
+"cost": "30",
+"power": "0",
+"owners": [
+"Tuckin"
+]
+},
+{
+"name": "Off-Key Shock Wave",
+"tab": "Combat",
+"cost": "10",
+"power": "39",
+"owners": [
+"Tuckin"
+]
+},
+{
+"name": "Oozing Malice",
+"tab": "Combat",
+"cost": "20",
+"power": "68",
+"owners": [
+"Witchin"
+]
+},
+{
+"name": "Overcharged Claw Strike",
+"tab": "Combat",
+"cost": "20",
+"power": "68",
+"owners": [
+"Helgon",
+"Helmwhelp",
+"Jawling"
+]
+},
+{
+"name": "Pause Gust",
+"tab": "Combat",
+"cost": "15",
+"power": "48",
+"owners": [
+"Tubster"
+]
+},
+{
+"name": "Pebble Kick",
+"tab": "Combat",
+"cost": "0",
+"power": "72",
+"owners": [
+"Emberpup",
+"Flameruff",
+"Scorchhowl"
+]
+},
+{
+"name": "Phantom Barrage",
+"tab": "Combat",
+"cost": "0",
+"power": "30",
+"owners": [
+"Flamerion"
+]
+},
+{
+"name": "Phantom Dance",
+"tab": "Combat",
+"cost": "20",
+"power": "0",
+"owners": [
+"Flutternym",
+"Gracewing"
+]
+},
+{
+"name": "Phantomflutter",
+"tab": "Combat",
+"cost": "20",
+"power": "0",
+"owners": [
+"Gracewing"
+]
+},
+{
+"name": "Plant Charge",
+"tab": "Combat",
+"cost": "10",
+"power": "39",
+"owners": [
+"Hummin"
+]
+},
+{
+"name": "Prismana Slam",
+"tab": "Combat",
+"cost": "20",
+"power": "47",
+"owners": [
+"Sherro"
+]
+},
+{
+"name": "Prismana Slash",
+"tab": "Combat",
+"cost": "20",
+"power": "75",
+"owners": [
+"Glynsera"
+]
+},
+{
+"name": "Purifying Dance",
+"tab": "Combat",
+"cost": "20",
+"power": "0",
+"owners": [
+"Flutternym",
+"Gracewing"
+]
+},
+{
+"name": "Quicksand Slam",
+"tab": "Combat",
+"cost": "20",
+"power": "28",
+"owners": [
+"Coraliz",
+"Reefish"
+]
+},
+{
+"name": "Radiant Dart",
+"tab": "Combat",
+"cost": "20",
+"power": "50",
+"owners": [
+"Fenmane"
+]
+},
+{
+"name": "Rhythm Combo",
+"tab": "Combat",
+"cost": "10",
+"power": "36",
+"owners": [
+"Pomawk",
+"Pomegg"
+]
+},
+{
+"name": "Rigged Odds",
+"tab": "Combat",
+"cost": "10",
+"power": "0",
+"owners": [
+"Gachapus",
+"Popapus"
+]
+},
+{
+"name": "Rock Tackle",
+"tab": "Combat",
+"cost": "0",
+"power": "30",
+"owners": [
+"Bouldus"
+]
+},
+{
+"name": "Roll Out",
+"tab": "Combat",
+"cost": "20",
+"power": "31",
+"owners": [
+"Cozite"
+]
+},
+{
+"name": "Rolling Ball",
+"tab": "Combat",
+"cost": "40",
+"power": "10",
+"owners": [
+"Bouldus"
+]
+},
+{
+"name": "Sand Rush",
+"tab": "Combat",
+"cost": "10",
+"power": "45",
+"owners": [
+"Cheekie",
+"Wavwal"
+]
+},
+{
+"name": "Sandstorm Spin",
+"tab": "Combat",
+"cost": "10",
+"power": "20",
+"owners": [
+"Waleetle"
+]
+},
+{
+"name": "Scream Splitter",
+"tab": "Combat",
+"cost": "10",
+"power": "30",
+"owners": [
+"Cornet"
+]
+},
+{
+"name": "Scythe Dance",
+"tab": "Combat",
+"cost": "20",
+"power": "60",
+"owners": [
+"Ignitis",
+"Wisptis"
+]
+},
+{
+"name": "Seismic Wave",
+"tab": "Combat",
+"cost": "40",
+"power": "155",
+"owners": [
+"Minespine"
+]
+},
+{
+"name": "Shadow Cut",
+"tab": "Combat",
+"cost": "20",
+"power": "85",
+"owners": [
+"Pawney"
+]
+},
+{
+"name": "Shadow Magic",
+"tab": "Combat",
+"cost": "20",
+"power": "0",
+"owners": [
+"Stellarys"
+]
+},
+{
+"name": "Shard Impact",
+"tab": "Combat",
+"cost": "20",
+"power": "67",
+"owners": [
+"Witchin"
+]
+},
+{
+"name": "Shooting Star Bombs",
+"tab": "Combat",
+"cost": "20",
+"power": "61",
+"owners": [
+"Celestis"
+]
+},
+{
+"name": "Shooting Star Glide",
+"tab": "Combat",
+"cost": "20",
+"power": "74",
+"owners": [
+"Stellarys"
+]
+},
+{
+"name": "Shooting Stars",
+"tab": "Combat",
+"cost": "20",
+"power": "40",
+"owners": [
+"Stellarys"
+]
+},
+{
+"name": "Smoke Screen",
+"tab": "Combat",
+"cost": "10",
+"power": "0",
+"owners": [
+"Bailite",
+"Cozite"
+]
+},
+{
+"name": "Sonar Attack",
+"tab": "Combat",
+"cost": "20",
+"power": "30",
+"owners": [
+"Eko"
+]
+},
+{
+"name": "Spiral Blade",
+"tab": "Combat",
+"cost": "20",
+"power": "62",
+"owners": [
+"Tromber"
+]
+},
+{
+"name": "Splash Shield",
+"tab": "Combat",
+"cost": "20",
+"power": "30",
+"owners": [
+"Panpanta"
+]
+},
+{
+"name": "Spotlight Moment",
+"tab": "Combat",
+"cost": "0",
+"power": "0",
+"owners": [
+"Luminelle"
+]
+},
+{
+"name": "Star Glide",
+"tab": "Combat",
+"cost": "20",
+"power": "74",
+"owners": [
+"Celestis"
+]
+},
+{
+"name": "Stone Ball Cutter",
+"tab": "Combat",
+"cost": "20",
+"power": "67",
+"owners": [
+"Baleetle",
+"Waleetle"
+]
+},
+{
+"name": "Stone Ball Drift",
+"tab": "Combat",
+"cost": "20",
+"power": "61",
+"owners": [
+"Baleetle",
+"Waleetle"
+]
+},
+{
+"name": "Stone Shell",
+"tab": "Combat",
+"cost": "10",
+"power": "33",
+"owners": [
+"Geodeback",
+"Minespine",
+"Pebbling"
+]
+},
+{
+"name": "Sun-Kissed",
+"tab": "Combat",
+"cost": "0",
+"power": "0",
+"owners": [
+"Helion"
+]
+},
+{
+"name": "Surf",
+"tab": "Combat",
+"cost": "20",
+"power": "30",
+"owners": [
+"Piopiota"
+]
+},
+{
+"name": "Surge",
+"tab": "Combat",
+"cost": "20",
+"power": "72",
+"owners": [
+"Piopiota"
+]
+},
+{
+"name": "Swift Retreat",
+"tab": "Combat",
+"cost": "20",
+"power": "53",
+"owners": [
+"Bulbly",
+"Luminelle",
+"Veilfloat"
+]
+},
+{
+"name": "Tactical Kick",
+"tab": "Combat",
+"cost": "20",
+"power": "45",
+"owners": [
+"Eklue"
+]
+},
+{
+"name": "The Luminus Gust",
+"tab": "Combat",
+"cost": "10",
+"power": "35",
+"owners": [
+"Budclaw.",
+"Shrubclaw"
+]
+},
+{
+"name": "Thorny Blessing",
+"tab": "Combat",
+"cost": "30",
+"power": "14",
+"owners": [
+"Melloblum"
+]
+},
+{
+"name": "Thorny Defense",
+"tab": "Combat",
+"cost": "20",
+"power": "75",
+"owners": [
+"Budsquire",
+"Thornblade"
+]
+},
+{
+"name": "Thorny Impact",
+"tab": "Combat",
+"cost": "20",
+"power": "57",
+"owners": [
+"Budsquire",
+"Thornblade"
+]
+},
+{
+"name": "Thorny Rain",
+"tab": "Combat",
+"cost": "10",
+"power": "30",
+"owners": [
+"Thornblade"
+]
+},
+{
+"name": "Thunder Bolt",
+"tab": "Combat",
+"cost": "10",
+"power": "30",
+"owners": [
+"Nimbi",
+"Turbo"
+]
+},
+{
+"name": "Thunder Field",
+"tab": "Combat",
+"cost": "20",
+"power": "1",
+"owners": [
+"Fenmane",
+"Fentuft"
+]
+},
+{
+"name": "Thunder Imprint",
+"tab": "Combat",
+"cost": "30",
+"power": "1",
+"owners": [
+"Fenmane"
+]
+},
+{
+"name": "Thunder Slam",
+"tab": "Combat",
+"cost": "20",
+"power": "47",
+"owners": [
+"Sherro"
+]
+},
+{
+"name": "Thunder Sweep",
+"tab": "Combat",
+"cost": "30",
+"power": "80",
+"owners": [
+"Dazmand"
+]
+},
+{
+"name": "Thunder Tail",
+"tab": "Combat",
+"cost": "20",
+"power": "20",
+"owners": [
+"Bolty"
+]
+},
+{
+"name": "Tornado",
+"tab": "Combat",
+"cost": "20",
+"power": "59",
+"owners": [
+"Chirpi",
+"Cornet",
+"Tromber",
+"Tubster"
+]
+},
+{
+"name": "Tornado Wind Orb",
+"tab": "Combat",
+"cost": "20",
+"power": "67",
+"owners": [
+"Chirpi"
+]
+},
+{
+"name": "Torrent Slam",
+"tab": "Combat",
+"cost": "20",
+"power": "47",
+"owners": [
+"Sheldon",
+"Shelly",
+"Sherro"
+]
+},
+{
+"name": "Trick Fire Ring",
+"tab": "Combat",
+"cost": "20",
+"power": "35",
+"owners": [
+"Flamerion",
+"Sparki"
+]
+},
+{
+"name": "Turret Mode",
+"tab": "Combat",
+"cost": "0",
+"power": "35",
+"owners": [
+"Bailite"
+]
+},
+{
+"name": "Unbroken Flameruff Spirit",
+"tab": "Combat",
+"cost": "20",
+"power": "60",
+"owners": [
+"Inferlupa"
+]
+},
+{
+"name": "Verdant Beam",
+"tab": "Combat",
+"cost": "20",
+"power": "66",
+"owners": [
+"Budclaw.",
+"Shrubclaw"
+]
+},
+{
+"name": "Vine Entanglement",
+"tab": "Combat",
+"cost": "10",
+"power": "16",
+"owners": [
+"Leafy"
+]
+},
+{
+"name": "Vortex of Petals",
+"tab": "Combat",
+"cost": "15",
+"power": "46",
+"owners": [
+"Iris",
+"Irisal"
+]
+},
+{
+"name": "Waltz",
+"tab": "Combat",
+"cost": "0",
+"power": "0",
+"owners": [
+"Tromber"
+]
+},
+{
+"name": "Water Arc Strike",
+"tab": "Combat",
+"cost": "10",
+"power": "20",
+"owners": [
+"Eklue",
+"Eko"
+]
+},
+{
+"name": "Water Cannon",
+"tab": "Combat",
+"cost": "10",
+"power": "39",
+"owners": [
+"Panpanta",
+"Piopiota",
+"Popota",
+"Susuta"
+]
+},
+{
+"name": "Water Cannonade",
+"tab": "Combat",
+"cost": "10",
+"power": "39",
+"owners": [
+"Panpanta"
+]
+},
+{
+"name": "Water Dash",
+"tab": "Combat",
+"cost": "20",
+"power": "74",
+"owners": [
+"Popota",
+"Susuta"
+]
+},
+{
+"name": "Water Orb",
+"tab": "Combat",
+"cost": "10",
+"power": "30",
+"owners": [
+"Glacy",
+"Pranky",
+"Skippy"
+]
+},
+{
+"name": "Water Rush",
+"tab": "Combat",
+"cost": "10",
+"power": "20",
+"owners": [
+"Luminelle"
+]
+},
+{
+"name": "Water Tornado",
+"tab": "Combat",
+"cost": "20",
+"power": "59",
+"owners": [
+"Chirpi",
+"Cornet",
+"Tromber",
+"Tubster"
+]
+},
+{
+"name": "Wave Surge",
+"tab": "Combat",
+"cost": "20",
+"power": "67",
+"owners": [
+"Wavwal"
+]
+},
+{
+"name": "Weakening Slam",
+"tab": "Combat",
+"cost": "15",
+"power": "45",
+"owners": [
+"Pawney"
+]
+},
+{
+"name": "Weakening Smash",
+"tab": "Combat",
+"cost": "15",
+"power": "45",
+"owners": [
+"Pawney"
+]
+},
+{
+"name": "Wild Dance",
+"tab": "Combat",
+"cost": "10",
+"power": "33",
+"owners": [
+"Malangel",
+"Malevsera"
+]
+},
+{
+"name": "Wild Show",
+"tab": "Combat",
+"cost": "20",
+"power": "70",
+"owners": [
+"Pomawk"
+]
+},
+{
+"name": "Wind Bomb Rush",
+"tab": "Combat",
+"cost": "45",
+"power": "157",
+"owners": [
+"Cornet"
+]
+},
+{
+"name": "Wind Counter",
+"tab": "Combat",
+"cost": "20",
+"power": "69",
+"owners": [
+"Helgon"
+]
+},
+{
+"name": "Wind of Regeneration",
+"tab": "Combat",
+"cost": "20",
+"power": "0",
+"owners": [
+"Flutternym",
+"Gracewing"
+]
+},
+{
+"name": "Wind of Rejuvenation",
+"tab": "Combat",
+"cost": "20",
+"power": "0",
+"owners": [
+"Flutternym",
+"Gracewing"
+]
+},
+{
+"name": "Wind Tackle",
+"tab": "Combat",
+"cost": "15",
+"power": "45",
+"owners": [
+"Helgon",
+"Helmwhelp",
+"Jawling"
+]
+},
+{
+"name": "Withering Bloom",
+"tab": "Combat",
+"cost": "20",
+"power": "10",
+"owners": [
+"Dewy"
+]
+},
+{
+"name": "Withering Bloom",
+"tab": "Combat",
+"cost": "20",
+"power": "22",
+"owners": [
+"Fragrancier"
+]
+},
+{
+"name": "Annihilation Barrage",
+"tab": "Innate",
+"cost": "0",
+"power": "165",
+"owners": [
+"Bailite"
+]
+},
+{
+"name": "Annihilation Bomb",
+"tab": "Innate",
+"cost": "0",
+"power": "164",
+"owners": [
+"Witchin"
+]
+},
+{
+"name": "Ashfrost Judgment",
+"tab": "Innate",
+"cost": "0",
+"power": "154",
+"owners": [
+"Malevsera"
+]
+},
+{
+"name": "ATK",
+"tab": "Innate",
+"cost": "0",
+"power": "6",
+"owners": [
+"Bailite",
+"Baleetle",
+"Besauce",
+"Blazen",
+"Bolty",
+"Bonesky",
+"Bouldus",
+"Bubbeep",
+"Budclaw.",
+"Budsquire",
+"Bulbly",
+"Celestis",
+"Cheekie",
+"Chirpi",
+"Coraliz",
+"Cornet",
+"Cozite",
+"Cubbo",
+"Dazmand",
+"Dewy",
+"Dreaple",
+"Eklue",
+"Eko",
+"Emberpup",
+"Erlath",
+"Fahloo",
+"Fenmane",
+"Fennelun",
+"Fenrier",
+"Fentuft",
+"Flamerion",
+"Flameruff",
+"Flutternym",
+"Fragrancier",
+"Fulmintis",
+"Gachapus",
+"Geoclaw",
+"Geodeback",
+"Glacy",
+"Glameep",
+"Glynsera",
+"Gracewing",
+"Grizbo",
+"Helgon",
+"Helion",
+"Helmut",
+"Helmwhelp",
+"Hummin",
+"Ignitis",
+"Infergon",
+"Inferlupa",
+"Iris",
+"Irisal",
+"Jawling",
+"Lavazar",
+"Leafy",
+"Luminelle",
+"Magmarex",
+"Malangel",
+"Malevsera",
+"Melloblum",
+"Minespine",
+"Nimbi",
+"Panpanta",
+"Pawney",
+"Pebbling",
+"Piopiota",
+"Pomawk",
+"Pomegg",
+"Popapus",
+"Popota",
+"Pranky",
+"Reefish",
+"Rookey",
+"Scorchhowl",
+"Sheldon",
+"Shelly",
+"Sherro",
+"Shrubclaw",
+"Skippy",
+"Somniwing",
+"Sparki",
+"Stellarys",
+"Susuta",
+"Thornblade",
+"Tromber",
+"Tubster",
+"Tuckin",
+"Turbo",
+"Veilfloat",
+"Waleetle",
+"Wavwal",
+"Wisptis",
+"Witchin"
+]
+},
+{
+"name": "Aurora Protection",
+"tab": "Innate",
+"cost": "0",
+"power": "0",
+"owners": [
+"Wavwal"
+]
+},
+{
+"name": "Avian Harmony Ensemble",
+"tab": "Innate",
+"cost": "0",
+"power": "179",
+"owners": [
+"Cornet"
+]
+},
+{
+"name": "Boulder Blast",
+"tab": "Innate",
+"cost": "0",
+"power": "175",
+"owners": [
+"Bouldus"
+]
+},
+{
+"name": "Breaking Roar",
+"tab": "Innate",
+"cost": "0",
+"power": "165",
+"owners": [
+"Tuckin"
+]
+},
+{
+"name": "Burning Sun",
+"tab": "Innate",
+"cost": "0",
+"power": "150",
+"owners": [
+"Magmarex"
+]
+},
+{
+"name": "Butterfly Dance",
+"tab": "Innate",
+"cost": "0",
+"power": "0",
+"owners": [
+"Somniwing"
+]
+},
+{
+"name": "Collectible Drop",
+"tab": "Innate",
+"cost": "0",
+"power": "0",
+"owners": [
+"Turbo"
+]
+},
+{
+"name": "Comet Aureus",
+"tab": "Innate",
+"cost": "0",
+"power": "166",
+"owners": [
+"Stellarys"
+]
+},
+{
+"name": "Coral Prison",
+"tab": "Innate",
+"cost": "0",
+"power": "70",
+"owners": [
+"Coraliz"
+]
+},
+{
+"name": "Crazy Bubbles",
+"tab": "Innate",
+"cost": "0",
+"power": "0",
+"owners": [
+"Erlath"
+]
+},
+{
+"name": "Dancing Petals",
+"tab": "Innate",
+"cost": "0",
+"power": "187",
+"owners": [
+"Irisal"
+]
+},
+{
+"name": "Dimension Rupture",
+"tab": "Innate",
+"cost": "0",
+"power": "170",
+"owners": [
+"Ignitis"
+]
+},
+{
+"name": "Dream Blast",
+"tab": "Innate",
+"cost": "0",
+"power": "84",
+"owners": [
+"Dreaple"
+]
+},
+{
+"name": "Electric Dance Frenzy",
+"tab": "Innate",
+"cost": "0",
+"power": "91",
+"owners": [
+"Besauce"
+]
+},
+{
+"name": "Elegant Waltz",
+"tab": "Innate",
+"cost": "0",
+"power": "172",
+"owners": [
+"Thornblade"
+]
+},
+{
+"name": "Falling Star",
+"tab": "Innate",
+"cost": "0",
+"power": "170",
+"owners": [
+"Scorchhowl"
+]
+},
+{
+"name": "Fragrance Bomb",
+"tab": "Innate",
+"cost": "0",
+"power": "0",
+"owners": [
+"Fragrancier"
+]
+},
+{
+"name": "Freezing Claws",
+"tab": "Innate",
+"cost": "0",
+"power": "173",
+"owners": [
+"Geoclaw"
+]
+},
+{
+"name": "Heavy Slam",
+"tab": "Innate",
+"cost": "0",
+"power": "196",
+"owners": [
+"Rookey"
+]
+},
+{
+"name": "Helios' Judgment",
+"tab": "Innate",
+"cost": "0",
+"power": "167",
+"owners": [
+"Helion"
+]
+},
+{
+"name": "Help! Gracewing!",
+"tab": "Innate",
+"cost": "0",
+"power": "150",
+"owners": [
+"Gracewing"
+]
+},
+{
+"name": "Home Run",
+"tab": "Innate",
+"cost": "0",
+"power": "176",
+"owners": [
+"Panpanta"
+]
+},
+{
+"name": "Hot Breath",
+"tab": "Innate",
+"cost": "0",
+"power": "156",
+"owners": [
+"Infergon"
+]
+},
+{
+"name": "Ice Tornado",
+"tab": "Innate",
+"cost": "0",
+"power": "155",
+"owners": [
+"Glynsera"
+]
+},
+{
+"name": "Ironclad Armament",
+"tab": "Innate",
+"cost": "0",
+"power": "220",
+"owners": [
+"Pawney"
+]
+},
+{
+"name": "Leafwave Bubble",
+"tab": "Innate",
+"cost": "0",
+"power": "0",
+"owners": [
+"Glameep"
+]
+},
+{
+"name": "Lightning Flash",
+"tab": "Innate",
+"cost": "0",
+"power": "135",
+"owners": [
+"Blazen"
+]
+},
+{
+"name": "Lightning Storm",
+"tab": "Innate",
+"cost": "0",
+"power": "150",
+"owners": [
+"Dazmand"
+]
+},
+{
+"name": "Lotus Bloom",
+"tab": "Innate",
+"cost": "0",
+"power": "0",
+"owners": [
+"Leafy"
+]
+},
+{
+"name": "Meteors",
+"tab": "Innate",
+"cost": "0",
+"power": "189",
+"owners": [
+"Minespine"
+]
+},
+{
+"name": "Phantom Flame Cannon",
+"tab": "Innate",
+"cost": "0",
+"power": "100",
+"owners": [
+"Flamerion"
+]
+},
+{
+"name": "Quake Impact",
+"tab": "Innate",
+"cost": "0",
+"power": "173",
+"owners": [
+"Shrubclaw"
+]
+},
+{
+"name": "Rock Ball Blast",
+"tab": "Innate",
+"cost": "0",
+"power": "195",
+"owners": [
+"Waleetle"
+]
+},
+{
+"name": "Rock Smash",
+"tab": "Innate",
+"cost": "0",
+"power": "227",
+"owners": [
+"Grizbo"
+]
+},
+{
+"name": "Rose Garden",
+"tab": "Innate",
+"cost": "0",
+"power": "0",
+"owners": [
+"Melloblum"
+]
+},
+{
+"name": "Selene's Judgment",
+"tab": "Innate",
+"cost": "0",
+"power": "167",
+"owners": [
+"Fennelun"
+]
+},
+{
+"name": "Self-Destruction",
+"tab": "Innate",
+"cost": "0",
+"power": "80",
+"owners": [
+"Luminelle"
+]
+},
+{
+"name": "Skyfall",
+"tab": "Innate",
+"cost": "0",
+"power": "175",
+"owners": [
+"Helgon"
+]
+},
+{
+"name": "Sonic Boom",
+"tab": "Innate",
+"cost": "0",
+"power": "176",
+"owners": [
+"Pomawk"
+]
+},
+{
+"name": "Spring of Life",
+"tab": "Innate",
+"cost": "0",
+"power": "0",
+"owners": [
+"Glacy"
+]
+},
+{
+"name": "Super Jackpot",
+"tab": "Innate",
+"cost": "0",
+"power": "183",
+"owners": [
+"Gachapus"
+]
+},
+{
+"name": "Target Weakness",
+"tab": "Innate",
+"cost": "0",
+"power": "0",
+"owners": [
+"Eklue"
+]
+},
+{
+"name": "Thunder Lance",
+"tab": "Innate",
+"cost": "0",
+"power": "180",
+"owners": [
+"Fulmintis"
+]
+},
+{
+"name": "Thunderfeather Volley",
+"tab": "Innate",
+"cost": "0",
+"power": "100",
+"owners": [
+"Fenmane"
+]
+},
+{
+"name": "Torrent Blade",
+"tab": "Innate",
+"cost": "0",
+"power": "160",
+"owners": [
+"Sherro"
+]
+},
+{
+"name": "Wolfpack Onslaught",
+"tab": "Innate",
+"cost": "0",
+"power": "194",
+"owners": [
+"Inferlupa"
+]
+},
+{
+"name": "Wrath of the Sea",
+"tab": "Innate",
+"cost": "0",
+"power": "100",
+"owners": [
+"Piopiota"
+]
+},
+{
+"name": "Zephyr's Breath",
+"tab": "Innate",
+"cost": "0",
+"power": "92",
+"owners": [
+"Tromber"
+]
+},
+{
+"name": "〔主译〕Lay down arms 〔备选〕Cease hostilities",
+"tab": "Innate",
+"cost": "0",
+"power": "0",
+"owners": [
+"Tubster"
+]
+}
+]

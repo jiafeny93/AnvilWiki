@@ -83,10 +83,10 @@
       "description": "가장 완벽한 애니모(Aniimo) Wiki. 크리처 도감, 티어리스트, 트와인(Twine) 결속 메커니즘, 출시·베타 정보, 초보 가이드까지. 커뮤니티가 상시 업데이트합니다."
     },
     "hero": {
-      "badge": "팬 제작 커뮤니티 Wiki",
+      "badge": "팬 위키 · 2026년 9월 16일 출시",
       "title": "애니모 Wiki",
       "description": "애니모(Aniimo) 완전 공략. 트와인(Twine) 결속 시스템을 마스터하고, 모든 크리처를 탐험하고, 최강 팀을 꾸리고, 최신 출시·베타 소식을 확인하세요.",
-      "ctaPrimary": "공식 사이트",
+      "ctaPrimary": "94종 크리처 살펴보기",
       "ctaSecondary": "Wiki 둘러보기",
       "videoId": ""
     },
@@ -286,7 +286,7 @@
     "closingCta": {
       "title": "애니모 모험을 시작하세요",
       "description": "이 Wiki를 즐겨찾기하고 크리처 가이드, 티어리스트, 최신 출시·베타 소식을 받아보세요.",
-      "primary": "공식 사이트",
+      "primary": "크리처 도감 열기",
       "secondary": "공식 Discord 참여"
     },
     "_archived": {

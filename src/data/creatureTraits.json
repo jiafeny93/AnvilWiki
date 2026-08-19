@@ -1,0 +1,414 @@
+[
+{
+"name": "Appeal",
+"desc": "When entering battle, if the team has an opposite-sex Susuta family member, increases own BREAK efficiency by 30% for 15s. Cooldown: 20s.",
+"owners": [
+"Panpanta",
+"Popota",
+"Susuta"
+]
+},
+{
+"name": "Arc Surge",
+"desc": "Teammates who receive this Aniimo's skill buff also gain 25% Lightning damage for 15s.",
+"owners": [
+"Bulbly",
+"Luminelle",
+"Veilfloat"
+]
+},
+{
+"name": "Biting Wind",
+"desc": "When dealing damage to targets with more than 5 stacks of [Ice Debuff], increases critical rate of that damage by 15%.",
+"owners": [
+"Bonesky",
+"Fenrier",
+"Glynsera"
+]
+},
+{
+"name": "Counter Strike",
+"desc": "After being attacked, increases BREAK efficiency by 30% for 10s.",
+"owners": [
+"Helgon",
+"Helmwhelp",
+"Jawling"
+]
+},
+{
+"name": "Earth Affinity",
+"desc": "While in [Tunneling] state, can cast skills and deals 30% extra BREAK.",
+"owners": [
+"Geodeback",
+"Minespine",
+"Pebbling"
+]
+},
+{
+"name": "Scorching Flames",
+"desc": "Increases damage dealt to enemies weak to your element by 15%.",
+"owners": [
+"Emberpup",
+"Flameruff",
+"Scorchhowl"
+]
+},
+{
+"name": "Tidal Heart",
+"desc": "While in water terrain or after absorbing water, increases Water damage by 20% for 10s.",
+"owners": [
+"Sheldon",
+"Shelly",
+"Sherro"
+]
+},
+{
+"name": "Water Spirit",
+"desc": "While in water terrain, reduces the EP cost of all skills by 10%.",
+"owners": [
+"Glacy",
+"Pranky",
+"Skippy"
+]
+},
+{
+"name": "Band Member",
+"desc": "When switching Aniimo in battle, restores 12.5 EP to the next Chirpi family member switched in. Triggers once every 20s at most.",
+"owners": [
+"Chirpi",
+"Tromber"
+]
+},
+{
+"name": "Battle Fervor",
+"desc": "Defeating a target grants 1 stack of Battlelust, increasing damage by 25% for 20s. Stacks up to 2 times.",
+"owners": [
+"Ignitis",
+"Wisptis"
+]
+},
+{
+"name": "Blazing Flames",
+"desc": "Always has 20 stacks of [Fire Debuff]. [Trick Fire Ring] applies 4 stacks of [Fire Debuff], while [Fire Orb] applies 3 stacks of [Fire Debuff].",
+"owners": [
+"Flamerion",
+"Sparki"
+]
+},
+{
+"name": "Bloodthirst",
+"desc": "For every 1% HP lost, increases damage by 0.8%, up to 48%.",
+"owners": [
+"Malangel",
+"Malevsera"
+]
+},
+{
+"name": "Bubble",
+"desc": "Every 12s, enters Bathing. The next skill cast creates a puddle.",
+"owners": [
+"Erlath",
+"Fahloo"
+]
+},
+{
+"name": "Bubble Energy",
+"desc": "Automatically restores 1 [Bubble Energy] every 3s. Each time this Aniimo’s skill deals damage to a target, restores an extra 3. Stores up to 10. Casting [Baa-Baa Healbubb] consumes 10 to restore an extra 12%.",
+"owners": [
+"Bubbeep",
+"Glameep"
+]
+},
+{
+"name": "Dangerous Fragrance",
+"desc": "When a skill deals damage to a target, reduces the target's Dark Resistance by 7% for 20s.",
+"owners": [
+"Dewy",
+"Fragrancier"
+]
+},
+{
+"name": "Disco Aniimo",
+"desc": "While on grass, damage increases by 20%. After entering battle, each skill hit grants 1 [Dance Power]. At 24, the next skill costs no EP.",
+"owners": [
+"Iris",
+"Irisal"
+]
+},
+{
+"name": "Flutter Heal",
+"desc": "When entering battle as the active Aniimo, increases healing by 20%. If off field, appears as a phantom. When other Aniimo cast skills or Ultimates, restores HP equal to 0.5% of max HP.",
+"owners": [
+"Flutternym",
+"Gracewing"
+]
+},
+{
+"name": "Gachapon",
+"desc": "Each basic attack and skill triggers the gacha once, randomly firing an orange, purple, blue, or gold bubble and adding that bubble color to the gacha slots. Gold bubbles have a 1% chance to appear, while each other color has a 33% chance to appear. When the slots hold 5 bubbles of the same color, or when a gold bubble appears, all bubbles are cleared and [Jackpot] begins for 10s. In [Jackpot], basic attacks and skills no longer trigger the gacha and always fire Rainbow Bubbles. Basic attack damage +60%.",
+"owners": [
+"Gachapus",
+"Popapus"
+]
+},
+{
+"name": "Grand Sorcerer",
+"desc": "For 5s after using a skill, basic attack hits deal additional damage equal to 5 Might.",
+"owners": [
+"Celestis",
+"Stellarys"
+]
+},
+{
+"name": "Guardbreak Resonance",
+"desc": "Increases BREAK by 0.",
+"owners": [
+"Helmut",
+"Rookey"
+]
+},
+{
+"name": "Hard Winter",
+"desc": "After casting 3 skills, enhances the next skill used during Icebreaker and adds an extra effect.When HP is below 75%, increases BREAK efficiency by 20%. When HP is below 50%, increases BREAK efficiency by 40%.",
+"owners": [
+"Cheekie",
+"Wavwal"
+]
+},
+{
+"name": "Judgment Storm",
+"desc": "When a skill applies a debuff to a target, Wind damage for the whole team increases by 20% for 15s.",
+"owners": [
+"Eklue",
+"Eko"
+]
+},
+{
+"name": "Overcharged Coral",
+"desc": "When entering battle, restores 2.5 EP for each Earth-type Aniimo on the team. Cooldown: 15s.",
+"owners": [
+"Coraliz",
+"Reefish"
+]
+},
+{
+"name": "Overloaded Engine",
+"desc": "Moving and using skills builds Overload Energy. When Overload Energy is full, the next skill gains 40% bonus damage.",
+"owners": [
+"Baleetle",
+"Waleetle"
+]
+},
+{
+"name": "Potent Erosion",
+"desc": "When a skill or Ultimate hits a target, reduces the target’s Earth Resistance by 2%. Stacks up to 5 times and lasts 10s.",
+"owners": [
+"Bailite",
+"Cozite"
+]
+},
+{
+"name": "Power Sustain",
+"desc": "After skills land 6 critical hits, becomes [Overcharged], immediately gaining a shield equal to 5% HP. All skills cost 12 less EP, but UP cannot be gained. Lasts 6s.",
+"owners": [
+"Blazen",
+"Bolty"
+]
+},
+{
+"name": "Pyro Charge",
+"desc": "After spending a total of  EP, gains [Pyro Charge]. Every 502s, applies 1 stack of Fire Debuff to nearby targets for 10s.",
+"owners": [
+"Lavazar",
+"Magmarex"
+]
+},
+{
+"name": "Raging Rampage",
+"desc": "Builds [Rage] during battle. Basic attacks grant 2 points, every 10 EP spent on skills grants 10, and taking damage grants 2. At 100 points, enters the [Enraged] state.[Enraged] increases ATK Speed and own skill damage by 30%, increases the EP recovery rate by 25%, and prevents [Rage] gain. Lasts 20s.",
+"owners": [
+"Cubbo",
+"Grizbo"
+]
+},
+{
+"name": "Shrouded in Mist",
+"desc": "After using 6 basic attacks, enters [Shrouded in Mist] state. Casting a skill consumes this state to enhance the skill's effects.",
+"owners": [
+"Nimbi",
+"Turbo"
+]
+},
+{
+"name": "Stealth",
+"desc": "Skills build Momentum when they deal damage, up to 6 stacks. Momentum gain is doubled during tunneling. At max stacks, increases BREAK efficiency by 30% for 15s.",
+"owners": [
+"Budclaw.",
+"Shrubclaw"
+]
+},
+{
+"name": "Sword Dance",
+"desc": "Each skill used grants 1 stack of [Sword Dance], up to 4 stacks, lasting 15s. Each basic attack costs 1 stack of [Sword Dance] to deal 180% extra damage.",
+"owners": [
+"Budsquire",
+"Thornblade"
+]
+},
+{
+"name": "Thunderbond",
+"desc": "When this Aniimo's attack hits a target, it gains 1 stack of [Thunderbond]. At 30 stacks, it enters the [Thunderwing Stance] when using its next skill or Ultimate. Lasts 10s.",
+"owners": [
+"Fenmane",
+"Fentuft"
+]
+},
+{
+"name": "Tuning",
+"desc": "Each skill cast grants 1 stack of [Volume], up to 6 stacks. At 6 stacks of [Volume], increases critical rate by 15% for 15s.",
+"owners": [
+"Pomawk",
+"Pomegg"
+]
+},
+{
+"name": "Air Superiority",
+"desc": "Increases critical rate by 20% while flying.",
+"owners": [
+"Cornet"
+]
+},
+{
+"name": "Counting Sheep",
+"desc": "Every 10s, the next skill applies 1 stack of [Drowsiness] to the target. At 3 stacks, the target enters [Nightmare] for 20s. Targets in [Nightmare] have their Dark Resistance reduced by 17% and cannot move or cast skills for 3s. Taking damage removes the control effect.",
+"owners": [
+"Dreaple"
+]
+},
+{
+"name": "Electro Stash",
+"desc": "Restores 4 EP when a skill lands a critical hit.",
+"owners": [
+"Fulmintis"
+]
+},
+{
+"name": "Energized",
+"desc": "For every 1,000 max HP, increases BREAK damage by 2%.",
+"owners": [
+"Hummin"
+]
+},
+{
+"name": "Energy Full",
+"desc": "Increases max EP by 10.",
+"owners": [
+"Somniwing"
+]
+},
+{
+"name": "Frostbite Sunder",
+"desc": "Basic attacks apply [Ice Debuff]. Deals 35% extra BREAK to targets with more than 5 stacks of [Ice Debuff].",
+"owners": [
+"Geoclaw"
+]
+},
+{
+"name": "Full Energy",
+"desc": "After using 8 basic attacks in battle, Inferlupa enters Full Energy, enhancing its next skill. Damage dealt by that skill is treated as basic attack damage.",
+"owners": [
+"Inferlupa"
+]
+},
+{
+"name": "Lunar Power",
+"desc": "When not attacking with an advantageous element, final damage increases by 20%.Casting a skill or Ultimate grants 4 stacks of [Silver Moon Mark]. Each basic attack hit consumes 1 stack, deals 100% extra damage, and restores 0.5% HP.",
+"owners": [
+"Fennelun"
+]
+},
+{
+"name": "Phantom Opening",
+"desc": "When a teammate deals basic attack damage, gains 1 stack of [Rose Mark], up to 10 stacks. Each stack of [Rose Mark] reduces Melloblum's EP cost by 3.",
+"owners": [
+"Melloblum"
+]
+},
+{
+"name": "Power of Fire",
+"desc": "Deals 40% extra damage to enemies with more than 5 stacks of Fire Debuff.",
+"owners": [
+"Infergon"
+]
+},
+{
+"name": "Power of Nature",
+"desc": "While off field, creates a patch of grass under a teammate after they cast 3 skills.",
+"owners": [
+"Leafy"
+]
+},
+{
+"name": "Power Surge",
+"desc": "When casting a skill with less than 20 EP, restores 2.5 EP.",
+"owners": [
+"Besauce"
+]
+},
+{
+"name": "Prank",
+"desc": "Every 18s, the next skill applies [Curse] to enemies hit for 10s. Dark basic attacks restore 0.25 EP when hitting enemies with [Curse].",
+"owners": [
+"Witchin"
+]
+},
+{
+"name": "Prank Master",
+"desc": "Increases BREAK damage by % for every 21,000 max HP. Upon entering battle, summons 1 Hummin to assist. An additional Hummin is summoned every 10s, up to a maximum of 3.",
+"owners": [
+"Tuckin"
+]
+},
+{
+"name": "Pursuit",
+"desc": "Deals 30% extra damage to targets affected by control effects or BREAK.",
+"owners": [
+"Pawney"
+]
+},
+{
+"name": "Radiant Charm",
+"desc": "Increases Water damage by12% for all opposite-sex Aniimo on the team.",
+"owners": [
+"Piopiota"
+]
+},
+{
+"name": "Rock Empowerment",
+"desc": "[Rock Piles] created by Bouldus can be destroyed by Waleetle's [Stone Ball Drift], releasing shock waves and applying [Disintegration] to the target.[Disintegration]: Each stack reduces Earth Resistance by 3%% and Movement Speed by 5% for 20s. Stacks up to 6 times.",
+"owners": [
+"Bouldus"
+]
+},
+{
+"name": "Solar Grace",
+"desc": "When not attacking with an advantageous element, final damage increases by 20%. Every 4 basic attacks grants [Solar Halo], enhancing the next skill.",
+"owners": [
+"Helion"
+]
+},
+{
+"name": "Spotlight Moment",
+"desc": "The first skill this Aniimo uses within 5s of entering battle does not consume EP. Cooldown: 17s.",
+"owners": [
+"Dazmand"
+]
+},
+{
+"name": "Victory Concerto",
+"desc": "While shielded, BREAK efficiency +40%.When triggering BREAK, plays [Concerto], reducing the whole team's stamina cost by 30%.When you have 3 Movement-series buffs, increases all Movement effects by 30%.",
+"owners": [
+"Tubster"
+]
+}
+]

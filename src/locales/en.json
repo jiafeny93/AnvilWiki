@@ -83,10 +83,10 @@
       "description": "The most complete Aniimo wiki. Creature guides, tier lists, Twine bonding mechanics, release and beta info, and beginner tips. Updated by the community."
     },
     "hero": {
-      "badge": "Fan-Made Community Wiki",
+      "badge": "Fan Wiki · Launching September 16, 2026",
       "title": "Aniimo Wiki",
       "description": "Your complete guide to Aniimo. Master the Twine bonding system, explore every creature, build the best teams, and track the latest release and beta news.",
-      "ctaPrimary": "Official Site",
+      "ctaPrimary": "Explore the 94 Creatures",
       "ctaSecondary": "Browse the Wiki",
       "videoId": ""
     },
@@ -286,7 +286,7 @@
     "closingCta": {
       "title": "Start Your Aniimo Adventure",
       "description": "Bookmark this wiki for creature guides, tier lists, and the latest Aniimo release and beta updates.",
-      "primary": "Official Site",
+      "primary": "Open the Creatures List",
       "secondary": "Join Our Discord"
     },
     "_archived": {

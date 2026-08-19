@@ -83,10 +83,10 @@
       "description": "最全的 Aniimo 中文 Wiki：生物图鉴、强度排行、Twine 联结机制、发售与测试情报、新手入门攻略，社区持续更新。"
     },
     "hero": {
-      "badge": "粉丝社区 Wiki",
+      "badge": "粉丝百科 · 2026 年 9 月 16 日上线",
       "title": "Aniimo Wiki",
       "description": "你的 Aniimo 中文攻略全书：掌握 Twine 联结系统，探索每一种生物，组建最强队伍，追踪最新发售与测试消息。",
-      "ctaPrimary": "官方网站",
+      "ctaPrimary": "浏览 94 只生物图鉴",
       "ctaSecondary": "浏览 Wiki",
       "videoId": ""
     },
@@ -286,7 +286,7 @@
     "closingCta": {
       "title": "开启你的 Aniimo 冒险",
       "description": "收藏本 Wiki，获取生物图鉴、强度排行，以及最新的 Aniimo 发售与测试动态。",
-      "primary": "官方网站",
+      "primary": "打开生物图鉴",
       "secondary": "加入官方 Discord"
     },
     "_archived": {

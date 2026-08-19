@@ -1,0 +1,1613 @@
+[
+{
+"no": "001",
+"name": "Emberpup",
+"slug": "emberpup",
+"elements": [
+"Fire"
+],
+"role": "DPS",
+"hp": 67,
+"atk": 86,
+"pdef": 60,
+"mdef": 53,
+"brk": 38,
+"regen": 67,
+"total": 371,
+"habitats": "Nimbus Fields, Mistwoods, The Argent Strait., Echoback Landing, Beast Fang Ridge"
+},
+{
+"no": "002",
+"name": "Flameruff",
+"slug": "flameruff",
+"elements": [
+"Fire"
+],
+"role": "DPS",
+"hp": 81,
+"atk": 104,
+"pdef": 72,
+"mdef": 63,
+"brk": 45,
+"regen": 80,
+"total": 445,
+"habitats": "Nimbus Fields, The Argent Strait., Echoback Landing, Beast Fang Ridge"
+},
+{
+"no": "003",
+"name": "Scorchhowl",
+"slug": "scorchhowl",
+"elements": [
+"Fire"
+],
+"role": "DPS",
+"hp": 90,
+"atk": 115,
+"pdef": 80,
+"mdef": 70,
+"brk": 50,
+"regen": 90,
+"total": 495,
+"habitats": "Beast Fang Ridge"
+},
+{
+"no": "004",
+"name": "Inferlupa",
+"slug": "inferlupa",
+"elements": [
+"Fire",
+"Dark"
+],
+"role": "Breaker",
+"hp": 95,
+"atk": 89,
+"pdef": 70,
+"mdef": 80,
+"brk": 113,
+"regen": 104,
+"total": 551,
+"habitats": "TBA"
+},
+{
+"no": "005",
+"name": "Celestis",
+"slug": "celestis",
+"elements": [
+"Dark"
+],
+"role": "DPS",
+"hp": 77,
+"atk": 106,
+"pdef": 54,
+"mdef": 57,
+"brk": 42,
+"regen": 76,
+"total": 412,
+"habitats": "Nimbus Fields, The Argent Strait., Echoback Landing, Forest of Falling Stars"
+},
+{
+"no": "006",
+"name": "Stellarys",
+"slug": "stellarys",
+"elements": [
+"Dark"
+],
+"role": "DPS",
+"hp": 90,
+"atk": 125,
+"pdef": 63,
+"mdef": 67,
+"brk": 50,
+"regen": 90,
+"total": 485,
+"habitats": "Forest of Falling Stars"
+},
+{
+"no": "007",
+"name": "Chirpi",
+"slug": "chirpi",
+"elements": [
+"Wind"
+],
+"role": "Support",
+"hp": 96,
+"atk": 75,
+"pdef": 67,
+"mdef": 69,
+"brk": 43,
+"regen": 93,
+"total": 443,
+"habitats": "Nimbus Fields, The Argent Strait., Beast Fang Ridge, Blitzwood"
+},
+{
+"no": "008",
+"name": "Tromber",
+"slug": "tromber",
+"elements": [
+"Wind"
+],
+"role": "Support",
+"hp": 113,
+"atk": 88,
+"pdef": 79,
+"mdef": 81,
+"brk": 51,
+"regen": 110,
+"total": 522,
+"habitats": "The Argent Strait."
+},
+{
+"no": "009",
+"name": "Cornet",
+"slug": "cornet",
+"elements": [
+"Wind"
+],
+"role": "DPS",
+"hp": 93,
+"atk": 121,
+"pdef": 66,
+"mdef": 65,
+"brk": 50,
+"regen": 94,
+"total": 489,
+"habitats": "The Argent Strait."
+},
+{
+"no": "010",
+"name": "Tubster",
+"slug": "tubster",
+"elements": [
+"Wind"
+],
+"role": "Breaker",
+"hp": 108,
+"atk": 75,
+"pdef": 61,
+"mdef": 110,
+"brk": 101,
+"regen": 80,
+"total": 535,
+"habitats": "The Argent Strait."
+},
+{
+"no": "011",
+"name": "Iris",
+"slug": "iris",
+"elements": [
+"Grass"
+],
+"role": "DPS",
+"hp": 69,
+"atk": 101,
+"pdef": 53,
+"mdef": 53,
+"brk": 50,
+"regen": 71,
+"total": 397,
+"habitats": "Sea of Flowers"
+},
+{
+"no": "012",
+"name": "Irisal",
+"slug": "irisal",
+"elements": [
+"Grass"
+],
+"role": "DPS",
+"hp": 100,
+"atk": 116,
+"pdef": 70,
+"mdef": 70,
+"brk": 50,
+"regen": 98,
+"total": 504,
+"habitats": "Sea of Flowers"
+},
+{
+"no": "014",
+"name": "Skippy",
+"slug": "skippy",
+"elements": [
+"Water"
+],
+"role": "Healer",
+"hp": 69,
+"atk": 54,
+"pdef": 45,
+"mdef": 66,
+"brk": 50,
+"regen": 48,
+"total": 332,
+"habitats": "Nimbus Fields, Mistwoods, Forest of Falling Stars"
+},
+{
+"no": "015",
+"name": "Pranky",
+"slug": "pranky",
+"elements": [
+"Water"
+],
+"role": "Healer",
+"hp": 106,
+"atk": 81,
+"pdef": 65,
+"mdef": 99,
+"brk": 45,
+"regen": 72,
+"total": 468,
+"habitats": "Nimbus Fields, Mistwoods, Forest of Falling Stars"
+},
+{
+"no": "016",
+"name": "Glacy",
+"slug": "glacy",
+"elements": [
+"Water",
+"Ice"
+],
+"role": "Healer",
+"hp": 118,
+"atk": 90,
+"pdef": 72,
+"mdef": 110,
+"brk": 50,
+"regen": 80,
+"total": 520,
+"habitats": "TBA"
+},
+{
+"no": "017",
+"name": "Leafy",
+"slug": "leafy",
+"elements": [
+"Grass",
+"Water"
+],
+"role": "position-energy",
+"hp": 120,
+"atk": 90,
+"pdef": 82,
+"mdef": 82,
+"brk": 50,
+"regen": 106,
+"total": 530,
+"habitats": "Mistwoods"
+},
+{
+"no": "018",
+"name": "Nimbi",
+"slug": "nimbi",
+"elements": [
+"Wind"
+],
+"role": "Support",
+"hp": 80,
+"atk": 76,
+"pdef": 68,
+"mdef": 82,
+"brk": 43,
+"regen": 93,
+"total": 442,
+"habitats": "Nimbus Fields, The Argent Strait."
+},
+{
+"no": "019",
+"name": "Turbo",
+"slug": "turbo",
+"elements": [
+"Wind"
+],
+"role": "Support",
+"hp": 95,
+"atk": 90,
+"pdef": 80,
+"mdef": 96,
+"brk": 50,
+"regen": 109,
+"total": 520,
+"habitats": "Nimbus Fields"
+},
+{
+"no": "020",
+"name": "Dreaple",
+"slug": "dreaple",
+"elements": [
+"Dark"
+],
+"role": "Support",
+"hp": 120,
+"atk": 90,
+"pdef": 77,
+"mdef": 108,
+"brk": 55,
+"regen": 80,
+"total": 530,
+"habitats": "TBA"
+},
+{
+"no": "021",
+"name": "Hummin",
+"slug": "hummin",
+"elements": [
+"Grass"
+],
+"role": "Breaker",
+"hp": 94,
+"atk": 60,
+"pdef": 70,
+"mdef": 94,
+"brk": 80,
+"regen": 60,
+"total": 458,
+"habitats": "Nimbus Fields, Mistwoods, The Argent Strait., Forest of Falling Stars, Blitzwood"
+},
+{
+"no": "022",
+"name": "Witchin",
+"slug": "witchin",
+"elements": [
+"Dark",
+"Grass"
+],
+"role": "position-energy",
+"hp": 115,
+"atk": 80,
+"pdef": 80,
+"mdef": 90,
+"brk": 50,
+"regen": 115,
+"total": 530,
+"habitats": "Mistwoods"
+},
+{
+"no": "023",
+"name": "Tuckin",
+"slug": "tuckin",
+"elements": [
+"Grass"
+],
+"role": "Breaker",
+"hp": 106,
+"atk": 80,
+"pdef": 83,
+"mdef": 110,
+"brk": 100,
+"regen": 71,
+"total": 550,
+"habitats": "TBA"
+},
+{
+"no": "024",
+"name": "Budclaw.",
+"slug": "budclaw",
+"elements": [
+"attributes-rock",
+"Grass"
+],
+"role": "Breaker",
+"hp": 76,
+"atk": 64,
+"pdef": 93,
+"mdef": 65,
+"brk": 84,
+"regen": 72,
+"total": 454,
+"habitats": "Zephyrus Landbridge, Nimbus Fields, Berylline Causeway, Beast Fang Ridge"
+},
+{
+"no": "025",
+"name": "Shrubclaw",
+"slug": "shrubclaw",
+"elements": [
+"attributes-rock",
+"Grass"
+],
+"role": "Breaker",
+"hp": 90,
+"atk": 75,
+"pdef": 109,
+"mdef": 77,
+"brk": 99,
+"regen": 85,
+"total": 535,
+"habitats": "Berylline Causeway"
+},
+{
+"no": "026",
+"name": "Geoclaw",
+"slug": "geoclaw",
+"elements": [
+"Ice"
+],
+"role": "Breaker",
+"hp": 93,
+"atk": 80,
+"pdef": 113,
+"mdef": 79,
+"brk": 103,
+"regen": 82,
+"total": 550,
+"habitats": "TBA"
+},
+{
+"no": "027",
+"name": "Sparki",
+"slug": "sparki",
+"elements": [
+"Fire"
+],
+"role": "position-energy",
+"hp": 68,
+"atk": 92,
+"pdef": 60,
+"mdef": 67,
+"brk": 41,
+"regen": 98,
+"total": 426,
+"habitats": "Nimbus Fields, Beast Fang Ridge, Blitzwood"
+},
+{
+"no": "028",
+"name": "Flamerion",
+"slug": "flamerion",
+"elements": [
+"Fire"
+],
+"role": "position-energy",
+"hp": 80,
+"atk": 108,
+"pdef": 70,
+"mdef": 79,
+"brk": 50,
+"regen": 115,
+"total": 502,
+"habitats": "Beast Fang Ridge"
+},
+{
+"no": "029",
+"name": "Flutternym",
+"slug": "flutternym",
+"elements": [
+"Wind"
+],
+"role": "Healer",
+"hp": 94,
+"atk": 81,
+"pdef": 68,
+"mdef": 68,
+"brk": 41,
+"regen": 85,
+"total": 437,
+"habitats": "Sea of Flowers, Nimbus Fields, Mistwoods, Blitzwood"
+},
+{
+"no": "030",
+"name": "Gracewing",
+"slug": "gracewing",
+"elements": [
+"Wind"
+],
+"role": "Healer",
+"hp": 110,
+"atk": 95,
+"pdef": 80,
+"mdef": 80,
+"brk": 50,
+"regen": 100,
+"total": 515,
+"habitats": "TBA"
+},
+{
+"no": "031",
+"name": "Somniwing",
+"slug": "somniwing",
+"elements": [
+"Wind",
+"Grass"
+],
+"role": "position-energy",
+"hp": 111,
+"atk": 92,
+"pdef": 80,
+"mdef": 80,
+"brk": 50,
+"regen": 115,
+"total": 528,
+"habitats": "TBA"
+},
+{
+"no": "032",
+"name": "Eko",
+"slug": "eko",
+"elements": [
+"Wind"
+],
+"role": "Support",
+"hp": 70,
+"atk": 112,
+"pdef": 70,
+"mdef": 57,
+"brk": 42,
+"regen": 89,
+"total": 440,
+"habitats": "Forest of Falling Stars"
+},
+{
+"no": "033",
+"name": "Eklue",
+"slug": "eklue",
+"elements": [
+"Wind"
+],
+"role": "Support",
+"hp": 82,
+"atk": 132,
+"pdef": 83,
+"mdef": 67,
+"brk": 49,
+"regen": 105,
+"total": 518,
+"habitats": "Forest of Falling Stars"
+},
+{
+"no": "034",
+"name": "Budsquire",
+"slug": "budsquire",
+"elements": [
+"Grass"
+],
+"role": "DPS",
+"hp": 82,
+"atk": 103,
+"pdef": 59,
+"mdef": 59,
+"brk": 43,
+"regen": 78,
+"total": 424,
+"habitats": "Sea of Flowers, Rosetower Woods"
+},
+{
+"no": "035",
+"name": "Thornblade",
+"slug": "thornblade",
+"elements": [
+"Grass"
+],
+"role": "DPS",
+"hp": 96,
+"atk": 121,
+"pdef": 70,
+"mdef": 70,
+"brk": 50,
+"regen": 92,
+"total": 499,
+"habitats": "Sea of Flowers"
+},
+{
+"no": "036",
+"name": "Melloblum",
+"slug": "melloblum",
+"elements": [
+"Grass"
+],
+"role": "Support",
+"hp": 95,
+"atk": 108,
+"pdef": 70,
+"mdef": 70,
+"brk": 91,
+"regen": 78,
+"total": 512,
+"habitats": "Rosetower Woods"
+},
+{
+"no": "037",
+"name": "Pomegg",
+"slug": "pomegg",
+"elements": [
+"Grass"
+],
+"role": "Breaker",
+"hp": 74,
+"atk": 72,
+"pdef": 68,
+"mdef": 65,
+"brk": 91,
+"regen": 85,
+"total": 455,
+"habitats": "Rosetower Woods"
+},
+{
+"no": "038",
+"name": "Dazmand",
+"slug": "dazmand",
+"elements": [
+"attributes-electric"
+],
+"role": "Support",
+"hp": 100,
+"atk": 108,
+"pdef": 81,
+"mdef": 81,
+"brk": 91,
+"regen": 71,
+"total": 532,
+"habitats": "TBA"
+},
+{
+"no": "039",
+"name": "Pomawk",
+"slug": "pomawk",
+"elements": [
+"Grass"
+],
+"role": "Breaker",
+"hp": 87,
+"atk": 85,
+"pdef": 80,
+"mdef": 76,
+"brk": 107,
+"regen": 100,
+"total": 535,
+"habitats": "Rosetower Woods"
+},
+{
+"no": "040",
+"name": "Dewy",
+"slug": "dewy",
+"elements": [
+"Dark"
+],
+"role": "Support",
+"hp": 71,
+"atk": 90,
+"pdef": 58,
+"mdef": 55,
+"brk": 69,
+"regen": 94,
+"total": 437,
+"habitats": "Sea of Flowers, Rosetower Woods"
+},
+{
+"no": "041",
+"name": "Fragrancier",
+"slug": "fragrancier",
+"elements": [
+"Dark"
+],
+"role": "Support",
+"hp": 84,
+"atk": 106,
+"pdef": 68,
+"mdef": 65,
+"brk": 81,
+"regen": 110,
+"total": 514,
+"habitats": "Sea of Flowers"
+},
+{
+"no": "042",
+"name": "Wisptis",
+"slug": "wisptis",
+"elements": [
+"Dark"
+],
+"role": "DPS",
+"hp": 77,
+"atk": 108,
+"pdef": 60,
+"mdef": 54,
+"brk": 43,
+"regen": 77,
+"total": 419,
+"habitats": "Berylline Causeway"
+},
+{
+"no": "043",
+"name": "Ignitis",
+"slug": "ignitis",
+"elements": [
+"Dark"
+],
+"role": "DPS",
+"hp": 90,
+"atk": 128,
+"pdef": 70,
+"mdef": 63,
+"brk": 50,
+"regen": 91,
+"total": 492,
+"habitats": "Berylline Causeway"
+},
+{
+"no": "044",
+"name": "Fulmintis",
+"slug": "fulmintis",
+"elements": [
+"attributes-electric"
+],
+"role": "DPS",
+"hp": 99,
+"atk": 130,
+"pdef": 66,
+"mdef": 70,
+"brk": 50,
+"regen": 105,
+"total": 520,
+"habitats": "TBA"
+},
+{
+"no": "045",
+"name": "Bonesky",
+"slug": "bonesky",
+"elements": [
+"Ice"
+],
+"role": "DPS",
+"hp": 71,
+"atk": 88,
+"pdef": 56,
+"mdef": 57,
+"brk": 38,
+"regen": 67,
+"total": 377,
+"habitats": "Beast Fang Ridge, Driftwise Meadow"
+},
+{
+"no": "046",
+"name": "Fenrier",
+"slug": "fenrier",
+"elements": [
+"Ice"
+],
+"role": "DPS",
+"hp": 86,
+"atk": 105,
+"pdef": 68,
+"mdef": 68,
+"brk": 45,
+"regen": 81,
+"total": 453,
+"habitats": "Beast Fang Ridge, Driftwise Meadow"
+},
+{
+"no": "047",
+"name": "Glynsera",
+"slug": "glynsera",
+"elements": [
+"Ice"
+],
+"role": "DPS",
+"hp": 95,
+"atk": 117,
+"pdef": 75,
+"mdef": 76,
+"brk": 50,
+"regen": 90,
+"total": 503,
+"habitats": "Beast Fang Ridge"
+},
+{
+"no": "048",
+"name": "Bolty",
+"slug": "bolty",
+"elements": [
+"attributes-electric"
+],
+"role": "Breaker",
+"hp": 85,
+"atk": 85,
+"pdef": 60,
+"mdef": 60,
+"brk": 87,
+"regen": 73,
+"total": 450,
+"habitats": "Blitzwood"
+},
+{
+"no": "049",
+"name": "Blazen",
+"slug": "blazen",
+"elements": [
+"attributes-electric"
+],
+"role": "Breaker",
+"hp": 100,
+"atk": 100,
+"pdef": 70,
+"mdef": 70,
+"brk": 104,
+"regen": 86,
+"total": 530,
+"habitats": "Blitzwood"
+},
+{
+"no": "050",
+"name": "Susuta",
+"slug": "susuta",
+"elements": [
+"Water"
+],
+"role": "Breaker",
+"hp": 81,
+"atk": 61,
+"pdef": 53,
+"mdef": 80,
+"brk": 72,
+"regen": 64,
+"total": 411,
+"habitats": "Echoback Landing"
+},
+{
+"no": "051",
+"name": "Popota",
+"slug": "popota",
+"elements": [
+"Water"
+],
+"role": "Breaker",
+"hp": 92,
+"atk": 96,
+"pdef": 68,
+"mdef": 68,
+"brk": 80,
+"regen": 67,
+"total": 471,
+"habitats": "Echoback Landing"
+},
+{
+"no": "052",
+"name": "Piopiota",
+"slug": "piopiota",
+"elements": [
+"Water"
+],
+"role": "Support",
+"hp": 102,
+"atk": 108,
+"pdef": 75,
+"mdef": 75,
+"brk": 98,
+"regen": 74,
+"total": 532,
+"habitats": "TBA"
+},
+{
+"no": "053",
+"name": "Panpanta",
+"slug": "panpanta",
+"elements": [
+"Water"
+],
+"role": "Breaker",
+"hp": 104,
+"atk": 85,
+"pdef": 70,
+"mdef": 106,
+"brk": 100,
+"regen": 80,
+"total": 545,
+"habitats": "Echoback Landing"
+},
+{
+"no": "054",
+"name": "Shelly",
+"slug": "shelly",
+"elements": [
+"Water"
+],
+"role": "DPS",
+"hp": 75,
+"atk": 90,
+"pdef": 56,
+"mdef": 56,
+"brk": 39,
+"regen": 66,
+"total": 382,
+"habitats": "Crescent Bay, Echoback Landing"
+},
+{
+"no": "055",
+"name": "Sheldon",
+"slug": "sheldon",
+"elements": [
+"Water"
+],
+"role": "DPS",
+"hp": 90,
+"atk": 109,
+"pdef": 68,
+"mdef": 68,
+"brk": 44,
+"regen": 79,
+"total": 458,
+"habitats": "Echoback Landing"
+},
+{
+"no": "056",
+"name": "Sherro",
+"slug": "sherro",
+"elements": [
+"Water"
+],
+"role": "DPS",
+"hp": 100,
+"atk": 121,
+"pdef": 75,
+"mdef": 75,
+"brk": 50,
+"regen": 88,
+"total": 509,
+"habitats": "TBA"
+},
+{
+"no": "057",
+"name": "Baleetle",
+"slug": "baleetle",
+"elements": [
+"attributes-rock"
+],
+"role": "DPS",
+"hp": 77,
+"atk": 102,
+"pdef": 68,
+"mdef": 68,
+"brk": 42,
+"regen": 85,
+"total": 442,
+"habitats": "Berylline Causeway"
+},
+{
+"no": "058",
+"name": "Waleetle",
+"slug": "waleetle",
+"elements": [
+"attributes-rock"
+],
+"role": "DPS",
+"hp": 90,
+"atk": 120,
+"pdef": 80,
+"mdef": 80,
+"brk": 50,
+"regen": 100,
+"total": 520,
+"habitats": "Berylline Causeway"
+},
+{
+"no": "059",
+"name": "Bouldus",
+"slug": "bouldus",
+"elements": [
+"attributes-rock"
+],
+"role": "Support",
+"hp": 91,
+"atk": 119,
+"pdef": 101,
+"mdef": 54,
+"brk": 52,
+"regen": 104,
+"total": 521,
+"habitats": "Berylline Causeway"
+},
+{
+"no": "060",
+"name": "Fentuft",
+"slug": "fentuft",
+"elements": [
+"attributes-electric"
+],
+"role": "DPS",
+"hp": 85,
+"atk": 106,
+"pdef": 60,
+"mdef": 60,
+"brk": 41,
+"regen": 77,
+"total": 429,
+"habitats": "Driftwise Meadow"
+},
+{
+"no": "061",
+"name": "Fenmane",
+"slug": "fenmane",
+"elements": [
+"attributes-electric"
+],
+"role": "DPS",
+"hp": 100,
+"atk": 125,
+"pdef": 70,
+"mdef": 70,
+"brk": 50,
+"regen": 90,
+"total": 505,
+"habitats": "Driftwise Meadow"
+},
+{
+"no": "062",
+"name": "Helmut",
+"slug": "helmut",
+"elements": [
+"Dark"
+],
+"role": "Breaker",
+"hp": 60,
+"atk": 52,
+"pdef": 68,
+"mdef": 48,
+"brk": 60,
+"regen": 51,
+"total": 339,
+"habitats": "Russet Highlands"
+},
+{
+"no": "063",
+"name": "Pawney",
+"slug": "pawney",
+"elements": [
+"Dark"
+],
+"role": "DPS",
+"hp": 90,
+"atk": 128,
+"pdef": 89,
+"mdef": 70,
+"brk": 55,
+"regen": 80,
+"total": 512,
+"habitats": "TBA"
+},
+{
+"no": "064",
+"name": "Rookey",
+"slug": "rookey",
+"elements": [
+"Dark"
+],
+"role": "Breaker",
+"hp": 103,
+"atk": 92,
+"pdef": 103,
+"mdef": 70,
+"brk": 105,
+"regen": 75,
+"total": 548,
+"habitats": "Russet Highlands"
+},
+{
+"no": "065",
+"name": "Jawling",
+"slug": "jawling",
+"elements": [
+"Wind"
+],
+"role": "Breaker",
+"hp": 79,
+"atk": 64,
+"pdef": 83,
+"mdef": 51,
+"brk": 76,
+"regen": 63,
+"total": 416,
+"habitats": "Russet Highlands"
+},
+{
+"no": "066",
+"name": "Helmwhelp",
+"slug": "helmwhelp",
+"elements": [
+"Wind"
+],
+"role": "Breaker",
+"hp": 95,
+"atk": 76,
+"pdef": 100,
+"mdef": 61,
+"brk": 92,
+"regen": 76,
+"total": 500,
+"habitats": "Russet Highlands"
+},
+{
+"no": "067",
+"name": "Helgon",
+"slug": "helgon",
+"elements": [
+"Wind"
+],
+"role": "Breaker",
+"hp": 105,
+"atk": 85,
+"pdef": 111,
+"mdef": 68,
+"brk": 102,
+"regen": 84,
+"total": 555,
+"habitats": "Russet Highlands"
+},
+{
+"no": "068",
+"name": "Infergon",
+"slug": "infergon",
+"elements": [
+"Fire"
+],
+"role": "DPS",
+"hp": 100,
+"atk": 114,
+"pdef": 81,
+"mdef": 98,
+"brk": 53,
+"regen": 90,
+"total": 536,
+"habitats": "TBA"
+},
+{
+"no": "069",
+"name": "Cubbo",
+"slug": "cubbo",
+"elements": [
+"attributes-rock"
+],
+"role": "DPS",
+"hp": 92,
+"atk": 107,
+"pdef": 71,
+"mdef": 62,
+"brk": 42,
+"regen": 71,
+"total": 445,
+"habitats": "Rosetower Woods"
+},
+{
+"no": "070",
+"name": "Grizbo",
+"slug": "grizbo",
+"elements": [
+"attributes-rock"
+],
+"role": "DPS",
+"hp": 108,
+"atk": 126,
+"pdef": 83,
+"mdef": 73,
+"brk": 50,
+"regen": 84,
+"total": 524,
+"habitats": "Rosetower Woods"
+},
+{
+"no": "071",
+"name": "Pebbling",
+"slug": "pebbling",
+"elements": [
+"attributes-rock"
+],
+"role": "Breaker",
+"hp": 83,
+"atk": 68,
+"pdef": 52,
+"mdef": 74,
+"brk": 79,
+"regen": 56,
+"total": 412,
+"habitats": "Zephyrus Landbridge"
+},
+{
+"no": "072",
+"name": "Lavazar",
+"slug": "lavazar",
+"elements": [
+"Fire",
+"attributes-rock"
+],
+"role": "Breaker",
+"hp": 99,
+"atk": 82,
+"pdef": 63,
+"mdef": 89,
+"brk": 93,
+"regen": 68,
+"total": 494,
+"habitats": "Zephyrus Landbridge"
+},
+{
+"no": "073",
+"name": "Magmarex",
+"slug": "magmarex",
+"elements": [
+"Fire",
+"attributes-rock"
+],
+"role": "Breaker",
+"hp": 110,
+"atk": 91,
+"pdef": 70,
+"mdef": 99,
+"brk": 104,
+"regen": 75,
+"total": 549,
+"habitats": "Zephyrus Landbridge"
+},
+{
+"no": "074",
+"name": "Geodeback",
+"slug": "geodeback",
+"elements": [
+"attributes-rock"
+],
+"role": "Breaker",
+"hp": 99,
+"atk": 81,
+"pdef": 89,
+"mdef": 54,
+"brk": 102,
+"regen": 70,
+"total": 495,
+"habitats": "TBA"
+},
+{
+"no": "075",
+"name": "Minespine",
+"slug": "minespine",
+"elements": [
+"attributes-rock"
+],
+"role": "Breaker",
+"hp": 110,
+"atk": 90,
+"pdef": 99,
+"mdef": 60,
+"brk": 113,
+"regen": 78,
+"total": 550,
+"habitats": "TBA"
+},
+{
+"no": "076",
+"name": "Cozite",
+"slug": "cozite",
+"elements": [
+"attributes-rock"
+],
+"role": "Support",
+"hp": 77,
+"atk": 77,
+"pdef": 67,
+"mdef": 67,
+"brk": 50,
+"regen": 100,
+"total": 438,
+"habitats": "Zephyrus Landbridge"
+},
+{
+"no": "077",
+"name": "Bailite",
+"slug": "bailite",
+"elements": [
+"attributes-rock"
+],
+"role": "Support",
+"hp": 75,
+"atk": 114,
+"pdef": 85,
+"mdef": 84,
+"brk": 103,
+"regen": 75,
+"total": 536,
+"habitats": "Zephyrus Landbridge"
+},
+{
+"no": "078",
+"name": "Bulbly",
+"slug": "bulbly",
+"elements": [
+"attributes-electric"
+],
+"role": "Support",
+"hp": 83,
+"atk": 68,
+"pdef": 63,
+"mdef": 63,
+"brk": 37,
+"regen": 90,
+"total": 404,
+"habitats": "Tideblossom Coast"
+},
+{
+"no": "079",
+"name": "Veilfloat",
+"slug": "veilfloat",
+"elements": [
+"attributes-electric"
+],
+"role": "Support",
+"hp": 99,
+"atk": 81,
+"pdef": 77,
+"mdef": 77,
+"brk": 45,
+"regen": 107,
+"total": 486,
+"habitats": "Tideblossom Coast"
+},
+{
+"no": "080",
+"name": "Luminelle",
+"slug": "luminelle",
+"elements": [
+"attributes-electric"
+],
+"role": "Support",
+"hp": 110,
+"atk": 90,
+"pdef": 85,
+"mdef": 85,
+"brk": 50,
+"regen": 120,
+"total": 540,
+"habitats": "Tideblossom Coast"
+},
+{
+"no": "081",
+"name": "Fahloo",
+"slug": "fahloo",
+"elements": [
+"Water"
+],
+"role": "position-energy",
+"hp": 102,
+"atk": 76,
+"pdef": 68,
+"mdef": 76,
+"brk": 44,
+"regen": 93,
+"total": 459,
+"habitats": "Tideblossom Coast"
+},
+{
+"no": "082",
+"name": "Erlath",
+"slug": "erlath",
+"elements": [
+"Water"
+],
+"role": "position-energy",
+"hp": 120,
+"atk": 90,
+"pdef": 80,
+"mdef": 90,
+"brk": 50,
+"regen": 110,
+"total": 540,
+"habitats": "Tideblossom Coast"
+},
+{
+"no": "083",
+"name": "Besauce",
+"slug": "besauce",
+"elements": [
+"attributes-electric"
+],
+"role": "position-energy",
+"hp": 82,
+"atk": 89,
+"pdef": 75,
+"mdef": 75,
+"brk": 90,
+"regen": 110,
+"total": 521,
+"habitats": "TBA"
+},
+{
+"no": "084",
+"name": "Reefish",
+"slug": "reefish",
+"elements": [
+"attributes-rock",
+"Water"
+],
+"role": "position-energy",
+"hp": 83,
+"atk": 66,
+"pdef": 75,
+"mdef": 79,
+"brk": 91,
+"regen": 92,
+"total": 486,
+"habitats": "Crescent Bay"
+},
+{
+"no": "085",
+"name": "Coraliz",
+"slug": "coraliz",
+"elements": [
+"attributes-rock",
+"Water"
+],
+"role": "position-energy",
+"hp": 98,
+"atk": 78,
+"pdef": 88,
+"mdef": 93,
+"brk": 107,
+"regen": 108,
+"total": 572,
+"habitats": "Crescent Bay"
+},
+{
+"no": "086",
+"name": "Cheekie",
+"slug": "cheekie",
+"elements": [
+"Ice"
+],
+"role": "Breaker",
+"hp": 89,
+"atk": 64,
+"pdef": 76,
+"mdef": 79,
+"brk": 92,
+"regen": 88,
+"total": 488,
+"habitats": "Crescent Bay"
+},
+{
+"no": "087",
+"name": "Wavwal",
+"slug": "wavwal",
+"elements": [
+"Ice"
+],
+"role": "Breaker",
+"hp": 105,
+"atk": 75,
+"pdef": 89,
+"mdef": 93,
+"brk": 110,
+"regen": 103,
+"total": 575,
+"habitats": "Crescent Bay"
+},
+{
+"no": "088",
+"name": "Bubbeep",
+"slug": "bubbeep",
+"elements": [
+"Grass",
+"Water"
+],
+"role": "Healer",
+"hp": 104,
+"atk": 85,
+"pdef": 78,
+"mdef": 75,
+"brk": 43,
+"regen": 82,
+"total": 467,
+"habitats": "Crescent Bay"
+},
+{
+"no": "089",
+"name": "Glameep",
+"slug": "glameep",
+"elements": [
+"Grass",
+"Water"
+],
+"role": "Healer",
+"hp": 122,
+"atk": 100,
+"pdef": 92,
+"mdef": 89,
+"brk": 50,
+"regen": 97,
+"total": 550,
+"habitats": "TBA"
+},
+{
+"no": "090",
+"name": "Popapus",
+"slug": "popapus",
+"elements": [
+"Water"
+],
+"role": "DPS",
+"hp": 90,
+"atk": 102,
+"pdef": 58,
+"mdef": 65,
+"brk": 45,
+"regen": 90,
+"total": 450,
+"habitats": "Crescent Bay"
+},
+{
+"no": "091",
+"name": "Gachapus",
+"slug": "gachapus",
+"elements": [
+"Water"
+],
+"role": "DPS",
+"hp": 106,
+"atk": 121,
+"pdef": 68,
+"mdef": 77,
+"brk": 51,
+"regen": 106,
+"total": 529,
+"habitats": "Crescent Bay"
+},
+{
+"no": "092",
+"name": "Malangel",
+"slug": "malangel",
+"elements": [
+"Ice"
+],
+"role": "DPS",
+"hp": 100,
+"atk": 105,
+"pdef": 80,
+"mdef": 80,
+"brk": 50,
+"regen": 100,
+"total": 515,
+"habitats": "TBA"
+},
+{
+"no": "093",
+"name": "Malevsera",
+"slug": "malevsera",
+"elements": [
+"Ice"
+],
+"role": "DPS",
+"hp": 88,
+"atk": 125,
+"pdef": 70,
+"mdef": 80,
+"brk": 52,
+"regen": 110,
+"total": 525,
+"habitats": "TBA"
+},
+{
+"no": "9997",
+"name": "Fennelun",
+"slug": "fennelun",
+"elements": [
+"attributes-holy"
+],
+"role": "DPS",
+"hp": 90,
+"atk": 116,
+"pdef": 65,
+"mdef": 65,
+"brk": 85,
+"regen": 83,
+"total": 504,
+"habitats": "TBA"
+},
+{
+"no": "9998",
+"name": "Helion",
+"slug": "helion",
+"elements": [
+"attributes-holy"
+],
+"role": "DPS",
+"hp": 90,
+"atk": 116,
+"pdef": 65,
+"mdef": 65,
+"brk": 85,
+"regen": 83,
+"total": 504,
+"habitats": "TBA"
+}
+]

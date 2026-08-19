@@ -83,10 +83,10 @@
       "description": "アニモ（Aniimo）の完全攻略 Wiki。生き物図鑑、ティアリスト、ツワイン（Twine）の絆システム、リリース・ベータ情報、初心者ガイドまで。コミュニティが随時更新。"
     },
     "hero": {
-      "badge": "ファンメイド コミュニティ Wiki",
+      "badge": "ファンwiki・2026年9月16日配信開始",
       "title": "アニモ Wiki",
       "description": "アニモ（Aniimo）の完全攻略ガイド。ツワイン（Twine）の絆システムをマスターして、すべての生き物を探索し、最強パーティを編成し、最新のリリース＆ベータニュースをチェックしよう。",
-      "ctaPrimary": "公式サイト",
+      "ctaPrimary": "94体のクリーチャーを見る",
       "ctaSecondary": "Wiki を見る",
       "videoId": ""
     },
@@ -286,7 +286,7 @@
     "closingCta": {
       "title": "アニモの冒険を始めよう",
       "description": "この Wiki をブックマークして、生き物ガイド・ティアリスト、最新のリリース＆ベータ情報をチェック。",
-      "primary": "公式サイト",
+      "primary": "クリーチャー一覧を開く",
       "secondary": "公式 Discord に参加"
     },
     "_archived": {
