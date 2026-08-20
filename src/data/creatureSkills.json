@@ -2370,6 +2370,15 @@
 ]
 },
 {
+"name": "Lay down arms",
+"tab": "Innate",
+"cost": "0",
+"power": "0",
+"owners": [
+"Tubster"
+]
+},
+{
 "name": "Leafwave Bubble",
 "tab": "Innate",
 "cost": "0",
@@ -2574,15 +2583,6 @@
 "power": "92",
 "owners": [
 "Tromber"
-]
-},
-{
-"name": "〔主译〕Lay down arms 〔备选〕Cease hostilities",
-"tab": "Innate",
-"cost": "0",
-"power": "0",
-"owners": [
-"Tubster"
 ]
 }
 ]

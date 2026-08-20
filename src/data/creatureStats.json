@@ -264,7 +264,7 @@
 "Grass",
 "Water"
 ],
-"role": "position-energy",
+"role": "Regen",
 "hp": 120,
 "atk": 90,
 "pdef": 82,
@@ -350,7 +350,7 @@
 "Dark",
 "Grass"
 ],
-"role": "position-energy",
+"role": "Regen",
 "hp": 115,
 "atk": 80,
 "pdef": 80,
@@ -382,7 +382,7 @@
 "name": "Budclaw.",
 "slug": "budclaw",
 "elements": [
-"attributes-rock",
+"Earth",
 "Grass"
 ],
 "role": "Breaker",
@@ -400,7 +400,7 @@
 "name": "Shrubclaw",
 "slug": "shrubclaw",
 "elements": [
-"attributes-rock",
+"Earth",
 "Grass"
 ],
 "role": "Breaker",
@@ -437,7 +437,7 @@
 "elements": [
 "Fire"
 ],
-"role": "position-energy",
+"role": "Regen",
 "hp": 68,
 "atk": 92,
 "pdef": 60,
@@ -454,7 +454,7 @@
 "elements": [
 "Fire"
 ],
-"role": "position-energy",
+"role": "Regen",
 "hp": 80,
 "atk": 108,
 "pdef": 70,
@@ -506,7 +506,7 @@
 "Wind",
 "Grass"
 ],
-"role": "position-energy",
+"role": "Regen",
 "hp": 111,
 "atk": 92,
 "pdef": 80,
@@ -623,7 +623,7 @@
 "name": "Dazmand",
 "slug": "dazmand",
 "elements": [
-"attributes-electric"
+"Lightning"
 ],
 "role": "Support",
 "hp": 100,
@@ -725,7 +725,7 @@
 "name": "Fulmintis",
 "slug": "fulmintis",
 "elements": [
-"attributes-electric"
+"Lightning"
 ],
 "role": "DPS",
 "hp": 99,
@@ -793,7 +793,7 @@
 "name": "Bolty",
 "slug": "bolty",
 "elements": [
-"attributes-electric"
+"Lightning"
 ],
 "role": "Breaker",
 "hp": 85,
@@ -810,7 +810,7 @@
 "name": "Blazen",
 "slug": "blazen",
 "elements": [
-"attributes-electric"
+"Lightning"
 ],
 "role": "Breaker",
 "hp": 100,
@@ -946,7 +946,7 @@
 "name": "Baleetle",
 "slug": "baleetle",
 "elements": [
-"attributes-rock"
+"Earth"
 ],
 "role": "DPS",
 "hp": 77,
@@ -963,7 +963,7 @@
 "name": "Waleetle",
 "slug": "waleetle",
 "elements": [
-"attributes-rock"
+"Earth"
 ],
 "role": "DPS",
 "hp": 90,
@@ -980,7 +980,7 @@
 "name": "Bouldus",
 "slug": "bouldus",
 "elements": [
-"attributes-rock"
+"Earth"
 ],
 "role": "Support",
 "hp": 91,
@@ -997,7 +997,7 @@
 "name": "Fentuft",
 "slug": "fentuft",
 "elements": [
-"attributes-electric"
+"Lightning"
 ],
 "role": "DPS",
 "hp": 85,
@@ -1014,7 +1014,7 @@
 "name": "Fenmane",
 "slug": "fenmane",
 "elements": [
-"attributes-electric"
+"Lightning"
 ],
 "role": "DPS",
 "hp": 100,
@@ -1150,7 +1150,7 @@
 "name": "Cubbo",
 "slug": "cubbo",
 "elements": [
-"attributes-rock"
+"Earth"
 ],
 "role": "DPS",
 "hp": 92,
@@ -1167,7 +1167,7 @@
 "name": "Grizbo",
 "slug": "grizbo",
 "elements": [
-"attributes-rock"
+"Earth"
 ],
 "role": "DPS",
 "hp": 108,
@@ -1184,7 +1184,7 @@
 "name": "Pebbling",
 "slug": "pebbling",
 "elements": [
-"attributes-rock"
+"Earth"
 ],
 "role": "Breaker",
 "hp": 83,
@@ -1202,7 +1202,7 @@
 "slug": "lavazar",
 "elements": [
 "Fire",
-"attributes-rock"
+"Earth"
 ],
 "role": "Breaker",
 "hp": 99,
@@ -1220,7 +1220,7 @@
 "slug": "magmarex",
 "elements": [
 "Fire",
-"attributes-rock"
+"Earth"
 ],
 "role": "Breaker",
 "hp": 110,
@@ -1237,7 +1237,7 @@
 "name": "Geodeback",
 "slug": "geodeback",
 "elements": [
-"attributes-rock"
+"Earth"
 ],
 "role": "Breaker",
 "hp": 99,
@@ -1254,7 +1254,7 @@
 "name": "Minespine",
 "slug": "minespine",
 "elements": [
-"attributes-rock"
+"Earth"
 ],
 "role": "Breaker",
 "hp": 110,
@@ -1271,7 +1271,7 @@
 "name": "Cozite",
 "slug": "cozite",
 "elements": [
-"attributes-rock"
+"Earth"
 ],
 "role": "Support",
 "hp": 77,
@@ -1288,7 +1288,7 @@
 "name": "Bailite",
 "slug": "bailite",
 "elements": [
-"attributes-rock"
+"Earth"
 ],
 "role": "Support",
 "hp": 75,
@@ -1305,7 +1305,7 @@
 "name": "Bulbly",
 "slug": "bulbly",
 "elements": [
-"attributes-electric"
+"Lightning"
 ],
 "role": "Support",
 "hp": 83,
@@ -1322,7 +1322,7 @@
 "name": "Veilfloat",
 "slug": "veilfloat",
 "elements": [
-"attributes-electric"
+"Lightning"
 ],
 "role": "Support",
 "hp": 99,
@@ -1339,7 +1339,7 @@
 "name": "Luminelle",
 "slug": "luminelle",
 "elements": [
-"attributes-electric"
+"Lightning"
 ],
 "role": "Support",
 "hp": 110,
@@ -1358,7 +1358,7 @@
 "elements": [
 "Water"
 ],
-"role": "position-energy",
+"role": "Regen",
 "hp": 102,
 "atk": 76,
 "pdef": 68,
@@ -1375,7 +1375,7 @@
 "elements": [
 "Water"
 ],
-"role": "position-energy",
+"role": "Regen",
 "hp": 120,
 "atk": 90,
 "pdef": 80,
@@ -1390,9 +1390,9 @@
 "name": "Besauce",
 "slug": "besauce",
 "elements": [
-"attributes-electric"
+"Lightning"
 ],
-"role": "position-energy",
+"role": "Regen",
 "hp": 82,
 "atk": 89,
 "pdef": 75,
@@ -1407,10 +1407,10 @@
 "name": "Reefish",
 "slug": "reefish",
 "elements": [
-"attributes-rock",
+"Earth",
 "Water"
 ],
-"role": "position-energy",
+"role": "Regen",
 "hp": 83,
 "atk": 66,
 "pdef": 75,
@@ -1425,10 +1425,10 @@
 "name": "Coraliz",
 "slug": "coraliz",
 "elements": [
-"attributes-rock",
+"Earth",
 "Water"
 ],
-"role": "position-energy",
+"role": "Regen",
 "hp": 98,
 "atk": 78,
 "pdef": 88,
@@ -1581,7 +1581,7 @@
 "name": "Fennelun",
 "slug": "fennelun",
 "elements": [
-"attributes-holy"
+"Light"
 ],
 "role": "DPS",
 "hp": 90,
@@ -1598,7 +1598,7 @@
 "name": "Helion",
 "slug": "helion",
 "elements": [
-"attributes-holy"
+"Light"
 ],
 "role": "DPS",
 "hp": 90,
