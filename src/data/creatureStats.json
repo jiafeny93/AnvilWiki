@@ -14,7 +14,7 @@
 "brk": 38,
 "regen": 67,
 "total": 371,
-"habitats": "Nimbus Fields, Mistwoods, The Argent Strait., Echoback Landing, Beast Fang Ridge"
+"habitats": "Nimbus Fields, Mistwoods, The Argent Strait, Echoback Landing, Beast Fang Ridge"
 },
 {
 "no": "002",
@@ -31,7 +31,7 @@
 "brk": 45,
 "regen": 80,
 "total": 445,
-"habitats": "Nimbus Fields, The Argent Strait., Echoback Landing, Beast Fang Ridge"
+"habitats": "Nimbus Fields, The Argent Strait, Echoback Landing, Beast Fang Ridge"
 },
 {
 "no": "003",
@@ -83,7 +83,7 @@
 "brk": 42,
 "regen": 76,
 "total": 412,
-"habitats": "Nimbus Fields, The Argent Strait., Echoback Landing, Forest of Falling Stars"
+"habitats": "Nimbus Fields, The Argent Strait, Echoback Landing, Forest of Falling Stars"
 },
 {
 "no": "006",
@@ -117,7 +117,7 @@
 "brk": 43,
 "regen": 93,
 "total": 443,
-"habitats": "Nimbus Fields, The Argent Strait., Beast Fang Ridge, Blitzwood"
+"habitats": "Nimbus Fields, The Argent Strait, Beast Fang Ridge, Blitzwood"
 },
 {
 "no": "008",
@@ -134,7 +134,7 @@
 "brk": 51,
 "regen": 110,
 "total": 522,
-"habitats": "The Argent Strait."
+"habitats": "The Argent Strait"
 },
 {
 "no": "009",
@@ -151,7 +151,7 @@
 "brk": 50,
 "regen": 94,
 "total": 489,
-"habitats": "The Argent Strait."
+"habitats": "The Argent Strait"
 },
 {
 "no": "010",
@@ -168,7 +168,7 @@
 "brk": 101,
 "regen": 80,
 "total": 535,
-"habitats": "The Argent Strait."
+"habitats": "The Argent Strait"
 },
 {
 "no": "011",
@@ -289,7 +289,7 @@
 "brk": 43,
 "regen": 93,
 "total": 442,
-"habitats": "Nimbus Fields, The Argent Strait."
+"habitats": "Nimbus Fields, The Argent Strait"
 },
 {
 "no": "019",
@@ -340,7 +340,7 @@
 "brk": 80,
 "regen": 60,
 "total": 458,
-"habitats": "Nimbus Fields, Mistwoods, The Argent Strait., Forest of Falling Stars, Blitzwood"
+"habitats": "Nimbus Fields, Mistwoods, The Argent Strait, Forest of Falling Stars, Blitzwood"
 },
 {
 "no": "022",
