@@ -243,7 +243,7 @@
 "name": "Stealth",
 "desc": "Skills build Momentum when they deal damage, up to 6 stacks. Momentum gain is doubled during tunneling. At max stacks, increases BREAK efficiency by 30% for 15s.",
 "owners": [
-"Budclaw.",
+"Budclaw",
 "Shrubclaw"
 ]
 },

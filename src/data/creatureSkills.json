@@ -976,7 +976,7 @@
 "cost": "10",
 "power": "40",
 "owners": [
-"Budclaw.",
+"Budclaw",
 "Shrubclaw"
 ]
 },
@@ -1633,7 +1633,7 @@
 "cost": "10",
 "power": "35",
 "owners": [
-"Budclaw.",
+"Budclaw",
 "Shrubclaw"
 ]
 },
@@ -1797,7 +1797,7 @@
 "cost": "20",
 "power": "66",
 "owners": [
-"Budclaw.",
+"Budclaw",
 "Shrubclaw"
 ]
 },
@@ -2056,7 +2056,7 @@
 "Bonesky",
 "Bouldus",
 "Bubbeep",
-"Budclaw.",
+"Budclaw",
 "Budsquire",
 "Bulbly",
 "Celestis",
