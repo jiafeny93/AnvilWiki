@@ -70,7 +70,8 @@ for (const name of readdirSync(DIST)) {
     const loc = block.match(/<loc>(.*?)<\/loc>/);
     if (!loc) return `<url>${block}</url>`;
     const url = new URL(loc[1]);
-    let date = lastmodByPath.get(url.pathname);
+    // sitemap URLs end with "/" (trailingSlash), map keys don't — normalize.
+    let date = lastmodByPath.get(url.pathname.replace(/\/+$/, ''));
     if (!date) {
       // category list page: /zh/guides or /guides
       const m = url.pathname.match(/^\/(?:zh|ja|ko)?\/?(creatures|guides|news|release|reviews|tier-list)$/);

@@ -145,6 +145,10 @@
           "href": "/release/aniimo-release-date"
         },
         {
+          "label": "애니모 뽑기 게임?",
+          "href": "/release/aniimo-gacha"
+        },
+        {
           "label": "애니모 초보 가이드",
           "href": "/guides/aniimo-guide"
         }
