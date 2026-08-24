@@ -145,6 +145,10 @@
           "href": "/release/aniimo-release-date"
         },
         {
+          "label": "Is Aniimo Gacha?",
+          "href": "/release/aniimo-gacha"
+        },
+        {
           "label": "Aniimo Beginner Guide",
           "href": "/guides/aniimo-guide"
         }
