@@ -3,3 +3,9 @@
 /zh/tier-list/aniimo-type-chart/	/zh/tier-list/type-chart/	301
 /ja/tier-list/aniimo-type-chart/	/ja/tier-list/type-chart/	301
 /ko/tier-list/aniimo-type-chart/	/ko/tier-list/type-chart/	301
+
+# Codes hub consolidation: evergreen /release/ URL is canonical (2026-08-29, pre-launch URL decision)
+/news/aniimo-codes/	/release/aniimo-codes/	301
+/zh/news/aniimo-codes/	/zh/release/aniimo-codes/	301
+/ja/news/aniimo-codes/	/ja/release/aniimo-codes/	301
+/ko/news/aniimo-codes/	/ko/release/aniimo-codes/	301
