@@ -34,14 +34,18 @@ const height = match ? parseInt(match[2], 10) : 50;
 ---
 
 <div class:list={['flex max-w-full items-center justify-center', className]}>
+  {/* allow-top-navigation-by-user-activation: Adsterra direct-type creatives navigate
+      the top frame on click. Without this flag the browser silently blocks them and
+      banners render but clicks do nothing (issue found 2026-08-29). Script-driven
+      redirects (hijack) stay blocked — they lack a user gesture. */}
   <iframe
     src={`/ads/${type}`}
     width={width}
     height={height}
     scrolling="no"
     loading={eager ? 'eager' : 'lazy'}
-    style="border:none; margin:0; padding:0; max-width:100%; height:auto;"
+    style={`border:none; margin:0; padding:0; width:100%; max-width:${width}px; aspect-ratio:${width} / ${height};`}
     title={`advertisement ${type}`}
     aria-hidden="true"
-    sandbox="allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-forms"></iframe>
+    sandbox="allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-forms allow-top-navigation-by-user-activation"></iframe>
 </div>
