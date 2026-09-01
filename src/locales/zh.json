@@ -154,6 +154,20 @@
         }
       ]
     },
+    "launch": {
+      "badge": "上线倒计时",
+      "title": "《阿尼莫》上线中枢",
+      "description": "2026 年 9 月 16 日上线日你需要的都在这里——兑换码第一时间更新、服务器实时状态，以及最该先看的开荒指南。",
+      "daysLabel": "天后上线",
+      "liveLabel": "已上线",
+      "links": [
+        { "label": "阿尼莫兑换码", "href": "/release/aniimo-codes", "icon": "lucide:gift" },
+        { "label": "服务器状态", "href": "/release/aniimo-server-status", "icon": "lucide:activity" },
+        { "label": "上线日期与平台", "href": "/release/aniimo-release-date", "icon": "lucide:calendar" },
+        { "label": "阿尼莫强度榜", "href": "/tier-list/aniimo-tier-list", "icon": "lucide:trophy" },
+        { "label": "跨平台联机指南", "href": "/guides/aniimo-crossplay", "icon": "lucide:gamepad-2" }
+      ]
+    },
     "explore": {
       "title": "探索 Wiki",
       "description": "按分类整理的全部内容，选一个主题开始吧。",

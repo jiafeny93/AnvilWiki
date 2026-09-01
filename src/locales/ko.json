@@ -154,6 +154,20 @@
         }
       ]
     },
+    "launch": {
+      "badge": "출시 카운트다운",
+      "title": "애니모 출시 허브",
+      "description": "2026년 9월 16일 출시일에 필요한 모든 것이 여기에. 코드는 나오는 즉시 업데이트하고, 서버 상태는 실시간으로 확인하세요. 가장 먼저 읽을 공략 가이드도 준비했어요.",
+      "daysLabel": "일 남음",
+      "liveLabel": "출시됨",
+      "links": [
+        { "label": "애니모 코드", "href": "/release/aniimo-codes", "icon": "lucide:gift" },
+        { "label": "서버 상태", "href": "/release/aniimo-server-status", "icon": "lucide:activity" },
+        { "label": "출시일과 플랫폼", "href": "/release/aniimo-release-date", "icon": "lucide:calendar" },
+        { "label": "애니모 티어 목록", "href": "/tier-list/aniimo-tier-list", "icon": "lucide:trophy" },
+        { "label": "크로스플레이 가이드", "href": "/guides/aniimo-crossplay", "icon": "lucide:gamepad-2" }
+      ]
+    },
     "explore": {
       "title": "Wiki 탐험",
       "description": "필요한 모든 것을 카테고리별로 정리했습니다. 주제를 골라 바로 시작하세요.",

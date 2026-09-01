@@ -20,6 +20,7 @@
 import { Icon } from 'astro-icon/components';
 import LocaleLayout from '~/components/layout/LocaleLayout.astro';
 import VideoSection from '~/components/home/VideoSection.astro';
+import LaunchCountdown from '~/components/home/LaunchCountdown.astro';
 import QuickStart from '~/components/home/QuickStart.astro';
 import ExploreModules from '~/components/home/ExploreModules.astro';
 import { site } from '~/config/site';
@@ -50,6 +51,7 @@ const start = home.start ?? { cards: [] };
 const popular = home.popular ?? { title: 'Trending Now', quickLinks: [] };
 const explore = home.explore ?? { modules: [] };
 const closingCta = home.closingCta ?? {};
+const launch = home.launch ?? { links: [] };
 
 // QuickLink may be a string or { label, href } — normalize for the sidebar list.
 type QuickLink = string | { label: string; href: string };
@@ -129,6 +131,17 @@ function trendingLabel(link: QuickLink): string {
 
   {/* Trailer — only renders when a videoId is configured. */}
   {hero.videoId && <VideoSection videoId={hero.videoId} title={`${site.game.name} trailer`} />}
+
+  {/* ─────────────────────────── Launch Countdown ─────────────────────── */}
+  <LaunchCountdown
+    locale={locale}
+    badge={launch.badge}
+    title={launch.title}
+    description={launch.description}
+    daysLabel={launch.daysLabel}
+    liveLabel={launch.liveLabel}
+    links={launch.links}
+  />
 
   {/* ───────────────────────────── Quick Start ────────────────────────── */}
   <QuickStart

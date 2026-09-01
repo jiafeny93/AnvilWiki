@@ -1,0 +1,107 @@
+---
+/**
+ * LaunchCountdown — launch-hype band with a D-day countdown and direct
+ * links to the launch-week money pages (codes / server status / release
+ * date / tier list / crossplay).
+ *
+ * SEO rationale: the homepage is by far the most-recrawled page of this
+ * young domain (GSC URL Inspection, 2026-09-01 — most pages' last crawl
+ * was the single 8-19 wave). Surfacing these links here lets Google
+ * discover the launch-week URLs even when site-wide crawl budget is
+ * thin. The static HTML contains every label and link, so crawlers
+ * never need JS; the countdown digits are client-side to stay accurate.
+ *
+ * After launch day (2026-09-16, visitor-local midnight) the block flips
+ * itself to a "Now Live" state — no manual flip_release step needed.
+ * All copy comes from the `home.launch` namespace in src/locales/*.json.
+ */
+import { Icon } from 'astro-icon/components';
+import { type Locale } from '~/i18n/routing';
+import { localizePath } from '~/lib/url';
+
+interface LaunchLink {
+  label: string;
+  href: string;
+  icon: string;
+}
+
+interface Props {
+  locale: Locale;
+  badge?: string;
+  title?: string;
+  description?: string;
+  daysLabel?: string;
+  liveLabel?: string;
+  links?: LaunchLink[];
+}
+const {
+  locale,
+  badge = 'Countdown',
+  title = 'Launch Hub',
+  description = '',
+  daysLabel = 'days to launch',
+  liveLabel = 'Now Live',
+  links = [],
+} = Astro.props;
+---
+
+{
+  links.length > 0 && (
+    <section class="section reveal border-t border-border" id="launch-hub">
+      <div class="card grid gap-6 rounded-xl border bg-card p-6 md:grid-cols-[auto_1fr] md:gap-10 md:p-8">
+        {/* Countdown — static "--" placeholder; client script fills the digits. */}
+        <div class="flex flex-row items-center justify-center gap-3 md:flex-col md:justify-start md:gap-1 md:px-4 md:text-center">
+          <span
+            class="text-shine text-5xl font-black tabular-nums md:text-7xl"
+            id="launch-count"
+            data-launch-iso="2026-09-16T00:00:00"
+            data-live-label={liveLabel}
+          >
+            --
+          </span>
+          <span class="text-sm font-semibold uppercase tracking-wider text-muted-foreground" id="launch-count-label">
+            {daysLabel}
+          </span>
+        </div>
+        <div>
+          <p class="text-sm font-semibold uppercase tracking-wider text-foreground">{badge}</p>
+          <h2 class="mt-1 text-2xl font-bold tracking-tight md:text-3xl">{title}</h2>
+          <p class="mt-2 max-w-2xl text-sm text-muted-foreground">{description}</p>
+          <div class="mt-5 grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
+            {links.map((link: LaunchLink) => (
+              <a
+                href={localizePath(link.href, locale)}
+                class="group flex items-center gap-2.5 rounded-md border bg-background p-3 text-sm font-medium transition hover:border-nav/50"
+              >
+                <Icon name={link.icon} class="h-4 w-4 shrink-0 text-nav" />
+                <span class="leading-snug">{link.label}</span>
+              </a>
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
+  )
+}
+
+<script>
+  // Fill the countdown once the DOM is ready. When launch day has arrived
+  // (visitor-local), swap digits for a live marker and relabel the unit.
+  const el = document.getElementById('launch-count');
+  const label = document.getElementById('launch-count-label');
+  if (el) {
+    const iso = el.dataset.launchIso ?? '2026-09-16T00:00:00';
+    const [y, m, d] = iso.split('T')[0].split('-').map(Number);
+    const target = new Date(y, m - 1, d);
+    const now = new Date();
+    const days = Math.ceil((target.getTime() - now.getTime()) / 86400000);
+    if (days > 0) {
+      el.textContent = String(days);
+    } else if (label) {
+      el.textContent = '●';
+      el.classList.add('text-nav');
+      const live = el.getAttribute('data-live-label') ?? '';
+      if (live) label.textContent = live;
+    }
+  }
+</script>

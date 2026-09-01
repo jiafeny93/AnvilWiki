@@ -154,6 +154,20 @@
         }
       ]
     },
+    "launch": {
+      "badge": "Countdown to Launch",
+      "title": "Aniimo Launch Hub",
+      "description": "Everything you need for September 16, 2026 — redeem codes the moment they drop, live server status, and the day-one guides worth reading first.",
+      "daysLabel": "days to launch",
+      "liveLabel": "Now Live",
+      "links": [
+        { "label": "Aniimo Codes", "href": "/release/aniimo-codes", "icon": "lucide:gift" },
+        { "label": "Server Status", "href": "/release/aniimo-server-status", "icon": "lucide:activity" },
+        { "label": "Release Date & Platforms", "href": "/release/aniimo-release-date", "icon": "lucide:calendar" },
+        { "label": "Aniimo Tier List", "href": "/tier-list/aniimo-tier-list", "icon": "lucide:trophy" },
+        { "label": "Crossplay Guide", "href": "/guides/aniimo-crossplay", "icon": "lucide:gamepad-2" }
+      ]
+    },
     "explore": {
       "title": "Explore the Wiki",
       "description": "Everything you need, organized by category. Pick a topic and dive in.",

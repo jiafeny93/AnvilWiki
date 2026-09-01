@@ -154,6 +154,20 @@
         }
       ]
     },
+    "launch": {
+      "badge": "リリースまでカウントダウン",
+      "title": "アニモ リリースハブ",
+      "description": "2026年9月16日のリリース日に必要なものはすべてここに。コードは配信即時に更新、サーバー状態をリアルタイム確認、最初に読みたい攻略ガイドもまとめました。",
+      "daysLabel": "日にち",
+      "liveLabel": "配信中",
+      "links": [
+        { "label": "アニモ コード", "href": "/release/aniimo-codes", "icon": "lucide:gift" },
+        { "label": "サーバー状態", "href": "/release/aniimo-server-status", "icon": "lucide:activity" },
+        { "label": "リリース日と対応機種", "href": "/release/aniimo-release-date", "icon": "lucide:calendar" },
+        { "label": "アニモ 最強ランキング", "href": "/tier-list/aniimo-tier-list", "icon": "lucide:trophy" },
+        { "label": "クロスプレイガイド", "href": "/guides/aniimo-crossplay", "icon": "lucide:gamepad-2" }
+      ]
+    },
     "explore": {
       "title": "Wiki を探索",
       "description": "必要な情報をカテゴリ別に整理。気になるトピックからどうぞ。",
