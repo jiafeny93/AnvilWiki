@@ -17,6 +17,10 @@ interface Props {
   description: string;
   alternates?: Array<{ hreflang: string; href: string }>;
   image?: string;
+  /** Above-the-fold hero image to preload (path, forwarded to BaseLayout). */
+  preloadImage?: string;
+  /** Force summary_large_image twitter card on non-article pages. */
+  largeImage?: boolean;
   jsonLd?: Record<string, unknown>[];
   article?: boolean;
 }

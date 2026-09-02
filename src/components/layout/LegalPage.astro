@@ -6,20 +6,33 @@
  * the surrounding chrome (nav, footer, theme) respects the current locale.
  */
 import LocaleLayout from './LocaleLayout.astro';
-import { type Locale, defaultLocale } from '~/i18n/routing';
+import { type Locale, defaultLocale, locales } from '~/i18n/routing';
+import { languageAlternates } from '~/lib/url';
 import { site } from '~/config/site';
 
 interface Props {
   locale: Locale;
   title: string;
+  /** URL slug, e.g. 'about' — enables the full hreflang alternates group. */
+  slug?: string;
   description?: string;
   /** ISO date string for "last updated". */
   lastUpdated?: string;
 }
-const { locale, title, description = `${title} for ${site.name}.`, lastUpdated } = Astro.props;
+const { locale, title, slug, description = `${title} for ${site.name}.`, lastUpdated } =
+  Astro.props;
+// Legal pages previously shipped only an x-default link while the sitemap
+// declared a full 4-locale group for the same URLs — a conflict Google may
+// resolve by ignoring the whole group. Build the complete group here.
+const alternates = slug
+  ? languageAlternates(
+      (loc) => (loc === defaultLocale ? `/${slug}/` : `/${loc}/${slug}/`),
+      locales,
+    )
+  : [];
 ---
 
-<LocaleLayout locale={locale} title={title} description={description}>
+<LocaleLayout locale={locale} title={title} description={description} alternates={alternates}>
   <article class="mx-auto max-w-3xl">
     <h1 class="text-3xl font-extrabold tracking-tight md:text-4xl">{title}</h1>
     {lastUpdated && <p class="mt-2 text-sm text-muted-foreground">Last updated: {lastUpdated}</p>}

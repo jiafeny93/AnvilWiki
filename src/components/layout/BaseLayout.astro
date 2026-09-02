@@ -29,6 +29,10 @@ interface Props {
   jsonLd?: Record<string, unknown>[];
   /** Set to true on article pages for og:type=article. */
   article?: boolean;
+  /** Above-the-fold hero image to preload (path, e.g. /images/hero-bg.webp). */
+  preloadImage?: string;
+  /** Force summary_large_image twitter card on non-article pages. */
+  largeImage?: boolean;
 }
 
 const {
@@ -39,6 +43,8 @@ const {
   image = `${siteUrl}/images/hero.webp`,
   jsonLd = [],
   article = false,
+  preloadImage,
+  largeImage = false,
 } = Astro.props;
 
 const fullTitle = title.includes(site.name) ? title : `${title} — ${site.name}`;
@@ -72,7 +78,12 @@ const adsenseClient = import.meta.env.PUBLIC_ADSENSE_CLIENT as string | undefine
 
     <title>{fullTitle}</title>
     <meta name="description" content={description} />
-    <link rel="canonical" href={new URL(Astro.url.pathname, siteUrl).href} />
+    {/* The prerendered 404 is served with a real 404 status — a canonical there
+        would point at /404/, a route that does not exist. */}
+    {Astro.url.pathname.startsWith('/404') || (
+      <link rel="canonical" href={new URL(Astro.url.pathname, siteUrl).href} />
+    )}
+    {preloadImage && <link rel="preload" as="image" href={preloadImage} fetchpriority="high" />}
 
     {/* hreflang alternates */}
     {alternates.map((alt) => <link rel="alternate" hreflang={alt.hreflang} href={alt.href} />)}
@@ -94,7 +105,7 @@ const adsenseClient = import.meta.env.PUBLIC_ADSENSE_CLIENT as string | undefine
     <meta property="og:locale" content={locale} />
 
     {/* Twitter */}
-    <meta name="twitter:card" content={article ? 'summary_large_image' : 'summary'} />
+    <meta name="twitter:card" content={article || largeImage ? 'summary_large_image' : 'summary'} />
     <meta name="twitter:title" content={fullTitle} />
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={image} />

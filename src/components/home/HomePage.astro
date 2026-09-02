@@ -23,7 +23,7 @@ import VideoSection from '~/components/home/VideoSection.astro';
 import LaunchCountdown from '~/components/home/LaunchCountdown.astro';
 import QuickStart from '~/components/home/QuickStart.astro';
 import ExploreModules from '~/components/home/ExploreModules.astro';
-import { site } from '~/config/site';
+import { site, siteUrl } from '~/config/site';
 import { NAVIGATION_CONFIG } from '~/config/navigation';
 import { type Locale } from '~/i18n/routing';
 import { getUi } from '~/i18n/ui';
@@ -70,6 +70,9 @@ function trendingLabel(link: QuickLink): string {
   description={meta.description}
   alternates={alternates}
   jsonLd={jsonLd}
+  image={`${siteUrl}/images/og/en-aniimo-creatures-list.jpg`}
+  preloadImage="/images/hero-bg.webp"
+  largeImage
 >
   {/* ─────────────────────────────── Hero ─────────────────────────────── */}
   <section class="relative flex min-h-[52vh] items-center overflow-hidden border-b border-border md:min-h-[68vh]">
