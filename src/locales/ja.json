@@ -161,11 +161,31 @@
       "daysLabel": "日にち",
       "liveLabel": "配信中",
       "links": [
-        { "label": "アニモ コード", "href": "/release/aniimo-codes", "icon": "lucide:gift" },
-        { "label": "サーバー状態", "href": "/release/aniimo-server-status", "icon": "lucide:activity" },
-        { "label": "リリース日と対応機種", "href": "/release/aniimo-release-date", "icon": "lucide:calendar" },
-        { "label": "アニモ 最強ランキング", "href": "/tier-list/aniimo-tier-list", "icon": "lucide:trophy" },
-        { "label": "クロスプレイガイド", "href": "/guides/aniimo-crossplay", "icon": "lucide:gamepad-2" }
+        {
+          "label": "アニモ コード",
+          "href": "/release/aniimo-codes",
+          "icon": "lucide:gift"
+        },
+        {
+          "label": "サーバー状態",
+          "href": "/release/aniimo-server-status",
+          "icon": "lucide:activity"
+        },
+        {
+          "label": "リリース日と対応機種",
+          "href": "/release/aniimo-release-date",
+          "icon": "lucide:calendar"
+        },
+        {
+          "label": "アニモ 最強ランキング",
+          "href": "/tier-list/aniimo-tier-list",
+          "icon": "lucide:trophy"
+        },
+        {
+          "label": "クロスプレイガイド",
+          "href": "/guides/aniimo-crossplay",
+          "icon": "lucide:gamepad-2"
+        }
       ]
     },
     "explore": {
@@ -354,5 +374,32 @@
     "copyright": "著作権表示",
     "copyrightText": "© 2026 アニモ Wiki（ファンサイト）。ゲーム『Aniimo』© Pawprint Studio / FunPlus。",
     "legalNotice": "アニモ Wiki はファンが運営するコミュニティサイトです。Pawprint Studio・FunPlus とは提携・公認関係はありません。"
+  },
+  "teamCoverage": {
+    "legend": "1.6倍 スーパー有効 · 1.0倍 通常 · 0.625倍 耐性",
+    "search": "クリーチャーを検索…",
+    "pick": "1〜6体を選択：",
+    "team": "現在のパーティ",
+    "clear": "すべて解除",
+    "maxReached": "パーティが満員（6体）です。追加するには1体外してください。",
+    "emptyTeam": "カバレッジを見るにはクリーチャーを1体以上選択してください。",
+    "offHeading": "攻撃側のカバレッジ",
+    "defHeading": "防御側の弱点",
+    "sugHeading": "穴埋め候補",
+    "colDefender": "相手の属性",
+    "colBest": "最大倍率",
+    "colFrom": "担当",
+    "colStatus": "状態",
+    "colAttacker": "被弾属性",
+    "colWeak": "1.6倍を受ける",
+    "colResist": "0.625倍で軽減",
+    "super": "スーパー有効",
+    "neutral": "通常のみ",
+    "resisted": "耐性を持たれるのみ",
+    "none": "—",
+    "allCovered": "9属性すべてに1.6倍を狙える——攻撃カバレッジは満点です。",
+    "sugOff": "{elem}に1.6倍を狙えるクリーチャーがいません。候補：",
+    "sugDef": "メンバー{n}体が{elem}から1.6倍を受けます。耐性持ちの追加が有効：",
+    "dualNote": "2属性持ちのクリーチャーは属性ごとに判定。防御時の2属性の組み合わせ公式判定はリリースまで未発表です。"
   }
 }

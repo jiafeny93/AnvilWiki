@@ -1,0 +1,94 @@
+---
+title: 'Aniimo Team Coverage Checker — Elemental Strengths & Weaknesses'
+description: Free Aniimo team coverage checker — pick up to six creatures and see offensive elemental coverage, defensive weaknesses, and suggested picks to fill gaps.
+category: guides
+date: '2026-09-05'
+lastModified: '2026-09-05'
+image: '../../../../assets/og/en-aniimo-team-coverage.jpg'
+tags:
+- team
+- coverage
+- elements
+- builder
+faq:
+- question: What is an Aniimo team coverage checker?
+  answer: It is a free tool that scores your Aniimo team's elemental matchups. Pick up to six creatures and it shows the best damage multiplier your team can hit each of the nine defender elements for, which incoming elements your members take 1.6x damage from, and roster suggestions that fill the gaps.
+- question: How many creatures can I add to a team in the checker?
+  answer: The checker accepts 1 to 6 creatures so you can plan both small squads and full rosters. Aniimo's official max party size has not been confirmed yet — a small co-op group of up to four players is the community expectation for open-world content.
+- question: Why does my team show "resisted only" against some elements?
+  answer: That row means no creature on your team carries an element that hits that defender for 1.6x damage — every option you have is neutral (1.0x) or resisted (0.625x). The suggestion line under the tables lists the highest-stat roster picks that would close the gap.
+- question: How are dual-element creatures counted?
+  answer: Each element is scored on its own — a dual-element creature can be super effective with one element while taking 1.6x damage through the other. How the game officially combines two elements defensively has not been detailed yet, so the checker does not guess at stacking.
+- question: Is the checker accurate for the launch version of Aniimo?
+  answer: The 9-element matchup matrix comes from the beta's in-game Counters Info panel, last verified on 2026-08-16. Super-effective hits deal 1.6x and resisted hits 0.625x with no immunities. Values may be rebalanced at the September 16, 2026 launch — the tool's data will be re-checked after every patch.
+- question: Which elements should every Aniimo team have?
+  answer: Spread your attackers across at least three different elements so some member threatens most of the chart, and consider an Earth creature as your defensive anchor — Earth resists four incoming elements while hitting Lightning and Ice for 1.6x. Dark is the best pure attacker, with three super-effective targets.
+---
+Building an Aniimo team and not sure whether your lineup actually covers the element chart? This free **Aniimo team coverage checker** does the matchup math for you: pick up to six creatures from the official 94-creature index and instantly see **which of the nine elements your team can hit for 1.6×, which incoming elements your members take 1.6× damage from, and which roster picks would fill the gaps** — no login, no downloads, works on mobile.
+
+> **Last updated: September 5, 2026** — matchup data from the beta's Counters Info panel (verified 2026-08-16). Aniimo launches on PC and consoles on September 16, 2026, with mobile following on September 23; we re-check the matrix after every patch.
+
+## The Team Coverage Checker
+
+import TeamCoverage from '~/components/tools/TeamCoverage.astro';
+
+<TeamCoverage locale="en" />
+
+The tool starts preloaded with the four reveal-companions — **Emberpup** (Fire), **Eko** (Wind), **Eklue** (Wind), and **Helmut** (Dark) — so you can see a worked example immediately, then search the grid and click any creature to swap it in or out. Your selection updates the coverage tables and the suggestion list live.
+
+## How the Coverage Math Works
+
+The checker uses the confirmed 9-element chart — the same data behind our [full type chart](/tier-list/type-chart/). Three rules drive every number:
+
+- **Super-effective hits deal 1.6× damage**, resisted hits deal **0.625×** — not the 2×/0.5× of Pokémon-style games. There are no immunities, and hitting a same-element defender counts as resisted.
+- **Best available hit counts.** For each defender element, the offensive table shows the single best multiplier any of your creatures can achieve — so one well-chosen attacker can cover a whole element on its own.
+- **Dual elements are scored per element.** A creature carrying two elements threatens with both and is threatened through both. The official rule for how two defensive elements stack has not been published yet, so the checker reports each element separately rather than guessing.
+
+Because the game is still pre-launch (servers open September 16), the matrix comes from the July 2026 Global Closed Beta's in-game *Counters Info* panel. It is the same dataset community tools converged on, but treat every multiplier as subject to launch rebalancing.
+
+## Reading the Example: The Reveal-Four Team
+
+The default lineup above is a real lesson in coverage. Offensively, Emberpup, Eko, Eklue, and Helmut threaten **five of nine elements** for 1.6× — Fire (via Helmut's Dark), Grass and Ice (via Emberpup's Fire), Light (via Dark), and Dark (via Wind). But four columns show the classic gap pattern:
+
+- **Water, Lightning, Earth, and Wind** can only be hit at 1.0× or worse. Nobody on the team carries Ice, Earth, Grass, or Lightning.
+- The suggestion row fixes it fast: **Wavwal** (Ice, 575 total) single-handedly covers both the Water and Lightning gaps; **Coraliz** (Earth/Water, 572) or **Tuckin** (Grass, 550) covers Earth; **Luminelle** (Lightning, 540) covers Wind.
+- Defensively, look at the Light row: **three of the four members take 1.6× from Light** (Eko, Eklue, and Helmut all carry elements weak to it). That is a hotspot — one strong Light attacker could sweep half the team, which is exactly why the checker counts how many members are exposed, not just whether one is.
+
+Swap in Wavwal and Coraliz and the team goes from five-element coverage to eight, with the defensive picture improving at the same time. That trade-off loop — patch the offense, watch the defense, repeat — is how you use the tool in about a minute.
+
+## Team-Building Principles the Tables Reward
+
+- **Spread your attack elements.** Three different elements across your damage-dealers means at most a handful of defender columns stay below 1.6×. Five same-element attackers look impressive and cover one column.
+- **Carry a defensive anchor.** Earth resists four incoming elements while hitting Lightning and Ice for 1.6× — the best resist-and-return profile on the chart. Every roster's [six-stat table](/creatures/aniimo-creatures-list/) shows which Earth picks have the stats to anchor.
+- **Balance roles, not just elements.** The checker optimizes matchups; your [tier list](/tier-list/aniimo-tier-list/) and the roles (DPS, Support, Breaker) decide whether the team actually functions. A perfectly covered team still wants a Breaker and some sustain.
+- **Watch the 2+ weak rows.** A single member taking 1.6× from something is normal — two or three is a sweep waiting to happen, and the defensive table flags those rows for you.
+
+## Limits of the Checker (Honest Caveats)
+
+The tool scores elements only. It does not know per-creature skill pools ([skills](/guides/aniimo-skills/) and [traits](/guides/aniimo-traits/) can bend matchups), stat totals, or the real party-size rules, and the matrix itself is beta data that may be rebalanced at launch. Treat it as a planning aid for the element layer of team-building — the layer that is fully confirmed — and re-run your teams here after each balance patch.
+
+## Frequently Asked Questions
+
+### What is an Aniimo team coverage checker?
+
+It is a free tool that scores your Aniimo team's elemental matchups. Pick up to six creatures and it shows the best damage multiplier your team can hit each of the nine defender elements for, which incoming elements your members take 1.6x damage from, and roster suggestions that fill the gaps.
+
+### How many creatures can I add to a team in the checker?
+
+The checker accepts 1 to 6 creatures so you can plan both small squads and full rosters. Aniimo's official max party size has not been confirmed yet — a small co-op group of up to four players is the community expectation for open-world content.
+
+### Why does my team show "resisted only" against some elements?
+
+That row means no creature on your team carries an element that hits that defender for 1.6x damage — every option you have is neutral (1.0x) or resisted (0.625x). The suggestion line under the tables lists the highest-stat roster picks that would close the gap.
+
+### How are dual-element creatures counted?
+
+Each element is scored on its own — a dual-element creature can be super effective with one element while taking 1.6x damage through the other. How the game officially combines two elements defensively has not been detailed yet, so the checker does not guess at stacking.
+
+### Is the checker accurate for the launch version of Aniimo?
+
+The 9-element matchup matrix comes from the beta's in-game Counters Info panel, last verified on 2026-08-16. Super-effective hits deal 1.6x and resisted hits 0.625x with no immunities. Values may be rebalanced at the September 16, 2026 launch — the tool's data will be re-checked after every patch.
+
+### Which elements should every Aniimo team have?
+
+Spread your attackers across at least three different elements so some member threatens most of the chart, and consider an Earth creature as your defensive anchor — Earth resists four incoming elements while hitting Lightning and Ice for 1.6x. Dark is the best pure attacker, with three super-effective targets.

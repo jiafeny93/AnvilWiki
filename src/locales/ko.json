@@ -161,11 +161,31 @@
       "daysLabel": "일 남음",
       "liveLabel": "출시됨",
       "links": [
-        { "label": "애니모 코드", "href": "/release/aniimo-codes", "icon": "lucide:gift" },
-        { "label": "서버 상태", "href": "/release/aniimo-server-status", "icon": "lucide:activity" },
-        { "label": "출시일과 플랫폼", "href": "/release/aniimo-release-date", "icon": "lucide:calendar" },
-        { "label": "애니모 티어 목록", "href": "/tier-list/aniimo-tier-list", "icon": "lucide:trophy" },
-        { "label": "크로스플레이 가이드", "href": "/guides/aniimo-crossplay", "icon": "lucide:gamepad-2" }
+        {
+          "label": "애니모 코드",
+          "href": "/release/aniimo-codes",
+          "icon": "lucide:gift"
+        },
+        {
+          "label": "서버 상태",
+          "href": "/release/aniimo-server-status",
+          "icon": "lucide:activity"
+        },
+        {
+          "label": "출시일과 플랫폼",
+          "href": "/release/aniimo-release-date",
+          "icon": "lucide:calendar"
+        },
+        {
+          "label": "애니모 티어 목록",
+          "href": "/tier-list/aniimo-tier-list",
+          "icon": "lucide:trophy"
+        },
+        {
+          "label": "크로스플레이 가이드",
+          "href": "/guides/aniimo-crossplay",
+          "icon": "lucide:gamepad-2"
+        }
       ]
     },
     "explore": {
@@ -354,5 +374,32 @@
     "copyright": "저작권",
     "copyrightText": "© 2026 애니모 Wiki(팬 프로젝트). 게임 Aniimo © Pawprint Studio / FunPlus.",
     "legalNotice": "애니모 Wiki는 팬이 운영하는 커뮤니티 사이트입니다. Pawprint Studio 및 FunPlus와 제휴·공인 관계가 없습니다."
+  },
+  "teamCoverage": {
+    "legend": "1.6배 강효과 · 1.0배 일반 · 0.625배 저항",
+    "search": "크리처 검색…",
+    "pick": "1~6마리 선택:",
+    "team": "현재 팀",
+    "clear": "모두 해제",
+    "maxReached": "팀이 가득 찼습니다(6마리). 다른 크리처를 먼저 제거하세요.",
+    "emptyTeam": "커버리지를 보려면 크리처를 1마리 이상 선택하세요.",
+    "offHeading": "공격 커버리지",
+    "defHeading": "방어 취약점",
+    "sugHeading": "보완 추천",
+    "colDefender": "상대 속성",
+    "colBest": "최대 배율",
+    "colFrom": "담당",
+    "colStatus": "상태",
+    "colAttacker": "받는 속성",
+    "colWeak": "1.6배 받음",
+    "colResist": "0.625배 저항",
+    "super": "강효과",
+    "neutral": "일반만",
+    "resisted": "저항만",
+    "none": "—",
+    "allCovered": "9개 속성 모두 1.6배를 넣을 수 있습니다 — 공격 커버리지 만점.",
+    "sugOff": "{elem}에게 1.6배를 넣을 크리처가 없습니다. 추천:",
+    "sugDef": "팀원 {n}마리가 {elem}에게 1.6배를 받습니다. 저항 보유자 추천:",
+    "dualNote": "2속성 크리처는 속성별로 판정합니다. 방어 시 2속성 조합 공식 판정은 출시 전까지 미공개."
   }
 }

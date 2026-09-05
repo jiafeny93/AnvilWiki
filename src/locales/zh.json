@@ -161,11 +161,31 @@
       "daysLabel": "天后上线",
       "liveLabel": "已上线",
       "links": [
-        { "label": "阿尼莫兑换码", "href": "/release/aniimo-codes", "icon": "lucide:gift" },
-        { "label": "服务器状态", "href": "/release/aniimo-server-status", "icon": "lucide:activity" },
-        { "label": "上线日期与平台", "href": "/release/aniimo-release-date", "icon": "lucide:calendar" },
-        { "label": "阿尼莫强度榜", "href": "/tier-list/aniimo-tier-list", "icon": "lucide:trophy" },
-        { "label": "跨平台联机指南", "href": "/guides/aniimo-crossplay", "icon": "lucide:gamepad-2" }
+        {
+          "label": "阿尼莫兑换码",
+          "href": "/release/aniimo-codes",
+          "icon": "lucide:gift"
+        },
+        {
+          "label": "服务器状态",
+          "href": "/release/aniimo-server-status",
+          "icon": "lucide:activity"
+        },
+        {
+          "label": "上线日期与平台",
+          "href": "/release/aniimo-release-date",
+          "icon": "lucide:calendar"
+        },
+        {
+          "label": "阿尼莫强度榜",
+          "href": "/tier-list/aniimo-tier-list",
+          "icon": "lucide:trophy"
+        },
+        {
+          "label": "跨平台联机指南",
+          "href": "/guides/aniimo-crossplay",
+          "icon": "lucide:gamepad-2"
+        }
       ]
     },
     "explore": {
@@ -354,5 +374,32 @@
     "copyright": "版权信息",
     "copyrightText": "© 2026 Aniimo Wiki（粉丝项目）。游戏《Aniimo》© Pawprint Studio / FunPlus。",
     "legalNotice": "Aniimo Wiki 是粉丝制作的社区网站，与 Pawprint Studio、FunPlus 无关联，亦未获其认可。"
+  },
+  "teamCoverage": {
+    "legend": "1.6 倍克制 · 1.0 倍常规 · 0.625 倍抵抗",
+    "search": "搜索生物…",
+    "pick": "选择 1–6 只生物：",
+    "team": "当前队伍",
+    "clear": "全部清除",
+    "maxReached": "队伍已满（6 只）——请先移除一只再添加。",
+    "emptyTeam": "请至少选择一只生物以查看覆盖分析。",
+    "offHeading": "进攻覆盖",
+    "defHeading": "防御弱点",
+    "sugHeading": "补缺建议",
+    "colDefender": "对阵防御方",
+    "colBest": "最高倍率",
+    "colFrom": "提供者",
+    "colStatus": "状态",
+    "colAttacker": "受击来源",
+    "colWeak": "受 1.6 倍",
+    "colResist": "受 0.625 倍",
+    "super": "克制",
+    "neutral": "仅常规",
+    "resisted": "仅被抵抗",
+    "none": "—",
+    "allCovered": "九种元素全部能打出 1.6 倍克制——进攻覆盖已满。",
+    "sugOff": "目前没有能对{elem}打出 1.6 倍的生物。可以考虑：",
+    "sugDef": "有 {n} 只队员会被{elem}打出 1.6 倍。建议补一名抵抗者：",
+    "dualNote": "双属性生物按属性逐个计分；官方对双属性防御叠加的判定上线前暂未公布。"
   }
 }

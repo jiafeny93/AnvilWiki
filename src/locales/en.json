@@ -161,11 +161,31 @@
       "daysLabel": "days to launch",
       "liveLabel": "Now Live",
       "links": [
-        { "label": "Aniimo Codes", "href": "/release/aniimo-codes", "icon": "lucide:gift" },
-        { "label": "Server Status", "href": "/release/aniimo-server-status", "icon": "lucide:activity" },
-        { "label": "Release Date & Platforms", "href": "/release/aniimo-release-date", "icon": "lucide:calendar" },
-        { "label": "Aniimo Tier List", "href": "/tier-list/aniimo-tier-list", "icon": "lucide:trophy" },
-        { "label": "Crossplay Guide", "href": "/guides/aniimo-crossplay", "icon": "lucide:gamepad-2" }
+        {
+          "label": "Aniimo Codes",
+          "href": "/release/aniimo-codes",
+          "icon": "lucide:gift"
+        },
+        {
+          "label": "Server Status",
+          "href": "/release/aniimo-server-status",
+          "icon": "lucide:activity"
+        },
+        {
+          "label": "Release Date & Platforms",
+          "href": "/release/aniimo-release-date",
+          "icon": "lucide:calendar"
+        },
+        {
+          "label": "Aniimo Tier List",
+          "href": "/tier-list/aniimo-tier-list",
+          "icon": "lucide:trophy"
+        },
+        {
+          "label": "Crossplay Guide",
+          "href": "/guides/aniimo-crossplay",
+          "icon": "lucide:gamepad-2"
+        }
       ]
     },
     "explore": {
@@ -354,5 +374,32 @@
     "copyright": "Copyright",
     "copyrightText": "© 2026 Aniimo Wiki (fan project). Game Aniimo © Pawprint Studio / FunPlus.",
     "legalNotice": "Aniimo Wiki is a fan-made community site. Not affiliated with or endorsed by Pawprint Studio or FunPlus."
+  },
+  "teamCoverage": {
+    "legend": "1.6× super effective · 1.0× neutral · 0.625× resisted",
+    "search": "Search creatures…",
+    "pick": "Pick 1–6 creatures:",
+    "team": "Your team",
+    "clear": "Clear all",
+    "maxReached": "Team is full (6) — remove a creature to add another.",
+    "emptyTeam": "Select at least one creature to see your coverage.",
+    "offHeading": "Offensive coverage",
+    "defHeading": "Defensive exposure",
+    "sugHeading": "Gap-filling suggestions",
+    "colDefender": "Vs defender",
+    "colBest": "Best hit",
+    "colFrom": "Provided by",
+    "colStatus": "Status",
+    "colAttacker": "Incoming",
+    "colWeak": "Takes 1.6×",
+    "colResist": "Takes 0.625×",
+    "super": "Super effective",
+    "neutral": "Neutral only",
+    "resisted": "Resisted only",
+    "none": "—",
+    "allCovered": "Every one of the nine elements can be hit for 1.6× — full offensive coverage.",
+    "sugOff": "No 1.6× option against {elem} yet. Consider:",
+    "sugDef": "{n} team members take 1.6× from {elem}. A resist would help:",
+    "dualNote": "Dual-element creatures are scored per element; official rules for stacking two elements defensively are TBA until launch."
   }
 }
