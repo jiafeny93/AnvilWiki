@@ -71,6 +71,7 @@ const adsenseClient = import.meta.env.PUBLIC_ADSENSE_CLIENT as string | undefine
     <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <link rel="manifest" href="/manifest.json" />
+    <link rel="alternate" type="application/rss+xml" title={site.name} href={new URL('/rss.xml', siteUrl).href} />
     <meta name="generator" content={Astro.generator} />
 
     {/* SPA-style seamless page navigation. */}

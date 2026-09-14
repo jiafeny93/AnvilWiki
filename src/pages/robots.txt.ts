@@ -7,6 +7,8 @@ Allow: /
 
 Sitemap: ${siteUrl}/sitemap-index.xml
 Sitemap: ${siteUrl}/sitemap-images.xml
+
+# Freshness feed (latest 80 updates across all locales): ${siteUrl}/rss.xml
 `.trim();
 
 export const GET: APIRoute = () =>
